@@ -1,0 +1,31 @@
+### KEGG
+
+The data frame with unique KEGG entries is stored as an excel file. Identifier
+columns that are not used when mapping to KEGG pathways are removed for clarity.
+
+```{r write IDs suitable for analysis with KEGG, echo=FALSE, results='markup',tidy=TRUE}
+
+xlfile.KEGG.unique_cleaned <- xlfile.KEGG.unique %>%
+  select(
+    -any_of(c(
+      "KEGG ID",
+      "KEGG ML",
+      "InChI ML",
+      "InChI mzC",
+      "InChI",
+      "ChemSpider ML",
+      "HMDB ML",
+      "InChIKey ML",
+      "InChIKey mzC",
+      "InChIKey"
+    ))
+  )
+
+
+cat("###START###\n")
+cat("Nr. of rows KEGG:", nrow(xlfile.KEGG.unique_cleaned), "\n")
+cat("###END###\n")
+
+KEGG_path <- paste0(KEGG, "/", user, "_KEGG_pathway.xlsx")
+write_xlsx(xlfile.KEGG.unique_cleaned, path = KEGG_path )
+```

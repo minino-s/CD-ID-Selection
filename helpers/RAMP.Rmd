@@ -1,0 +1,134 @@
+### RAMP-DB 2.0
+
+RaMP-DB can use KEGG, HMDB, and ChemSpider IDs among others. InChIs, SMILES, and InChIKeys were supported starting from 2022.
+
+The list can be loaded into a GUI on the website (<https://rampdb.nih.gov/>). There seems to be a downgrade to version 1.0. Usage is recommended with caution.
+
+```{r create ramp column with different identifiers,echo=FALSE, results='markup', tidy=TRUE}
+
+resolve_RAMP <- function(df) {
+
+  df2 <- df %>%
+    mutate(
+      
+      HMDB_ML   = safe_col(., "HMDB ML"),
+      KEGG_ML   = safe_col(., "KEGG ML"),
+      CS_ML     = safe_col(., "ChemSpider ML"),
+      
+      HMDB      = safe_col(., "HMDB ID"),
+      KEGG_ID   = safe_col(., "KEGG ID"),
+      CSID      = safe_col(., "CSID"),
+      
+      InChI_ML  = safe_col(., "InChIKey ML"),
+      InChI_db  = safe_col(., "InChIKey"),
+      InChI_mzC = safe_col(., "InChIKey mzC"),
+      InChI_use = coalesce(InChI_db, InChI_mzC)
+    )
+  
+  blocked_mzC <- df2$InChI_use[!is.na(df2$InChI_ML)] %>%
+                 na.omit() %>%
+                 unique()
+
+  used_ids <- character()
+
+  hmdb_ml <- df2 %>%
+    filter(!is.na(HMDB_ML)) %>%
+    mutate(ramp = paste0("hmdb:", HMDB_ML))
+
+  used_ids <- hmdb_ml$HMDB_ML
+
+  kegg_ml <- df2 %>%
+    filter(is.na(HMDB_ML), !is.na(KEGG_ML), !(KEGG_ML %in% used_ids)) %>%
+    mutate(ramp = paste0("kegg:", KEGG_ML))
+
+  used_ids <- c(used_ids, kegg_ml$KEGG_ML)
+
+  cs_ml <- df2 %>%
+    filter(is.na(HMDB_ML), is.na(KEGG_ML), !is.na(CS_ML), !(CS_ML %in% used_ids)) %>%
+    mutate(ramp = paste0("chemspider:", CS_ML))
+
+  used_ids <- c(used_ids, cs_ml$CS_ML)
+
+  no_ml <- df2 %>%
+    filter(
+      is.na(HMDB_ML),
+      is.na(KEGG_ML),
+      is.na(CS_ML),
+      !(InChI_use %in% blocked_mzC)
+    )
+
+  hmdb <- no_ml %>%
+    filter(!is.na(HMDB), !(HMDB %in% used_ids)) %>%
+    mutate(ramp = paste0("hmdb:", HMDB))
+
+  used_ids <- c(used_ids, hmdb$HMDB)
+
+  kegg <- no_ml %>%
+    filter(is.na(HMDB), !is.na(KEGG_ID), !(KEGG_ID %in% used_ids)) %>%
+    mutate(ramp = paste0("kegg:", KEGG_ID))
+
+  used_ids <- c(used_ids, kegg$KEGG_ID)
+
+  csid <- no_ml %>%
+    filter(is.na(HMDB), is.na(KEGG_ID), !is.na(CSID), !(CSID %in% used_ids)) %>%
+    mutate(ramp = paste0("chemspider:", CSID))
+
+  bind_rows(hmdb_ml, kegg_ml, cs_ml, hmdb, kegg, csid) %>%
+    
+    select(
+      ramp,
+      everything(),
+      -HMDB_ML, -KEGG_ML, -CS_ML,
+      -HMDB, -KEGG_ID, -CSID,
+      -InChI_ML, -InChI_mzC, -InChI_use, -InChI_db
+    ) %>%
+    arrange(ramp)
+}
+
+xlfile.RAMP <- resolve_RAMP(xlfile.df)
+head(xlfile.RAMP)
+
+#view(xlfile.RAMP)
+```
+
+The column including all identifiers that are suitable for RAMP is written as a comma separated text file.
+
+```{r write identifiers separated by comma into txt file, echo=FALSE, results='markup', tidy=TRUE}
+
+# Loop through each Log2 Fold Change column
+for (i in seq_along(log_cols)) {
+  log_col <- log_cols[i]        # Current Log2 Fold Change column
+  pval_col <- pval_cols[i]        # Corresponding p-value column
+  
+  print(log_col)
+  print(pval_col)
+  
+  # Filter the dataframe based on the conditions
+  filtered_df <- xlfile.RAMP %>%
+    filter(
+      (!!sym(log_col) >= log2FC) |
+      (!!sym(log_col) <= -log2FC) |
+      ((!!sym(pval_col) <= pvalue) & (!!sym(log_col) >= log2FCpV)) |
+      ((!!sym(pval_col) <= pvalue) & (!!sym(log_col) <= -log2FCpV))
+      ) %>%
+    select(ramp) %>% 
+    filter(!str_detect(ramp, "NA"))
+  
+   ramp_unique <- unique(filtered_df$ramp)
+  
+  # Create a single string for the ramp column, concatenating values with a comma
+  output_string <- paste(ramp_unique, collapse = ",") 
+  output_file_name <- format_output_filename(log_col)
+  output_file_name_txt <- paste0(output_file_name, ".txt")          
+  
+  # Construct the full path with the RAMP directory
+  output_file_path <- file.path(RAMPDB, paste0(user, "_RAMP_", output_file_name_txt))  
+  
+  cat("###START###\n")
+  cat("Nr. of rows RampDB:", output_file_name, length(ramp_unique))
+  cat("\n###END###\n")
+  
+  # Write the combined ramp string to a text file in the RAMP directory
+  write(output_string, file = output_file_path)  
+}
+```

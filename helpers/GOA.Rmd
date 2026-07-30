@@ -1,0 +1,113 @@
+### IDSL.GOA
+
+IDSL.GOA is based on the curated Gene Ontology Database. It performs GO set
+enrichment analysis and works with InChIKey identifiers. The list can be loaded
+into a GUI on the website (<https://goa.idsl.me/>). For furhter information see the Help Section" in the shiny app.
+
+This code filters metabolite entries to retain unique "InChIKey" identifiers,
+ensuring that duplicate metabolites with missing 'InChIKey ML' annotations are
+excluded. Only significant features are selected. This pre-processing step is essential for reliable downstream
+analyses, facilitating robust associations between unique metabolites and
+clinical outcomes.
+
+IDSL.GOA does not accept duplicate InChIKey entries. The first 14 characters of the InChIKey ID are reported, as IDSL.GOA uses only the two-dimensional structure.
+
+```{r extract InChIKeys of regulated compounds for IDSL.GOA, echo=FALSE, results='markup',tidy=TRUE}
+resolve_InChIKey <- function(df) {
+
+  first14 <- function(x) substr(x, 1, 14)
+
+  df <- df %>%
+    mutate(
+      InChIKey_ML  = safe_col(., "InChIKey ML"),
+      InChIKey_db  = safe_col(., "InChIKey"),
+      InChIKey_mzC = safe_col(., "InChIKey mzC"),
+
+      ML14  = first14(InChIKey_ML),
+      DB14  = first14(InChIKey_db),
+      mzC14 = first14(InChIKey_mzC)
+    )
+
+  # global ML key list (14-char!)
+  ml_keys <- df$ML14 %>%
+    na.omit() %>%
+    unique()
+
+  df %>%
+    mutate(
+
+      is_ML = !is.na(ML14) & nzchar(ML14),
+
+      fallback14 = coalesce(DB14, mzC14),
+
+      # block fallback globally if ML connectivity exists
+      fallback_blocked = fallback14 %in% ml_keys,
+
+      InChIKey_GOA = case_when(
+        is_ML            ~ ML14,
+        fallback_blocked ~ NA_character_,
+        TRUE             ~ fallback14
+      )
+
+    ) %>%
+    arrange(InChIKey_GOA) %>%
+    select(
+      -InChIKey_ML, -InChIKey_db, -InChIKey_mzC,
+      -ML14, -DB14, -mzC14,
+      -fallback14, -fallback_blocked, -is_ML
+    )
+}
+
+goa.df <- resolve_InChIKey(xlfile.df)
+
+```
+
+The merged InChIKey identifiers are stored in a text file for each comparison.
+
+```{r write InChIKeys of regulated compounds for IDSL.GOA, echo=FALSE, results='markup',tidy=TRUE}
+
+for (i in seq_along(log_cols)) {
+
+  log_col  <- log_cols[i]
+  pval_col <- pval_cols[i]
+
+  print(log_col)
+  print(pval_col)
+
+  filtered_df <- goa.df %>%
+    filter(
+      (!!sym(log_col) >=  log2FC) |
+      (!!sym(log_col) <= -log2FC) |
+      ((!!sym(pval_col) <= pvalue) & (!!sym(log_col) >=  log2FCpV)) |
+      ((!!sym(pval_col) <= pvalue) & (!!sym(log_col) <= -log2FCpV))
+    ) %>%
+    select(InChIKey_GOA, !!sym(log_col), !!sym(pval_col))
+
+  # Remove actual NA and string "NA"
+  inchi_vec <- filtered_df$InChIKey_GOA
+  inchi_vec <- inchi_vec[!is.na(inchi_vec) & inchi_vec != "NA"]
+ 
+
+  output_file_name <- format_output_filename(log_col)
+  output_file_path <- file.path(
+    GOA,
+    paste0(user, "_GOA_", output_file_name, ".txt")
+  )
+
+  cat("###START###\n")
+  cat("Nr. of rows IDSL.GOA:", output_file_name, length(unique(inchi_vec)), "\n")
+  cat("###END###\n")
+
+  write.table(
+    unique(inchi_vec),
+    file = output_file_path,
+    sep = "\t",
+    row.names = FALSE,
+    col.names = FALSE,
+    quote = FALSE
+  )
+}
+
+
+
+```

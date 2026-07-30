@@ -1,0 +1,47 @@
+
+### FELLA
+
+FELLA requires KEGG IDs of significantly regulated metabolites. It uses a holistic graph
+representation of the KEGG database instead of the classical over representation
+analysis to find perturbed pathways.
+
+Starting point is the data frame with unique KEGG IDs. The unique compounds data
+frame from the KEGG code block above will be searched according to your input in the shiny app.
+
+```{r Extract KEGG IDs of regulated compounds for FELLA analysis,echo=FALSE, results='markup', tidy=TRUE}
+# use xlfile.KEGG.unique for FELLA
+
+# Loop through each Log2 Fold Change column
+for (i in seq_along(log_cols)) {
+  log_col <- log_cols[i]        # Current Log2 Fold Change column
+  pval_col <- pval_cols[i]        # Corresponding p-value column
+  
+  print(log_col)
+  print(pval_col)
+  
+  # Filter the dataframe based on the conditions
+  filtered_df <- xlfile.KEGG.unique %>%
+      filter(
+        (!!sym(log_col) >= log2FC ) |
+        (!!sym(log_col) <= -log2FC) |
+        ((!!sym(pval_col) <= pvalue) & (!!sym(log_col) >= log2FCpV)) |
+        ((!!sym(pval_col) <= pvalue) & (!!sym(log_col) <= -log2FCpV))
+        ) %>%
+    select(KEGG, !!sym(log_col), !!sym(pval_col))
+  
+  output_file_name <- format_output_filename(log_col)
+  output_file_name_txt <- paste0(output_file_name, ".txt") 
+  
+  # Construct the full path with the FELLA directory
+  output_file_path <- file.path(FELLA, paste0(user,"_FELLA_", output_file_name_txt)) 
+  
+  cat("###START###\n")
+  cat("Nr. of rows FELLA:", output_file_name, nrow(filtered_df))
+  cat("\n###END###\n")
+  
+  # Write only the KEGG column to a text file in the FELLA directory
+  write.table(filtered_df$KEGG, file = output_file_path, sep = "\t", row.names = FALSE, col.names = FALSE, quote = FALSE)
+}
+
+
+```

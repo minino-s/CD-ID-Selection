@@ -1,0 +1,38 @@
+### MetScape
+
+The MetScape plug in for Cytoscape requires KEGG IDs and corresponding p-values
+and fold changes (ratios).
+
+Starting point is also the list with the unique KEGG IDs.
+
+```{r Extract data for MetScape analysis,echo=FALSE, results='markup', tidy=TRUE}
+# use xlfile.KEGG.unique for MetScape
+
+for (i in seq_along(ratio_cols)) {
+  log_col <- ratio_cols[i]         # Current Ratio column
+  pval_col <- pval_col_rat[i]       # Corresponding p-value column
+  
+  print(log_col)
+  print(pval_col)
+  
+  
+  output_file_name <- format_output_filename(log_col)
+  output_file_name <- gsub("Ratio:", "", output_file_name) 
+  output_file_name_csv <- paste0(output_file_name, ".csv")
+
+  
+    # Construct the full path with the MetScape directory
+  output_file_path <- file.path(Metscape, paste0(user, "_Metscape_", output_file_name_csv))
+  
+    # Select the relevant columns and rename them
+  metscape_df <- xlfile.KEGG.unique[, c("KEGG",  pval_col, log_col)]
+  colnames(metscape_df) <- c("CID", "P-value", "Fold-change")
+  cat("###START###\n")
+  cat("Nr. of rows Metscape:", output_file_name, nrow(metscape_df))
+  cat("\n###END###\n")
+  
+  # Write the data to a CSV file with headers
+  write.csv(metscape_df, file = output_file_path, row.names = FALSE, quote = FALSE
+  )
+}
+```

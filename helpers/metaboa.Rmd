@@ -1,0 +1,128 @@
+### MetaboAnalyst
+
+In MetaboAnalyst pathway analysis, metabolite set
+enrichment analysis (MSEA), and network analysis can be performed. The input data can have
+various formats. HMDB and KEGG IDs can be mixed for ORA and will be used for the
+analysis in MetaboAnalyst. For further information see the "Help Section" in the shiny app.
+
+The list can be loaded into a GUI on the website
+(<https://new.metaboanalyst.ca/ModuleView.xhtml>) or used in the R version. 
+.
+```{r extract data for MetaboAnalyst, echo=FALSE, results='markup',tidy=TRUE}
+
+resolve_HMDBKEGG <- function(df) {
+
+  df2 <- df %>%
+    mutate(
+      HMDB_ML   = safe_col(., "HMDB ML"),
+      KEGG_ML   = safe_col(., "KEGG ML"),
+      
+      HMDB      = safe_col(., "HMDB ID"),
+      KEGG_ID   = safe_col(., "KEGG ID"),
+      
+      InChI_ML  = safe_col(., "InChIKey ML"),
+      InChI_db  = safe_col(., "InChIKey"),
+      InChI_mzC = safe_col(., "InChIKey mzC"),
+      InChI_use = coalesce(InChI_db, InChI_mzC)
+    )
+  
+  blocked_mzC <- df2$InChI_use[!is.na(df2$InChI_ML)] %>%
+                 na.omit() %>%
+                 unique()
+
+  used_ids <- character()
+
+  hmdb_ml <- df2 %>%
+    filter(!is.na(HMDB_ML)) %>%
+    mutate(HMDBKEGG = paste0(HMDB_ML))
+
+  used_ids <- hmdb_ml$HMDB_ML
+
+  kegg_ml <- df2 %>%
+    filter(is.na(HMDB_ML), !is.na(KEGG_ML), !(KEGG_ML %in% used_ids)) %>%
+    mutate(HMDBKEGG = paste0(KEGG_ML))
+
+  used_ids <- c(used_ids, kegg_ml$KEGG_ML)
+
+  no_ml <- df2 %>%
+    filter(
+      is.na(HMDB_ML),
+      is.na(KEGG_ML),
+      !(InChI_use %in% blocked_mzC)
+    )
+
+  hmdb <- no_ml %>%
+    filter(!is.na(HMDB), !(HMDB %in% used_ids)) %>%
+    mutate(HMDBKEGG = paste0(HMDB))
+
+  used_ids <- c(used_ids, hmdb$HMDB)
+
+  kegg <- no_ml %>%
+    filter(is.na(HMDB), !is.na(KEGG_ID), !(KEGG_ID %in% used_ids)) %>%
+    mutate(HMDBKEGG = paste0(KEGG_ID))
+
+  used_ids <- c(used_ids, kegg$KEGG_ID)
+
+  bind_rows(hmdb_ml, kegg_ml,hmdb, kegg) %>%
+    
+    select(
+      HMDBKEGG,
+      everything(),
+      -HMDB_ML, -KEGG_ML,
+      -HMDB, -KEGG_ID,
+      -InChI_ML, -InChI_use, -InChI_mzC, InChI_db
+    ) %>%
+    arrange(HMDBKEGG)
+}
+
+xlfile.MA.unique <- resolve_HMDBKEGG(xlfile.df)
+head(xlfile.MA.unique)
+
+```
+
+The merged KEGG and HMDB identifiers are stored in a text file for each
+comparison.
+
+```{r write HMDB and KEGG IDs in txt file for MetaboAnalyst, echo=FALSE, results='markup',tidy=TRUE}
+
+# Loop through each Log2 Fold Change column
+for (i in seq_along(log_cols)) {
+  log_col <- log_cols[i]        # Current Log2 Fold Change column
+  pval_col <- pval_cols[i]        # Corresponding p-value column
+  
+  print(log_col)
+  print(pval_col)
+  
+  # Filter the dataframe based on the conditions
+  filtered_df <- xlfile.MA.unique %>%
+    filter(
+      (!!sym(log_col) >= log2FC ) |
+      (!!sym(log_col) <= -log2FC) |
+      ((!!sym(pval_col) <= pvalue) & (!!sym(log_col) >= log2FCpV)) |
+      ((!!sym(pval_col) <= pvalue) & (!!sym(log_col) <= -log2FCpV))
+      ) %>%
+    select(HMDBKEGG, !!sym(log_col), !!sym(pval_col)) %>%
+    filter(!str_detect(HMDBKEGG, "NA"))
+  
+  head(filtered_df)
+  
+  HMDBKEGG_unique <- unique(filtered_df$HMDBKEGG)
+
+  output_file_name <- format_output_filename(log_col)
+  output_file_name_txt <- paste0(output_file_name, ".txt") 
+  
+  # Construct the full path with the FELLA directory
+  output_file_path <- file.path(MetaboAnalyst, paste0(user,"_MA_", output_file_name_txt)) 
+  
+  cat("\n###START###\n")
+  cat("Nr. of rows MetaboAnalyst:", output_file_name, length(HMDBKEGG_unique))
+  cat("\n###END###\n")
+  
+  # Write only the KEGG column to a text file in the FELLA directory
+  write.table(HMDBKEGG_unique,
+              file = output_file_path, sep = "\t",
+              row.names = FALSE, 
+              col.names = FALSE,
+              quote = FALSE)
+}
+```

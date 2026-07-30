@@ -1,0 +1,95 @@
+## KEGG IDs
+
+Three (KEGG, FELLA, Metscape) of the six analyses tools require KEGG IDs to function but have different
+prerequisites. These three tools all work with the same data frame.
+
+### Unique KEGG IDs
+
+This data frame is used for the following analysis tools that rely on KEGG
+IDs (KEGG, FELLA, Metscape). A separate column (KEGG) will be created with IDs that are unique. First,
+the KEGG ML from the in-house database will be used. Second, the KEGG ID from
+the mzCloud database will be added to the column if the ID was not already retrieved from the ML column.
+If a KEGG ID has more than one entry, it will not be added again to the KEGG
+column. For further information on the selection process have a look at the "Help Section" in the shiny app.
+
+```{r create data frame with unique KEGG IDs, echo=FALSE, results='markup', tidy=TRUE}
+
+resolve_KEGG <- function(df) {
+
+  df2 <- df %>%
+    mutate(
+      # --- KEGG sources ---
+      KEGG_ML = as.character(safe_col(., "KEGG ML")),
+      KEGG_ID = as.character(safe_col(., "KEGG ID")),
+
+      # --- InChIKey sources ---
+      InChI_ML  = safe_col(., "InChIKey ML"),
+      InChI_db  = safe_col(., "InChIKey"),
+      InChI_mzC = safe_col(., "InChIKey mzC"),
+
+      # --- compound identity ---
+      inchi = coalesce(InChI_ML, InChI_db, InChI_mzC),
+
+      # --- flags ---
+      is_KEGG_ML  = !is.na(KEGG_ML) & nzchar(KEGG_ML),
+      is_InChI_ML = !is.na(InChI_ML) & nzchar(InChI_ML)
+    )
+
+  # global list of KEGG ML IDs (to prevent duplication)
+  used_kegg_ml <- df2$KEGG_ML[df2$is_KEGG_ML] %>%
+    unique()
+
+  df2 %>%
+    # group by compound (global behavior)
+    group_by(inchi) %>%
+    mutate(
+      has_KEGG_ML  = any(is_KEGG_ML, na.rm = TRUE),
+      has_InChI_ML = any(is_InChI_ML, na.rm = TRUE)
+    ) %>%
+    ungroup() %>%
+
+    # decision logic
+    mutate(
+      KEGG = case_when(
+        # 1. KEGG ML always wins
+        is_KEGG_ML ~ KEGG_ML,
+
+        # 2. if KEGG ML exists in this compound → block fallback
+        has_KEGG_ML ~ NA_character_,
+
+        # 3. if no KEGG ML but InChI ML exists → block fallback
+        !has_KEGG_ML & has_InChI_ML ~ NA_character_,
+
+        # 4. prevent duplication of KEGG ML globally
+        KEGG_ID %in% used_kegg_ml ~ NA_character_,
+
+        # 5. otherwise allow fallback
+        TRUE ~ KEGG_ID
+      )
+    ) %>%
+
+    # --- cleanup ---
+    filter(!is.na(KEGG), nzchar(KEGG)) %>%
+    distinct(KEGG, .keep_all = TRUE) %>%
+    arrange(KEGG) %>%
+
+    select(
+      KEGG,
+      everything(),
+      -KEGG_ML,
+      -KEGG_ID,
+      -InChI_ML,
+      -InChI_db,
+      -InChI_mzC,
+      -inchi,
+      -is_KEGG_ML,
+      -is_InChI_ML,
+      -has_KEGG_ML,
+      -has_InChI_ML
+    )
+}
+
+xlfile.KEGG.unique <- resolve_KEGG(xlfile.df)
+
+head(xlfile.KEGG.unique)
+```

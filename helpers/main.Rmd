@@ -1,0 +1,219 @@
+---
+title: "CD-ID Selection: Export identifiers for different pathway and network analysis tools"
+author:
+  - "VBCF GmbH, Metabolomics"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+    number_sections: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+    fig_caption: true
+    df_print: paged
+    keep_md: true
+  pdf_document:
+    toc: true
+    toc_depth: '4'
+    number_sections: true
+    latex_engine: xelatex
+params:
+  path: "default"
+  xlfile_df: NULL
+  log2FC: 1
+  log2FCpV: 0.75
+  pvalue: 0.05
+  user: "Project"
+editor_options:
+  markdown:
+    wrap: 80
+---
+
+```{r knit setup, include=FALSE, message = FALSE, warning=FALSE, cache=FALSE}
+# from advanced R - chapter debugging
+# options(error = function() {
+#   sink()
+#   recover()
+# })
+#knitr::opts_chunk$set(cache=FALSE, 
+#                      error = FALSE, 
+                      # warning = FALSE, 
+                      # message = FALSE, 
+                      # cache.lazy = FALSE, 
+                      # autodep = TRUE 
+                      # )
+# options(rlang_trace_top_env = rlang::current_env())
+# options(error = function() {
+#   sink()
+#   print(rlang::trace_back(bottom = sys.frame(-1)), simplify = "none")
+# })
+```
+
+
+```{r set working directory, echo=FALSE, results='markup', tidy=TRUE}
+# Set a output directory
+path <- params$path
+#cat("The Zip file was saved to:", path)
+
+```
+
+# Data Preparation
+
+The VBCF metabolomics core facility provides a result file that is suitable for the shiny app. Alternatively export a
+file from Compound Discoverer 3.5 with the following columns (see "Help section" in shiny app):
+
+-   Compound name, P-value, Log2 FC, Ratio, KEGG ID, HMDB ID, CSID, InChIKey
+
+The file from VBCF contains only hits from the in-house database
+and hits from mzCloud, a curated fragment library provided by Thermo Fischer
+Scientific. If only data from our in-house library is preferred it can be sent
+upon request or the excel file can be manually adjusted.
+
+## Log2 fold changes and (adj.) p-value Input
+
+```{r Define the values for log2 FC and p-values, echo=FALSE, results='markup', tidy=TRUE}
+# adapt these values that it meets the requirements for your analysis
+
+log2FC <- params$log2FC # log2 FC where no p-value is applied
+cat("Log2FC no (adj.) p-value:", log2FC, "\n")
+
+log2FCpV <- params$log2FCpV #log2 FC where p-value is applied
+cat("Log2FC:", log2FCpV, "\n")
+
+pvalue <- params$pvalue
+cat("(adj.) p-value:", pvalue, "\n")
+
+```
+
+## Create and assign directories for output
+
+A file structure is generated that assures that all output files are stored in
+the correct file format for each pathway analysis tool.
+
+```{r Define the directories and assign variables to each path, echo=FALSE, results='markup', tidy=TRUE}
+
+subdir_names <- c("KEGG", "FELLA", "GOA", "Metscape", "MetaboAnalyst", "RAMPDB")
+
+# Loop over each main subdirectory
+for (subdir in subdir_names) {
+  
+  main_dir <- file.path(path, subdir)
+  assign(subdir, main_dir)
+  dir.create(main_dir, showWarnings = FALSE, recursive = TRUE)
+
+  print(paste("Created directory and variable for:", subdir))
+  #cat("Path:", subsub_dir, "\n\n")
+}
+
+# list variables
+#ls()
+# test if variable is a path
+#cat("Path exists:", dir.exists(KEGG), "\n")
+```
+
+## Define the project name and import data
+
+The excel file for pathway analysis is loaded and converted into a data frame.
+
+```{r Adapting project name and import data, echo=FALSE, results='markup',tidy=TRUE}
+
+# Change the user name to the project you want to run
+user <- params$user
+cat("Project name:", user, "\n")
+
+# Import the Excel file
+xlfile.df <- params$xlfile_df
+
+if ("KEGG ID" %in% colnames(xlfile.df)) {
+  xlfile.df[["KEGG ID"]] <- gsub(
+    "^(cpd:|dr:|dr\\+|cpd\\+)",
+    "",
+    xlfile.df[["KEGG ID"]]
+  )
+}
+
+head(xlfile.df)
+
+```
+
+## Store column names
+
+Column names of "Log2 Fold Change", "P-value" or "Adj. P-value", and "Ratio" are
+stored as global variables and will be further used to extract the relevant
+information.
+
+```{r Store global variables,echo=FALSE, results='markup', tidy=TRUE}
+
+# Store Log2 Fold Change or Ratio and corresponding p-value columns
+log_cols <- names(xlfile.df)[grepl("Log2 Fold Change:", names(xlfile.df))]
+
+pval_cols <- sapply(log_cols, function(col) {
+  p_col <- gsub("Log2 Fold Change:", "P-value:", col)
+  adj_p_col <- gsub("Log2 Fold Change:", "Adj. P-value:", col)
+  
+  if (p_col %in% names(xlfile.df)) {
+    p_col
+  } else if (adj_p_col %in% names(xlfile.df)) {
+    adj_p_col
+  } else {
+    NA
+  }
+})
+
+pval_cols <- unname(pval_cols)
+
+
+ratio_cols <- names(xlfile.df)[grepl("Ratio:", names(xlfile.df))]
+
+pval_col_rat <- sapply(ratio_cols, function(col) {
+  p_col <- gsub("Ratio:", "P-value:", col)
+  adj_p_col <- gsub("Ratio:", "Adj. P-value:", col)
+  
+  if (p_col %in% names(xlfile.df)) {
+    p_col
+  } else if (adj_p_col %in% names(xlfile.df)) {
+    adj_p_col
+  } else {
+    NA
+  }
+})
+
+pval_col_rat <- unname(pval_col_rat)
+```
+
+```{r function for safe columns ,echo=FALSE, results='markup', tidy=TRUE}
+
+safe_col <- function(df, col) {
+  if (col %in% names(df)) df[[col]] else NA_character_
+}
+
+print(names(xlfile.df))
+```
+
+## File naming
+
+Each file will be named according to the Log2 Fold Changes/Ratios that are
+listed in the data frame. These are stored in the previous sections. The Prefix
+as well as several special characters and white spaces will be removed or
+replaced with this function.
+
+```{r function for file naming, echo=FALSE, results='markup', tidy=TRUE}
+
+format_output_filename <- function(log_col) {
+  output_file_name <- gsub("Log2 Fold Change: ", "", log_col)  # Remove prefix
+  output_file_name <- gsub("\\s+", "_", output_file_name)         # Replace whitespace with underscores
+  output_file_name <- gsub("\\)", "", output_file_name)           # Remove ')'
+  output_file_name <- gsub("\\(", "", output_file_name)           # Remove '('
+  output_file_name <- gsub("/", "vs", output_file_name)           # Replace '/' with 'vs'
+  output_file_name <- gsub(",", "", output_file_name)             # Remove ','
+  return(output_file_name)
+}
+```
+
+# Extract identifiers (IDs) for specific analysis tools
+
+Each analysis tool requires a specific data format for the analysis. Therefore,
+the data needs to be pre-processed and stored in the appropriate file format for
+further handling.
