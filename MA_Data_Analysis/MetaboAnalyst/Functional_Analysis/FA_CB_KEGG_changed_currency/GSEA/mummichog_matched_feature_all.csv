@@ -1,0 +1,658 @@
+Query.Mass,Matched.Compound,Matched.Form,Mass.Diff,Pathway.Name,Pathway.ID,Pathway.Compound.Total,Pathway.Match.By,Matched.Compound.Name,p.value,t.score,pos_inx,Feature.ID
+104.07061,C00334,M+H [1+],3.39999999994234e-05,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,gamma-Aminobutyric acid,0.001126831,-0.29,TRUE,104.07061
+131.04623,C00152,M-H [1-],5.99999998485146e-06,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,L-Asparagine,0.410848838,0.28,FALSE,131.04623
+132.03023,C00049,M-H [1-],5.99999998485146e-06,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,L-Aspartic acid,4.41e-07,2.78,FALSE,132.03023
+132.03023,C00402,M-H [1-],5.99999998485146e-06,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,D-Aspartic acid,4.41e-07,2.78,FALSE,132.03023
+145.01429,C00026,M-H [1-],6.59999999754746e-05,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,Oxoglutaric acid,1.02e-06,-1.31,FALSE,145.01429
+146.04588,C00025,M-H [1-],4.40000000025975e-05,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,Glutamic acid,0.000116605,1.04,FALSE,146.04588
+147.07642,C00064,M+H [1+],4.40000000310192e-05,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,Glutamine,0.854322998,0.14,TRUE,147.07642
+148.06045,C00025,M+H [1+],2.59999999911997e-05,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,Glutamic acid,0.001100992,-0.39,TRUE,148.06045
+174.04079,C01042,M-H [1-],3.40000000278451e-05,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,N-Acetyl-L-aspartic acid,8.76e-06,-1.18,FALSE,174.04079
+175.03603,C00438,M-H [1-],6.00000001327317e-06,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,Ureidosuccinic acid,0.000267443,2.97,FALSE,175.03603
+191.01972,C00158,M-H [1-],3.99999998990097e-06,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,Citric acid,0.684269605,0.09,FALSE,191.01972
+191.01973,C00158,M-H [1-],6.00000001327317e-06,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,Citric acid,0.908922515,0.19,FALSE,191.01973
+258.03842,C00352,M-H [1-],4.00000004674439e-06,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,Glucosamine 6-phosphate,1.16e-06,-1.7,FALSE,258.03842
+289.11539,C03406,M-H [1-],6.60000000038963e-05,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,Argininosuccinic acid,0.993377048,-0.04,FALSE,289.11539
+291.12996,C03406,M+H [1+],8.40000000152941e-05,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,Argininosuccinic acid,0.000176443,-0.99,TRUE,291.12996
+302.05177,C20775,M-H2O-H [1-],0.000560000000007221,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,beta-Citryl-L-glutamate,1.2e-06,-2.77,FALSE,302.05177
+303.08342,C12270,M-H [1-],4.00000004674439e-06,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,N-Acetylaspartylglutamic acid,0.083897367,-0.51,FALSE,303.08342
+305.09799,C12270,M+H [1+],1.39999999646534e-05,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,N-Acetylaspartylglutamic acid,6.64e-07,-3.11,TRUE,305.09799
+86.06002,C00334,M-H2O+H [1+],4.35332299986158e-05,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,gamma-Aminobutyric acid,0.009943585,-0.68,TRUE,86.06002
+87.00877,C00022,M-H [1-],4.5999999997548e-05,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,Pyruvic acid,0.000431622,-1.44,FALSE,87.00877
+90.05493,C00041,M+H [1+],4.60000000117589e-05,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,L-Alanine,0.00111173,-0.63,TRUE,90.05493
+90.05495,C00041,M+H [1+],2.60000000054106e-05,"Alanine, aspartate and glutamate metabolism","",28,Matched.Compound,L-Alanine,1.18e-07,-1.06,TRUE,90.05495
+162.0761,C00329,M-H2O+H [1+],2.35332300064783e-05,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Glucosamine,3.05e-05,-0.9,TRUE,162.0761
+179.0561,C00267,M-H [1-],2.4000000024671e-05,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,alpha-D-Glucose,5.03e-05,-1.3,FALSE,179.0561
+179.0561,C00095,M-H [1-],2.4000000024671e-05,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,D-Fructose,5.03e-05,-1.3,FALSE,179.0561
+179.0561,C00159,M-H [1-],2.4000000024671e-05,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,D-Mannose,5.03e-05,-1.3,FALSE,179.0561
+179.0561,C00984,M-H [1-],2.4000000024671e-05,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,alpha-D-Galactose,5.03e-05,-1.3,FALSE,179.0561
+179.05612,C00267,M-H [1-],4.00000001832268e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,alpha-D-Glucose,0.278443464,-0.46,FALSE,179.05612
+179.05612,C00095,M-H [1-],4.00000001832268e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,D-Fructose,0.278443464,-0.46,FALSE,179.05612
+179.05612,C00159,M-H [1-],4.00000001832268e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,D-Mannose,0.278443464,-0.46,FALSE,179.05612
+179.05612,C00984,M-H [1-],4.00000001832268e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,alpha-D-Galactose,0.278443464,-0.46,FALSE,179.05612
+241.01188,C00085,M-H2O-H [1-],0.000570000000010396,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Fructose 6-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C00668,M-H2O-H [1-],0.000570000000010396,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,alpha-D-glucose 6-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C00103,M-H2O-H [1-],0.000570000000010396,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Glucose 1-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C00275,M-H2O-H [1-],0.000570000000010396,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Mannose 6-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C00636,M-H2O-H [1-],0.000570000000010396,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,D-Mannose 1-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C00446,M-H2O-H [1-],0.000570000000010396,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Galactose 1-phosphate,0.000152822,-1.33,FALSE,241.01188
+243.02751,C02985,M-H [1-],1.39999999930751e-05,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Fucose 1-phosphate,0.002063744,-0.7,FALSE,243.02751
+258.03842,C00352,M-H [1-],4.00000004674439e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Glucosamine 6-phosphate,1.16e-06,-1.7,FALSE,258.03842
+259.02242,C00085,M-H [1-],3.99999998990097e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Fructose 6-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C00668,M-H [1-],3.99999998990097e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,alpha-D-glucose 6-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C00103,M-H [1-],3.99999998990097e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Glucose 1-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C00275,M-H [1-],3.99999998990097e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Mannose 6-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C00636,M-H [1-],3.99999998990097e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,D-Mannose 1-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C00446,M-H [1-],3.99999998990097e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Galactose 1-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02243,C00085,M-H [1-],5.99999998485146e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Fructose 6-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C00668,M-H [1-],5.99999998485146e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,alpha-D-glucose 6-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C00103,M-H [1-],5.99999998485146e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Glucose 1-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C00275,M-H [1-],5.99999998485146e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Mannose 6-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C00636,M-H [1-],5.99999998485146e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,D-Mannose 1-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C00446,M-H [1-],5.99999998485146e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Galactose 1-phosphate,0.312254134,-0.36,FALSE,259.02243
+290.08815,C00270,M-H2O-H [1-],0.000540000000000873,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,N-Acetylneuraminate,0.000544888,-1.07,FALSE,290.08815
+300.04899,C00357,M-H [1-],3.40000000278451e-05,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,N-Acetyl-D-Glucosamine 6-Phosphate,0.000391066,-0.72,FALSE,300.04899
+300.04899,C04501,M-H [1-],3.40000000278451e-05,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,N-Acetyl-glucosamine 1-phosphate,0.000391066,-0.72,FALSE,300.04899
+300.04899,C18060,M-H [1-],3.40000000278451e-05,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,N-acetyl-alpha-D-galactosamine 1-phosphate,0.000391066,-0.72,FALSE,300.04899
+300.04899,C04257,M-H [1-],3.40000000278451e-05,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,N-Acetyl-D-mannosamine 6-phosphate,0.000391066,-0.72,FALSE,300.04899
+308.09872,C00270,M-H [1-],3.99999998990097e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,N-Acetylneuraminate,1.96e-05,-1.45,FALSE,308.09872
+535.03714,C00190,M-H [1-],8.39999999016072e-05,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Cotinine glucuronide,5.86e-06,-1.94,FALSE,535.03714
+565.04754,C00029,M-H [1-],0.000183999999876505,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Uridine diphosphate glucose,0.000220563,-0.69,FALSE,565.04754
+565.04754,C00052,M-H [1-],0.000183999999876505,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Uridine diphosphategalactose,0.000220563,-0.69,FALSE,565.04754
+579.02681,C00167,M-H [1-],0.000214000000028136,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Uridine diphosphate glucuronic acid,6.6e-05,-1.75,FALSE,579.02681
+586.05929,C01222,M-H [1-],3.39999999141583e-05,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,GDP-4-Dehydro-6-deoxy-D-mannose,0.099844735,-1.34,FALSE,586.05929
+586.05929,C00096,M-H2O-H [1-],0.000480000000038672,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Guanosine diphosphate mannose,0.099844735,-1.34,FALSE,586.05929
+588.07495,C00325,M-H [1-],2.60000000480431e-05,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,GDP-L-fucose,1.29e-05,-1.17,FALSE,588.07495
+604.06993,C00096,M-H [1-],6.00000009853829e-06,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Guanosine diphosphate mannose,0.234610334,-0.21,FALSE,604.06993
+606.07411,C00043,M-H [1-],0.000213999999914449,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Uridine diphosphate-N-acetylglucosamine,1.54e-05,-1.31,FALSE,606.07411
+606.07411,C00203,M-H [1-],0.000213999999914449,Amino sugar and nucleotide sugar metabolism,"",39,Matched.Compound,Uridine diphosphate-N-acetylgalactosamine,1.54e-05,-1.31,FALSE,606.07411
+104.07061,C00334,M+H [1+],3.39999999994234e-05,Arginine and proline metabolism,"",35,Matched.Compound,gamma-Aminobutyric acid,0.001126831,-0.29,TRUE,104.07061
+114.06617,C00300,M-H2O+H [1+],6.46677000304408e-06,Arginine and proline metabolism,"",35,Matched.Compound,Creatine,0.011412968,-0.67,TRUE,114.06617
+116.07059,C00148,M+H [1+],1.39999999930751e-05,Arginine and proline metabolism,"",35,Matched.Compound,Proline,0.000192438,-0.67,TRUE,116.07059
+116.07059,C00763,M+H [1+],1.39999999930751e-05,Arginine and proline metabolism,"",35,Matched.Compound,D-Proline,0.000192438,-0.67,TRUE,116.07059
+128.03531,C04281,M-H [1-],1.39999999930751e-05,Arginine and proline metabolism,"",35,Matched.Compound,Pyrroline hydroxycarboxylic acid,0.002510792,-0.68,FALSE,128.03531
+128.0706,C02946,M-H2O+H [1+],2.35332300064783e-05,Arginine and proline metabolism,"",35,Matched.Compound,4-Acetamidobutanoic acid,0.010645162,-0.71,TRUE,128.0706
+128.07061,C02946,M-H2O+H [1+],3.35332299812308e-05,Arginine and proline metabolism,"",35,Matched.Compound,4-Acetamidobutanoic acid,0.591044686,0.16,TRUE,128.07061
+130.05097,C01157,M-H [1-],4.5999999997548e-05,Arginine and proline metabolism,"",35,Matched.Compound,4-Hydroxyproline,0.638338765,-0.13,FALSE,130.05097
+130.05097,C01165,M-H [1-],4.5999999997548e-05,Arginine and proline metabolism,"",35,Matched.Compound,L-Glutamic gamma-semialdehyde,0.638338765,-0.13,FALSE,130.05097
+130.05097,C05147,M-H [1-],4.5999999997548e-05,Arginine and proline metabolism,"",35,Matched.Compound,Trans-3-hydroxy-L-proline,0.638338765,-0.13,FALSE,130.05097
+130.05098,C01157,M-H [1-],5.60000000007221e-05,Arginine and proline metabolism,"",35,Matched.Compound,4-Hydroxyproline,0.172958473,0.22,FALSE,130.05098
+130.05098,C01165,M-H [1-],5.60000000007221e-05,Arginine and proline metabolism,"",35,Matched.Compound,L-Glutamic gamma-semialdehyde,0.172958473,0.22,FALSE,130.05098
+130.05098,C05147,M-H [1-],5.60000000007221e-05,Arginine and proline metabolism,"",35,Matched.Compound,Trans-3-hydroxy-L-proline,0.172958473,0.22,FALSE,130.05098
+131.11789,C02714,M+H [1+],1.39999999930751e-05,Arginine and proline metabolism,"",35,Matched.Compound,N-Acetylputrescine,0.000649582,-0.71,TRUE,131.11789
+132.06552,C01157,M+H [1+],4.40000000025975e-05,Arginine and proline metabolism,"",35,Matched.Compound,4-Hydroxyproline,0.974431175,0.13,TRUE,132.06552
+132.06552,C01165,M+H [1+],4.40000000025975e-05,Arginine and proline metabolism,"",35,Matched.Compound,L-Glutamic gamma-semialdehyde,0.974431175,0.13,TRUE,132.06552
+132.06552,C05147,M+H [1+],4.40000000025975e-05,Arginine and proline metabolism,"",35,Matched.Compound,Trans-3-hydroxy-L-proline,0.974431175,0.13,TRUE,132.06552
+132.07675,C00300,M+H [1+],2.59999999911997e-05,Arginine and proline metabolism,"",35,Matched.Compound,Creatine,5.05e-05,-0.96,TRUE,132.07675
+146.04588,C00025,M-H [1-],4.40000000025975e-05,Arginine and proline metabolism,"",35,Matched.Compound,Glutamic acid,0.000116605,1.04,FALSE,146.04588
+146.04588,C05938,M-H [1-],4.40000000025975e-05,Arginine and proline metabolism,"",35,Matched.Compound,L-4-Hydroxyglutamate semialdehyde,0.000116605,1.04,FALSE,146.04588
+146.08119,C02946,M+H [1+],1.39999999930751e-05,Arginine and proline metabolism,"",35,Matched.Compound,4-Acetamidobutanoic acid,0.000364995,-1.29,TRUE,146.08119
+146.09246,C01035,M+H [1+],8.39999999868724e-05,Arginine and proline metabolism,"",35,Matched.Compound,4-Guanidinobutanoic acid,3.44e-07,-2.22,TRUE,146.09246
+148.06045,C00025,M+H [1+],2.59999999911997e-05,Arginine and proline metabolism,"",35,Matched.Compound,Glutamic acid,0.001100992,-0.39,TRUE,148.06045
+148.06045,C05938,M+H [1+],2.59999999911997e-05,Arginine and proline metabolism,"",35,Matched.Compound,L-4-Hydroxyglutamate semialdehyde,0.001100992,-0.39,TRUE,148.06045
+175.11894,C00062,M+H [1+],3.59999999943739e-05,Arginine and proline metabolism,"",35,Matched.Compound,L-Arginine,0.004878018,-1.01,TRUE,175.11894
+212.04312,C02305,M+H [1+],4.40000000025975e-05,Arginine and proline metabolism,"",35,Matched.Compound,Phosphocreatine,0.006114986,-0.56,TRUE,212.04312
+399.14455,C00019,M+H [1+],7.39999999836982e-05,Arginine and proline metabolism,"",35,Matched.Compound,S-Adenosylmethionine,3e-05,-0.82,TRUE,399.14455
+86.06002,C00334,M-H2O+H [1+],4.35332299986158e-05,Arginine and proline metabolism,"",35,Matched.Compound,gamma-Aminobutyric acid,0.009943585,-0.68,TRUE,86.06002
+87.00877,C00022,M-H [1-],4.5999999997548e-05,Arginine and proline metabolism,"",35,Matched.Compound,Pyruvic acid,0.000431622,-1.44,FALSE,87.00877
+132.03023,C00049,M-H [1-],5.99999998485146e-06,Arginine biosynthesis,"",14,Matched.Compound,L-Aspartic acid,4.41e-07,2.78,FALSE,132.03023
+145.01429,C00026,M-H [1-],6.59999999754746e-05,Arginine biosynthesis,"",14,Matched.Compound,Oxoglutaric acid,1.02e-06,-1.31,FALSE,145.01429
+146.04588,C00025,M-H [1-],4.40000000025975e-05,Arginine biosynthesis,"",14,Matched.Compound,Glutamic acid,0.000116605,1.04,FALSE,146.04588
+147.07642,C00064,M+H [1+],4.40000000310192e-05,Arginine biosynthesis,"",14,Matched.Compound,Glutamine,0.854322998,0.14,TRUE,147.07642
+148.06045,C00025,M+H [1+],2.59999999911997e-05,Arginine biosynthesis,"",14,Matched.Compound,Glutamic acid,0.001100992,-0.39,TRUE,148.06045
+175.1077,C00437,M+H [1+],2.39999999962492e-05,Arginine biosynthesis,"",14,Matched.Compound,N2-Acetylornithine,0.0377417,-0.65,TRUE,175.1077
+175.11894,C00062,M+H [1+],3.59999999943739e-05,Arginine biosynthesis,"",14,Matched.Compound,L-Arginine,0.004878018,-1.01,TRUE,175.11894
+188.05644,C00624,M-H [1-],1.59999999880256e-05,Arginine biosynthesis,"",14,Matched.Compound,N-Acetyl-L-glutamic acid,0.024668127,-0.4,FALSE,188.05644
+289.11539,C03406,M-H [1-],6.60000000038963e-05,Arginine biosynthesis,"",14,Matched.Compound,Argininosuccinic acid,0.993377048,-0.04,FALSE,289.11539
+291.12996,C03406,M+H [1+],8.40000000152941e-05,Arginine biosynthesis,"",14,Matched.Compound,Argininosuccinic acid,0.000176443,-0.99,TRUE,291.12996
+179.0561,C00137,M-H [1-],2.4000000024671e-05,Ascorbate and aldarate metabolism,"",8,Matched.Compound,myo-Inositol,5.03e-05,-1.3,FALSE,179.0561
+179.05612,C00137,M-H [1-],4.00000001832268e-06,Ascorbate and aldarate metabolism,"",8,Matched.Compound,myo-Inositol,0.278443464,-0.46,FALSE,179.05612
+191.01972,C00818,M-H2O-H [1-],0.000510000000019772,Ascorbate and aldarate metabolism,"",8,Matched.Compound,Glucaric acid,0.684269605,0.09,FALSE,191.01972
+191.01973,C00818,M-H2O-H [1-],0.000520000000022947,Ascorbate and aldarate metabolism,"",8,Matched.Compound,Glucaric acid,0.908922515,0.19,FALSE,191.01973
+195.05101,C00800,M-H [1-],1.40000000214968e-05,Ascorbate and aldarate metabolism,"",8,Matched.Compound,Gulonic acid,0.001226582,0.58,FALSE,195.05101
+195.05102,C00800,M-H [1-],4.00000001832268e-06,Ascorbate and aldarate metabolism,"",8,Matched.Compound,Gulonic acid,7.46e-10,-6.19,FALSE,195.05102
+565.04754,C00029,M-H [1-],0.000183999999876505,Ascorbate and aldarate metabolism,"",8,Matched.Compound,Uridine diphosphate glucose,0.000220563,-0.69,FALSE,565.04754
+579.02681,C00167,M-H [1-],0.000214000000028136,Ascorbate and aldarate metabolism,"",8,Matched.Compound,Uridine diphosphate glucuronic acid,6.6e-05,-1.75,FALSE,579.02681
+111.02001,C00106,M-H [1-],1.39999999930751e-05,beta-Alanine metabolism,"",21,Matched.Compound,Uracil,0.999953359,0.14,FALSE,111.02001
+131.04623,C02642,M-H [1-],5.99999998485146e-06,beta-Alanine metabolism,"",21,Matched.Compound,Ureidopropionic acid,0.410848838,0.28,FALSE,131.04623
+132.03023,C00049,M-H [1-],5.99999998485146e-06,beta-Alanine metabolism,"",21,Matched.Compound,L-Aspartic acid,4.41e-07,2.78,FALSE,132.03023
+154.06221,C00135,M-H [1-],1.40000000214968e-05,beta-Alanine metabolism,"",21,Matched.Compound,Histidine,0.742996594,0.19,FALSE,154.06221
+227.1139,C00386,M+H [1+],2.4000000024671e-05,beta-Alanine metabolism,"",21,Matched.Compound,Carnosine,0.003518302,-1.25,TRUE,227.1139
+808.11823,C00024,M-H [1-],0.000293999999939842,beta-Alanine metabolism,"",21,Matched.Compound,Acetyl-CoA,0.001821828,-0.79,FALSE,808.11823
+87.00877,C00222,M-H [1-],4.5999999997548e-05,beta-Alanine metabolism,"",21,Matched.Compound,Malonic semialdehyde,0.000431622,-1.44,FALSE,87.00877
+89.02442,C01013,M-H [1-],3.99999998990097e-06,beta-Alanine metabolism,"",21,Matched.Compound,Hydroxypropionic acid,0.000240254,-1.22,FALSE,89.02442
+90.05493,C00099,M+H [1+],4.60000000117589e-05,beta-Alanine metabolism,"",21,Matched.Compound,beta-Alanine,0.00111173,-0.63,TRUE,90.05493
+90.05495,C00099,M+H [1+],2.60000000054106e-05,beta-Alanine metabolism,"",21,Matched.Compound,beta-Alanine,1.18e-07,-1.06,TRUE,90.05495
+255.23295,C00249,M-H [1-],2.5999999962778e-05,Biosynthesis of unsaturated fatty acids,"",36,Matched.Compound,Palmitic acid,0.17605372,1.17,FALSE,255.23295
+279.23295,C01595,M-H [1-],2.59999999911997e-05,Biosynthesis of unsaturated fatty acids,"",36,Matched.Compound,Linoleic acid,0.334212692,1.13,FALSE,279.23295
+281.2486,C00712,M-H [1-],2.39999999962492e-05,Biosynthesis of unsaturated fatty acids,"",36,Matched.Compound,Oleic acid,0.329750791,0.91,FALSE,281.2486
+283.26422,C01530,M-H [1-],3.99999998990097e-06,Biosynthesis of unsaturated fatty acids,"",36,Matched.Compound,Stearic acid,0.166858293,1.55,FALSE,283.26422
+243.0809,C00120,M-H [1-],2.39999999962492e-05,Biotin metabolism,"",4,Matched.Compound,Biotin,7.84e-05,-1.19,FALSE,243.0809
+104.07061,C00334,M+H [1+],3.39999999994234e-05,Butanoate metabolism,"",15,Matched.Compound,gamma-Aminobutyric acid,0.001126831,-0.29,TRUE,104.07061
+145.01429,C00026,M-H [1-],6.59999999754746e-05,Butanoate metabolism,"",15,Matched.Compound,Oxoglutaric acid,1.02e-06,-1.31,FALSE,145.01429
+146.04588,C00025,M-H [1-],4.40000000025975e-05,Butanoate metabolism,"",15,Matched.Compound,Glutamic acid,0.000116605,1.04,FALSE,146.04588
+147.02987,C02630,M-H [1-],5.40000000341934e-05,Butanoate metabolism,"",15,Matched.Compound,2-Hydroxyglutarate,0.104233405,-0.19,FALSE,147.02987
+148.06045,C00025,M+H [1+],2.59999999911997e-05,Butanoate metabolism,"",15,Matched.Compound,Glutamic acid,0.001100992,-0.39,TRUE,148.06045
+808.11823,C00024,M-H [1-],0.000293999999939842,Butanoate metabolism,"",15,Matched.Compound,Acetyl-CoA,0.001821828,-0.79,FALSE,808.11823
+836.14989,C00136,M-H [1-],6.60000000607397e-05,Butanoate metabolism,"",15,Matched.Compound,Butyryl-CoA,0.006668008,-0.7,FALSE,836.14989
+86.06002,C00334,M-H2O+H [1+],4.35332299986158e-05,Butanoate metabolism,"",15,Matched.Compound,gamma-Aminobutyric acid,0.009943585,-0.68,TRUE,86.06002
+133.01426,C00149,M-H [1-],3.59999999943739e-05,Citrate cycle (TCA cycle),"",16,Matched.Compound,Malic acid,0.001718728,-0.47,FALSE,133.01426
+145.01429,C00026,M-H [1-],6.59999999754746e-05,Citrate cycle (TCA cycle),"",16,Matched.Compound,Oxoglutaric acid,1.02e-06,-1.31,FALSE,145.01429
+166.97508,C00074,M-H [1-],4.40000000310192e-05,Citrate cycle (TCA cycle),"",16,Matched.Compound,Phosphoenolpyruvic acid,0.124387806,-0.55,FALSE,166.97508
+173.00915,C00417,M-H [1-],2.59999999911997e-05,Citrate cycle (TCA cycle),"",16,Matched.Compound,cis-Aconitic acid,0.890044082,-0.07,FALSE,173.00915
+191.01972,C00311,M-H [1-],3.99999998990097e-06,Citrate cycle (TCA cycle),"",16,Matched.Compound,Isocitric acid,0.684269605,0.09,FALSE,191.01972
+191.01972,C00158,M-H [1-],3.99999998990097e-06,Citrate cycle (TCA cycle),"",16,Matched.Compound,Citric acid,0.684269605,0.09,FALSE,191.01972
+191.01973,C00311,M-H [1-],6.00000001327317e-06,Citrate cycle (TCA cycle),"",16,Matched.Compound,Isocitric acid,0.908922515,0.19,FALSE,191.01973
+191.01973,C00158,M-H [1-],6.00000001327317e-06,Citrate cycle (TCA cycle),"",16,Matched.Compound,Citric acid,0.908922515,0.19,FALSE,191.01973
+808.11823,C00024,M-H [1-],0.000293999999939842,Citrate cycle (TCA cycle),"",16,Matched.Compound,Acetyl-CoA,0.001821828,-0.79,FALSE,808.11823
+87.00877,C00022,M-H [1-],4.5999999997548e-05,Citrate cycle (TCA cycle),"",16,Matched.Compound,Pyruvic acid,0.000431622,-1.44,FALSE,87.00877
+104.03532,C00065,M-H [1-],3.99999998990097e-06,Cysteine and methionine metabolism,"",33,Matched.Compound,Serine,0.497848408,0.16,FALSE,104.03532
+104.07061,C02356,M+H [1+],3.39999999994234e-05,Cysteine and methionine metabolism,"",33,Matched.Compound,L-alpha-Aminobutyric acid,0.001126831,-0.29,TRUE,104.07061
+152.00231,C00606,M-H [1-],1.40000000214968e-05,Cysteine and methionine metabolism,"",33,Matched.Compound,3-Sulfinoalanine,0.318504677,-0.32,FALSE,152.00231
+168.98122,C11537,M-H [1-],3.99999998990097e-06,Cysteine and methionine metabolism,"",33,Matched.Compound,(2R)-3-Sulfolactate,6.41e-06,-1.96,FALSE,168.98122
+184.98565,C00197,M-H [1-],2.59999999911997e-05,Cysteine and methionine metabolism,"",33,Matched.Compound,D-Glycerate 3-phosphate,0.24001025,-0.57,FALSE,184.98565
+184.98566,C00197,M-H [1-],3.59999999943739e-05,Cysteine and methionine metabolism,"",33,Matched.Compound,D-Glycerate 3-phosphate,0.078323724,-0.42,FALSE,184.98566
+231.09864,C21015,M-H [1-],1.59999999880256e-05,Cysteine and methionine metabolism,"",33,Matched.Compound,gamma-L-Glutamyl-L-2-aminobutyrate,0.00821404,0.51,FALSE,231.09864
+288.1201,C21016,M-H [1-],2.40000000530927e-05,Cysteine and methionine metabolism,"",33,Matched.Compound,Ophthalmic acid,0.051560202,-0.62,FALSE,288.1201
+288.12012,C21016,M-H [1-],4.00000004674439e-06,Cysteine and methionine metabolism,"",33,Matched.Compound,Ophthalmic acid,0.000279726,-0.86,FALSE,288.12012
+298.09686,C00170,M+H [1+],1.60000000164473e-05,Cysteine and methionine metabolism,"",33,Matched.Compound,5'-Methylthioadenosine,0.000187727,-0.52,TRUE,298.09686
+399.14455,C00019,M+H [1+],7.39999999836982e-05,Cysteine and methionine metabolism,"",33,Matched.Compound,S-Adenosylmethionine,3e-05,-0.82,TRUE,399.14455
+86.06002,C02356,M-H2O+H [1+],4.35332299986158e-05,Cysteine and methionine metabolism,"",33,Matched.Compound,L-alpha-Aminobutyric acid,0.009943585,-0.68,TRUE,86.06002
+87.00877,C00022,M-H [1-],4.5999999997548e-05,Cysteine and methionine metabolism,"",33,Matched.Compound,Pyruvic acid,0.000431622,-1.44,FALSE,87.00877
+104.03532,C00065,M-H [1-],3.99999998990097e-06,D-Amino acid metabolism,"",15,Matched.Compound,Serine,0.497848408,0.16,FALSE,104.03532
+104.03532,C00740,M-H [1-],3.99999998990097e-06,D-Amino acid metabolism,"",15,Matched.Compound,D-Serine,0.497848408,0.16,FALSE,104.03532
+116.07059,C00763,M+H [1+],1.39999999930751e-05,D-Amino acid metabolism,"",15,Matched.Compound,D-Proline,0.000192438,-0.67,TRUE,116.07059
+128.03531,C02237,M-H [1-],1.39999999930751e-05,D-Amino acid metabolism,"",15,Matched.Compound,5-Oxo-D-proline,0.002510792,-0.68,FALSE,128.03531
+128.03531,C04282,M-H [1-],1.39999999930751e-05,D-Amino acid metabolism,"",15,Matched.Compound,1-Pyrroline-4-hydroxy-2-carboxylate,0.002510792,-0.68,FALSE,128.03531
+130.05097,C03440,M-H [1-],4.5999999997548e-05,D-Amino acid metabolism,"",15,Matched.Compound,cis-4-Hydroxy-D-proline,0.638338765,-0.13,FALSE,130.05097
+130.05097,C01110,M-H [1-],4.5999999997548e-05,D-Amino acid metabolism,"",15,Matched.Compound,5-Amino-2-oxopentanoic acid,0.638338765,-0.13,FALSE,130.05097
+130.05098,C03440,M-H [1-],5.60000000007221e-05,D-Amino acid metabolism,"",15,Matched.Compound,cis-4-Hydroxy-D-proline,0.172958473,0.22,FALSE,130.05098
+130.05098,C01110,M-H [1-],5.60000000007221e-05,D-Amino acid metabolism,"",15,Matched.Compound,5-Amino-2-oxopentanoic acid,0.172958473,0.22,FALSE,130.05098
+132.03023,C00402,M-H [1-],5.99999998485146e-06,D-Amino acid metabolism,"",15,Matched.Compound,D-Aspartic acid,4.41e-07,2.78,FALSE,132.03023
+132.06552,C03440,M+H [1+],4.40000000025975e-05,D-Amino acid metabolism,"",15,Matched.Compound,cis-4-Hydroxy-D-proline,0.974431175,0.13,TRUE,132.06552
+132.06552,C01110,M+H [1+],4.40000000025975e-05,D-Amino acid metabolism,"",15,Matched.Compound,5-Amino-2-oxopentanoic acid,0.974431175,0.13,TRUE,132.06552
+146.04588,C00217,M-H [1-],4.40000000025975e-05,D-Amino acid metabolism,"",15,Matched.Compound,D-Glutamic acid,0.000116605,1.04,FALSE,146.04588
+147.07642,C00819,M+H [1+],4.40000000310192e-05,D-Amino acid metabolism,"",15,Matched.Compound,D-Glutamine,0.854322998,0.14,TRUE,147.07642
+148.06045,C00217,M+H [1+],2.59999999911997e-05,D-Amino acid metabolism,"",15,Matched.Compound,D-Glutamic acid,0.001100992,-0.39,TRUE,148.06045
+174.08735,C03771,M+H [1+],7.39999999836982e-05,D-Amino acid metabolism,"",15,Matched.Compound,2-Oxoarginine,0.003575868,-1.2,TRUE,174.08735
+175.11894,C00792,M+H [1+],3.59999999943739e-05,D-Amino acid metabolism,"",15,Matched.Compound,D-Arginine,0.004878018,-1.01,TRUE,175.11894
+176.07061,C16595,M-H2O+H [1+],3.35332299812308e-05,Drug metabolism - cytochrome P450,"",43,Matched.Compound,"4-Hydroxy-5-phenyltetrahydro-1,3-oxazin-2-one",0.155668613,-1.04,TRUE,176.07061
+176.07061,C16587,M-H2O+H [1+],3.35332299812308e-05,Drug metabolism - cytochrome P450,"",43,Matched.Compound,3-Carbamoyl-2-phenylpropionaldehyde,0.155668613,-1.04,TRUE,176.07061
+178.08625,C16586,M-H2O+H [1+],7.3533230022349e-05,Drug metabolism - cytochrome P450,"",43,Matched.Compound,"2-Phenyl-1,3-propanediol monocarbamate",0.000183492,-0.67,TRUE,178.08625
+192.06552,C16596,M+H [1+],4.40000000025975e-05,Drug metabolism - cytochrome P450,"",43,Matched.Compound,"5-Phenyl-1,3-oxazinane-2,4-dione",0.000119191,3.2,TRUE,192.06552
+192.06552,C16591,M-H2O+H [1+],4.35332299844049e-05,Drug metabolism - cytochrome P450,"",43,Matched.Compound,3-Carbamoyl-2-phenylpropionic acid,0.000119191,3.2,TRUE,192.06552
+192.06662,C16595,M-H [1-],4.00000001832268e-06,Drug metabolism - cytochrome P450,"",43,Matched.Compound,"4-Hydroxy-5-phenyltetrahydro-1,3-oxazin-2-one",0.004070958,-0.74,FALSE,192.06662
+192.06662,C16587,M-H [1-],4.00000001832268e-06,Drug metabolism - cytochrome P450,"",43,Matched.Compound,3-Carbamoyl-2-phenylpropionaldehyde,0.004070958,-0.74,FALSE,192.06662
+196.09682,C16586,M+H [1+],4.40000000310192e-05,Drug metabolism - cytochrome P450,"",43,Matched.Compound,"2-Phenyl-1,3-propanediol monocarbamate",0.324171717,0.1,TRUE,196.09682
+255.09758,C16584,M+H [1+],3.99999998990097e-06,Drug metabolism - cytochrome P450,"",43,Matched.Compound,p-Hydroxyfelbamate,1.02e-05,-1.41,TRUE,255.09758
+255.09758,C16582,M+H [1+],3.99999998990097e-06,Drug metabolism - cytochrome P450,"",43,Matched.Compound,2-Hydroxyfelbamate,1.02e-05,-1.41,TRUE,255.09758
+278.09829,C16612,M-H2O+H [1+],0.00071353322999812,Drug metabolism - cytochrome P450,"",43,Matched.Compound,Citalopram aldehyde,0.004355969,-1.28,TRUE,278.09829
+458.18172,C16577,M-H2O+H [1+],0.000843533230010962,Drug metabolism - cytochrome P450,"",43,Matched.Compound,Codeine-6-glucuronide,0.003370308,-0.62,TRUE,458.18172
+117.06586,C16622,M+H [1+],1.60000000022364e-05,Drug metabolism - other enzymes,"",28,Matched.Compound,"N,N'-Diacetylhydrazine",8.9e-05,-1.28,TRUE,117.06586
+199.17035,C02679,M-H [1-],2.59999999911997e-05,Fatty acid biosynthesis,"",9,Matched.Compound,Dodecanoic acid,0.552884979,0.17,FALSE,199.17035
+227.20165,C06424,M-H [1-],2.59999999911997e-05,Fatty acid biosynthesis,"",9,Matched.Compound,Myristic acid,0.08003377,-3.48,FALSE,227.20165
+255.23295,C00249,M-H [1-],2.5999999962778e-05,Fatty acid biosynthesis,"",9,Matched.Compound,Palmitic acid,0.17605372,1.17,FALSE,255.23295
+808.11823,C00024,M-H [1-],0.000293999999939842,Fatty acid biosynthesis,"",9,Matched.Compound,Acetyl-CoA,0.001821828,-0.79,FALSE,808.11823
+255.23295,C00249,M-H [1-],2.5999999962778e-05,Fatty acid degradation,"",35,Matched.Compound,Palmitic acid,0.17605372,1.17,FALSE,255.23295
+400.34212,C02990,M+H [1+],5.59999999723004e-05,Fatty acid degradation,"",35,Matched.Compound,Palmitoylcarnitine,0.03148199,0.6,TRUE,400.34212
+766.1079,C00010,M-H [1-],2.39999999394058e-05,Fatty acid degradation,"",35,Matched.Compound,Coenzyme A,0.003192,-1.2,FALSE,766.1079
+808.11823,C00024,M-H [1-],0.000293999999939842,Fatty acid degradation,"",35,Matched.Compound,Acetyl-CoA,0.001821828,-0.79,FALSE,808.11823
+836.14989,C00136,M-H [1-],6.60000000607397e-05,Fatty acid degradation,"",35,Matched.Compound,Butyryl-CoA,0.006668008,-0.7,FALSE,836.14989
+255.23295,C00249,M-H [1-],2.5999999962778e-05,Fatty acid elongation,"",28,Matched.Compound,Palmitic acid,0.17605372,1.17,FALSE,255.23295
+808.11823,C00024,M-H [1-],0.000293999999939842,Fatty acid elongation,"",28,Matched.Compound,Acetyl-CoA,0.001821828,-0.79,FALSE,808.11823
+836.14989,C00136,M-H [1-],6.60000000607397e-05,Fatty acid elongation,"",28,Matched.Compound,Butyryl-CoA,0.006668008,-0.7,FALSE,836.14989
+295.09357,C00921,M-H2O-H [1-],0.000740000000007512,Folate biosynthesis,"",26,Matched.Compound,"7,8-Dihydropteroic acid",0.282411848,-0.81,FALSE,295.09357
+362.05066,C18239,M-H [1-],6.40000000089458e-05,Folate biosynthesis,"",26,Matched.Compound,Cyclic pyranopterin monophosphate,0.000941734,-1.35,FALSE,362.05066
+440.13236,C00504,M-H [1-],6.40000000089458e-05,Folate biosynthesis,"",26,Matched.Compound,Folic acid,0.027069725,-1.11,FALSE,440.13236
+521.98338,C00044,M-H [1-],4.39999998889107e-05,Folate biosynthesis,"",26,Matched.Compound,Guanosine triphosphate,0.00081538,-0.93,FALSE,521.98338
+521.98338,C05922,M-H2O-H [1-],0.00056999999992513,Folate biosynthesis,"",26,Matched.Compound,Formamidopyrimidine nucleoside triphosphate,0.00081538,-0.93,FALSE,521.98338
+521.98338,C21310,M-H [1-],4.39999998889107e-05,Folate biosynthesis,"",26,Matched.Compound,"(8S)-3',8-Cyclo-7,8-dihydroguanosine 5'-triphosphate",0.00081538,-0.93,FALSE,521.98338
+161.04555,C03827,M-H [1-],2.59999999911997e-05,Fructose and mannose metabolism,"",20,Matched.Compound,3-Buten-2-one,3.28e-05,-1.06,FALSE,161.04555
+168.99075,C00118,M-H [1-],2.59999999911997e-05,Fructose and mannose metabolism,"",20,Matched.Compound,Glyceraldehyde 3-phosphate,0.916146696,0.07,FALSE,168.99075
+168.99075,C00111,M-H [1-],2.59999999911997e-05,Fructose and mannose metabolism,"",20,Matched.Compound,Dihydroxyacetone phosphate,0.916146696,0.07,FALSE,168.99075
+179.0561,C00267,M-H [1-],2.4000000024671e-05,Fructose and mannose metabolism,"",20,Matched.Compound,alpha-D-Glucose,5.03e-05,-1.3,FALSE,179.0561
+179.0561,C00095,M-H [1-],2.4000000024671e-05,Fructose and mannose metabolism,"",20,Matched.Compound,D-Fructose,5.03e-05,-1.3,FALSE,179.0561
+179.0561,C00159,M-H [1-],2.4000000024671e-05,Fructose and mannose metabolism,"",20,Matched.Compound,D-Mannose,5.03e-05,-1.3,FALSE,179.0561
+179.0561,C01720,M-H [1-],2.4000000024671e-05,Fructose and mannose metabolism,"",20,Matched.Compound,L-Fuconate,5.03e-05,-1.3,FALSE,179.0561
+179.05612,C00267,M-H [1-],4.00000001832268e-06,Fructose and mannose metabolism,"",20,Matched.Compound,alpha-D-Glucose,0.278443464,-0.46,FALSE,179.05612
+179.05612,C00095,M-H [1-],4.00000001832268e-06,Fructose and mannose metabolism,"",20,Matched.Compound,D-Fructose,0.278443464,-0.46,FALSE,179.05612
+179.05612,C00159,M-H [1-],4.00000001832268e-06,Fructose and mannose metabolism,"",20,Matched.Compound,D-Mannose,0.278443464,-0.46,FALSE,179.05612
+179.05612,C01720,M-H [1-],4.00000001832268e-06,Fructose and mannose metabolism,"",20,Matched.Compound,L-Fuconate,0.278443464,-0.46,FALSE,179.05612
+241.01188,C00085,M-H2O-H [1-],0.000570000000010396,Fructose and mannose metabolism,"",20,Matched.Compound,Fructose 6-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C00275,M-H2O-H [1-],0.000570000000010396,Fructose and mannose metabolism,"",20,Matched.Compound,Mannose 6-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C00636,M-H2O-H [1-],0.000570000000010396,Fructose and mannose metabolism,"",20,Matched.Compound,D-Mannose 1-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C01094,M-H2O-H [1-],0.000570000000010396,Fructose and mannose metabolism,"",20,Matched.Compound,"3a,6b,7a,12a-Tetrahydroxy-5b-cholanoic acid",0.000152822,-1.33,FALSE,241.01188
+243.02751,C02985,M-H [1-],1.39999999930751e-05,Fructose and mannose metabolism,"",20,Matched.Compound,Fucose 1-phosphate,0.002063744,-0.7,FALSE,243.02751
+259.02242,C00085,M-H [1-],3.99999998990097e-06,Fructose and mannose metabolism,"",20,Matched.Compound,Fructose 6-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C00275,M-H [1-],3.99999998990097e-06,Fructose and mannose metabolism,"",20,Matched.Compound,Mannose 6-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C00636,M-H [1-],3.99999998990097e-06,Fructose and mannose metabolism,"",20,Matched.Compound,D-Mannose 1-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C01094,M-H [1-],3.99999998990097e-06,Fructose and mannose metabolism,"",20,Matched.Compound,"3a,6b,7a,12a-Tetrahydroxy-5b-cholanoic acid",2.14e-06,-1.85,FALSE,259.02242
+259.02243,C00085,M-H [1-],5.99999998485146e-06,Fructose and mannose metabolism,"",20,Matched.Compound,Fructose 6-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C00275,M-H [1-],5.99999998485146e-06,Fructose and mannose metabolism,"",20,Matched.Compound,Mannose 6-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C00636,M-H [1-],5.99999998485146e-06,Fructose and mannose metabolism,"",20,Matched.Compound,D-Mannose 1-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C01094,M-H [1-],5.99999998485146e-06,Fructose and mannose metabolism,"",20,Matched.Compound,"3a,6b,7a,12a-Tetrahydroxy-5b-cholanoic acid",0.312254134,-0.36,FALSE,259.02243
+338.98866,C00354,M-H [1-],0.000164000000040687,Fructose and mannose metabolism,"",20,Matched.Compound,"Fructose 1,6-bisphosphate",7.79e-05,-1.11,FALSE,338.98866
+338.98866,C00665,M-H [1-],0.000164000000040687,Fructose and mannose metabolism,"",20,Matched.Compound,"D-Fructose 2,6-bisphosphate",7.79e-05,-1.11,FALSE,338.98866
+586.05929,C01222,M-H [1-],3.39999999141583e-05,Fructose and mannose metabolism,"",20,Matched.Compound,GDP-4-Dehydro-6-deoxy-D-mannose,0.099844735,-1.34,FALSE,586.05929
+586.05929,C00096,M-H2O-H [1-],0.000480000000038672,Fructose and mannose metabolism,"",20,Matched.Compound,Guanosine diphosphate mannose,0.099844735,-1.34,FALSE,586.05929
+588.07495,C00325,M-H [1-],2.60000000480431e-05,Fructose and mannose metabolism,"",20,Matched.Compound,GDP-L-fucose,1.29e-05,-1.17,FALSE,588.07495
+604.06993,C00096,M-H [1-],6.00000009853829e-06,Fructose and mannose metabolism,"",20,Matched.Compound,Guanosine diphosphate mannose,0.234610334,-0.21,FALSE,604.06993
+89.02442,C00577,M-H [1-],3.99999998990097e-06,Fructose and mannose metabolism,"",20,Matched.Compound,D-Glyceraldehyde,0.000240254,-1.22,FALSE,89.02442
+179.0561,C00267,M-H [1-],2.4000000024671e-05,Galactose metabolism,"",27,Matched.Compound,alpha-D-Glucose,5.03e-05,-1.3,FALSE,179.0561
+179.0561,C00095,M-H [1-],2.4000000024671e-05,Galactose metabolism,"",27,Matched.Compound,D-Fructose,5.03e-05,-1.3,FALSE,179.0561
+179.0561,C00159,M-H [1-],2.4000000024671e-05,Galactose metabolism,"",27,Matched.Compound,D-Mannose,5.03e-05,-1.3,FALSE,179.0561
+179.0561,C00124,M-H [1-],2.4000000024671e-05,Galactose metabolism,"",27,Matched.Compound,D-Galactose,5.03e-05,-1.3,FALSE,179.0561
+179.0561,C00984,M-H [1-],2.4000000024671e-05,Galactose metabolism,"",27,Matched.Compound,alpha-D-Galactose,5.03e-05,-1.3,FALSE,179.0561
+179.0561,C00031,M-H [1-],2.4000000024671e-05,Galactose metabolism,"",27,Matched.Compound,D-Glucose,5.03e-05,-1.3,FALSE,179.0561
+179.0561,C00137,M-H [1-],2.4000000024671e-05,Galactose metabolism,"",27,Matched.Compound,myo-Inositol,5.03e-05,-1.3,FALSE,179.0561
+179.05612,C00267,M-H [1-],4.00000001832268e-06,Galactose metabolism,"",27,Matched.Compound,alpha-D-Glucose,0.278443464,-0.46,FALSE,179.05612
+179.05612,C00095,M-H [1-],4.00000001832268e-06,Galactose metabolism,"",27,Matched.Compound,D-Fructose,0.278443464,-0.46,FALSE,179.05612
+179.05612,C00159,M-H [1-],4.00000001832268e-06,Galactose metabolism,"",27,Matched.Compound,D-Mannose,0.278443464,-0.46,FALSE,179.05612
+179.05612,C00124,M-H [1-],4.00000001832268e-06,Galactose metabolism,"",27,Matched.Compound,D-Galactose,0.278443464,-0.46,FALSE,179.05612
+179.05612,C00984,M-H [1-],4.00000001832268e-06,Galactose metabolism,"",27,Matched.Compound,alpha-D-Galactose,0.278443464,-0.46,FALSE,179.05612
+179.05612,C00031,M-H [1-],4.00000001832268e-06,Galactose metabolism,"",27,Matched.Compound,D-Glucose,0.278443464,-0.46,FALSE,179.05612
+179.05612,C00137,M-H [1-],4.00000001832268e-06,Galactose metabolism,"",27,Matched.Compound,myo-Inositol,0.278443464,-0.46,FALSE,179.05612
+241.01188,C00668,M-H2O-H [1-],0.000570000000010396,Galactose metabolism,"",27,Matched.Compound,alpha-D-glucose 6-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C00103,M-H2O-H [1-],0.000570000000010396,Galactose metabolism,"",27,Matched.Compound,Glucose 1-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C01097,M-H2O-H [1-],0.000570000000010396,Galactose metabolism,"",27,Matched.Compound,D-Tagatose 6-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C00446,M-H2O-H [1-],0.000570000000010396,Galactose metabolism,"",27,Matched.Compound,Galactose 1-phosphate,0.000152822,-1.33,FALSE,241.01188
+253.09289,C05401,M-H [1-],3.39999999994234e-05,Galactose metabolism,"",27,Matched.Compound,Galactosylglycerol,6.79e-07,-2.16,FALSE,253.09289
+259.02242,C00668,M-H [1-],3.99999998990097e-06,Galactose metabolism,"",27,Matched.Compound,alpha-D-glucose 6-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C00103,M-H [1-],3.99999998990097e-06,Galactose metabolism,"",27,Matched.Compound,Glucose 1-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C01097,M-H [1-],3.99999998990097e-06,Galactose metabolism,"",27,Matched.Compound,D-Tagatose 6-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C00446,M-H [1-],3.99999998990097e-06,Galactose metabolism,"",27,Matched.Compound,Galactose 1-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02243,C00668,M-H [1-],5.99999998485146e-06,Galactose metabolism,"",27,Matched.Compound,alpha-D-glucose 6-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C00103,M-H [1-],5.99999998485146e-06,Galactose metabolism,"",27,Matched.Compound,Glucose 1-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C01097,M-H [1-],5.99999998485146e-06,Galactose metabolism,"",27,Matched.Compound,D-Tagatose 6-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C00446,M-H [1-],5.99999998485146e-06,Galactose metabolism,"",27,Matched.Compound,Galactose 1-phosphate,0.312254134,-0.36,FALSE,259.02243
+338.98866,C03785,M-H [1-],0.000164000000040687,Galactose metabolism,"",27,Matched.Compound,"D-Tagatose 1,6-bisphosphate",7.79e-05,-1.11,FALSE,338.98866
+341.10885,C00089,M-H [1-],7.39999999836982e-05,Galactose metabolism,"",27,Matched.Compound,Sucrose,1.01e-05,-3.47,FALSE,341.10885
+341.10885,C05402,M-H [1-],7.39999999836982e-05,Galactose metabolism,"",27,Matched.Compound,Melibiose,1.01e-05,-3.47,FALSE,341.10885
+341.10885,C05400,M-H [1-],7.39999999836982e-05,Galactose metabolism,"",27,Matched.Compound,Epimelibiose,1.01e-05,-3.47,FALSE,341.10885
+341.10885,C01235,M-H [1-],7.39999999836982e-05,Galactose metabolism,"",27,Matched.Compound,beta-Cortol,1.01e-05,-3.47,FALSE,341.10885
+341.10885,C00243,M-H [1-],7.39999999836982e-05,Galactose metabolism,"",27,Matched.Compound,Alpha-Lactose,1.01e-05,-3.47,FALSE,341.10885
+343.12352,C00089,M+H [1+],4.40000000025975e-05,Galactose metabolism,"",27,Matched.Compound,Sucrose,0.167926245,-0.65,TRUE,343.12352
+343.12352,C05402,M+H [1+],4.40000000025975e-05,Galactose metabolism,"",27,Matched.Compound,Melibiose,0.167926245,-0.65,TRUE,343.12352
+343.12352,C05400,M+H [1+],4.40000000025975e-05,Galactose metabolism,"",27,Matched.Compound,Epimelibiose,0.167926245,-0.65,TRUE,343.12352
+343.12352,C01235,M+H [1+],4.40000000025975e-05,Galactose metabolism,"",27,Matched.Compound,beta-Cortol,0.167926245,-0.65,TRUE,343.12352
+343.12352,C00243,M+H [1+],4.40000000025975e-05,Galactose metabolism,"",27,Matched.Compound,Alpha-Lactose,0.167926245,-0.65,TRUE,343.12352
+565.04754,C00029,M-H [1-],0.000183999999876505,Galactose metabolism,"",27,Matched.Compound,Uridine diphosphate glucose,0.000220563,-0.69,FALSE,565.04754
+565.04754,C00052,M-H [1-],0.000183999999876505,Galactose metabolism,"",27,Matched.Compound,Uridine diphosphategalactose,0.000220563,-0.69,FALSE,565.04754
+665.21451,C01613,M-H [1-],0.000113999999939551,Galactose metabolism,"",27,Matched.Compound,Stachyose,2.31e-05,-4.13,FALSE,665.21451
+128.03531,C01879,M-H [1-],1.39999999930751e-05,Glutathione metabolism,"",19,Matched.Compound,Pyroglutamic acid,0.002510792,-0.68,FALSE,128.03531
+146.04588,C00025,M-H [1-],4.40000000025975e-05,Glutathione metabolism,"",19,Matched.Compound,Glutamic acid,0.000116605,1.04,FALSE,146.04588
+148.06045,C00025,M+H [1+],2.59999999911997e-05,Glutathione metabolism,"",19,Matched.Compound,Glutamic acid,0.001100992,-0.39,TRUE,148.06045
+251.0696,C00669,M+H [1+],2.4000000024671e-05,Glutathione metabolism,"",19,Matched.Compound,gamma-Glutamylcysteine,0.392835338,-1.02,TRUE,251.0696
+251.06965,C00669,M+H [1+],7.40000000121199e-05,Glutathione metabolism,"",19,Matched.Compound,gamma-Glutamylcysteine,0.060767024,-1.85,TRUE,251.06965
+306.07649,C00051,M-H [1-],3.40000000278451e-05,Glutathione metabolism,"",19,Matched.Compound,Glutathione,3.87e-05,-1.43,FALSE,306.07649
+613.15941,C00127,M+H [1+],0.000133999999889056,Glutathione metabolism,"",19,Matched.Compound,Oxidized glutathione,5.47e-05,-1.8,TRUE,613.15941
+613.15942,C00127,M+H [1+],0.000143999999863809,Glutathione metabolism,"",19,Matched.Compound,Oxidized glutathione,0.01612591,-0.75,TRUE,613.15942
+76.03932,C00037,M+H [1+],4.40000000025975e-05,Glutathione metabolism,"",19,Matched.Compound,Glycine,0.326905645,-0.13,TRUE,76.03932
+808.11823,C00024,M-H [1-],0.000293999999939842,Glutathione metabolism,"",19,Matched.Compound,Acetyl-CoA,0.001821828,-0.79,FALSE,808.11823
+168.99075,C00111,M-H [1-],2.59999999911997e-05,Glycerolipid metabolism,"",7,Matched.Compound,Dihydroxyacetone phosphate,0.916146696,0.07,FALSE,168.99075
+171.0064,C00093,M-H [1-],2.39999999962492e-05,Glycerolipid metabolism,"",7,Matched.Compound,Glycerol 3-phosphate,0.02056121,-0.52,FALSE,171.0064
+171.00641,C00093,M-H [1-],1.40000000214968e-05,Glycerolipid metabolism,"",7,Matched.Compound,Glycerol 3-phosphate,4.84e-06,2.38,FALSE,171.00641
+184.98565,C00631,M-H [1-],2.59999999911997e-05,Glycerolipid metabolism,"",7,Matched.Compound,2-Phospho-D-glyceric acid,0.24001025,-0.57,FALSE,184.98565
+184.98566,C00631,M-H [1-],3.59999999943739e-05,Glycerolipid metabolism,"",7,Matched.Compound,2-Phospho-D-glyceric acid,0.078323724,-0.42,FALSE,184.98566
+89.02442,C00577,M-H [1-],3.99999998990097e-06,Glycerolipid metabolism,"",7,Matched.Compound,D-Glyceraldehyde,0.000240254,-1.22,FALSE,89.02442
+89.02442,C00184,M-H [1-],3.99999998990097e-06,Glycerolipid metabolism,"",7,Matched.Compound,Dihydroxyacetone,0.000240254,-1.22,FALSE,89.02442
+168.99075,C00111,M-H [1-],2.59999999911997e-05,Glycerophospholipid metabolism,"",13,Matched.Compound,Dihydroxyacetone phosphate,0.916146696,0.07,FALSE,168.99075
+171.0064,C00093,M-H [1-],2.39999999962492e-05,Glycerophospholipid metabolism,"",13,Matched.Compound,Glycerol 3-phosphate,0.02056121,-0.52,FALSE,171.0064
+171.00641,C00093,M-H [1-],1.40000000214968e-05,Glycerophospholipid metabolism,"",13,Matched.Compound,Glycerol 3-phosphate,4.84e-06,2.38,FALSE,171.00641
+216.06314,C01233,M+H [1+],3.59999999943739e-05,Glycerophospholipid metabolism,"",13,Matched.Compound,Glycerylphosphorylethanolamine,1.56e-05,1.65,TRUE,216.06314
+445.05305,C00570,M-H [1-],7.40000000405416e-05,Glycerophospholipid metabolism,"",13,Matched.Compound,CDP-ethanolamine,1.2e-05,1.73,FALSE,445.05305
+489.11474,C00307,M+H [1+],0.000163999999983844,Glycerophospholipid metabolism,"",13,Matched.Compound,Citicoline,0.030281866,0.36,TRUE,489.11474
+104.03532,C00065,M-H [1-],3.99999998990097e-06,"Glycine, serine and threonine metabolism","",30,Matched.Compound,Serine,0.497848408,0.16,FALSE,104.03532
+104.03532,C00740,M-H [1-],3.99999998990097e-06,"Glycine, serine and threonine metabolism","",30,Matched.Compound,D-Serine,0.497848408,0.16,FALSE,104.03532
+104.07061,C01026,M+H [1+],3.39999999994234e-05,"Glycine, serine and threonine metabolism","",30,Matched.Compound,Dimethylglycine,0.001126831,-0.29,TRUE,104.07061
+114.06617,C00300,M-H2O+H [1+],6.46677000304408e-06,"Glycine, serine and threonine metabolism","",30,Matched.Compound,Creatine,0.011412968,-0.67,TRUE,114.06617
+120.06552,C00188,M+H [1+],4.40000000025975e-05,"Glycine, serine and threonine metabolism","",30,Matched.Compound,L-Threonine,0.215067167,-0.22,TRUE,120.06552
+130.05097,C00430,M-H [1-],4.5999999997548e-05,"Glycine, serine and threonine metabolism","",30,Matched.Compound,5-Aminolevulinic acid,0.638338765,-0.13,FALSE,130.05097
+130.05098,C00430,M-H [1-],5.60000000007221e-05,"Glycine, serine and threonine metabolism","",30,Matched.Compound,5-Aminolevulinic acid,0.172958473,0.22,FALSE,130.05098
+132.06552,C00430,M+H [1+],4.40000000025975e-05,"Glycine, serine and threonine metabolism","",30,Matched.Compound,5-Aminolevulinic acid,0.974431175,0.13,TRUE,132.06552
+132.07675,C00300,M+H [1+],2.59999999911997e-05,"Glycine, serine and threonine metabolism","",30,Matched.Compound,Creatine,5.05e-05,-0.96,TRUE,132.07675
+184.98565,C00631,M-H [1-],2.59999999911997e-05,"Glycine, serine and threonine metabolism","",30,Matched.Compound,2-Phospho-D-glyceric acid,0.24001025,-0.57,FALSE,184.98565
+184.98565,C00197,M-H [1-],2.59999999911997e-05,"Glycine, serine and threonine metabolism","",30,Matched.Compound,D-Glycerate 3-phosphate,0.24001025,-0.57,FALSE,184.98565
+184.98566,C00631,M-H [1-],3.59999999943739e-05,"Glycine, serine and threonine metabolism","",30,Matched.Compound,2-Phospho-D-glyceric acid,0.078323724,-0.42,FALSE,184.98566
+184.98566,C00197,M-H [1-],3.59999999943739e-05,"Glycine, serine and threonine metabolism","",30,Matched.Compound,D-Glycerate 3-phosphate,0.078323724,-0.42,FALSE,184.98566
+76.03932,C00037,M+H [1+],4.40000000025975e-05,"Glycine, serine and threonine metabolism","",30,Matched.Compound,Glycine,0.326905645,-0.13,TRUE,76.03932
+86.06002,C01026,M-H2O+H [1+],4.35332299986158e-05,"Glycine, serine and threonine metabolism","",30,Matched.Compound,Dimethylglycine,0.009943585,-0.68,TRUE,86.06002
+87.00877,C00022,M-H [1-],4.5999999997548e-05,"Glycine, serine and threonine metabolism","",30,Matched.Compound,Pyruvic acid,0.000431622,-1.44,FALSE,87.00877
+90.05493,C00213,M+H [1+],4.60000000117589e-05,"Glycine, serine and threonine metabolism","",30,Matched.Compound,Sarcosine,0.00111173,-0.63,TRUE,90.05493
+90.05495,C00213,M+H [1+],2.60000000054106e-05,"Glycine, serine and threonine metabolism","",30,Matched.Compound,Sarcosine,1.18e-07,-1.06,TRUE,90.05495
+166.97508,C00074,M-H [1-],4.40000000310192e-05,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,Phosphoenolpyruvic acid,0.124387806,-0.55,FALSE,166.97508
+168.99075,C00118,M-H [1-],2.59999999911997e-05,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,Glyceraldehyde 3-phosphate,0.916146696,0.07,FALSE,168.99075
+168.99075,C00111,M-H [1-],2.59999999911997e-05,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,Dihydroxyacetone phosphate,0.916146696,0.07,FALSE,168.99075
+179.0561,C00221,M-H [1-],2.4000000024671e-05,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,beta-D-Glucose,5.03e-05,-1.3,FALSE,179.0561
+179.0561,C00267,M-H [1-],2.4000000024671e-05,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,alpha-D-Glucose,5.03e-05,-1.3,FALSE,179.0561
+179.05612,C00221,M-H [1-],4.00000001832268e-06,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,beta-D-Glucose,0.278443464,-0.46,FALSE,179.05612
+179.05612,C00267,M-H [1-],4.00000001832268e-06,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,alpha-D-Glucose,0.278443464,-0.46,FALSE,179.05612
+184.98565,C00631,M-H [1-],2.59999999911997e-05,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,2-Phospho-D-glyceric acid,0.24001025,-0.57,FALSE,184.98565
+184.98565,C00197,M-H [1-],2.59999999911997e-05,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,D-Glycerate 3-phosphate,0.24001025,-0.57,FALSE,184.98565
+184.98566,C00631,M-H [1-],3.59999999943739e-05,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,2-Phospho-D-glyceric acid,0.078323724,-0.42,FALSE,184.98566
+184.98566,C00197,M-H [1-],3.59999999943739e-05,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,D-Glycerate 3-phosphate,0.078323724,-0.42,FALSE,184.98566
+241.01188,C00085,M-H2O-H [1-],0.000570000000010396,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,Fructose 6-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C00668,M-H2O-H [1-],0.000570000000010396,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,alpha-D-glucose 6-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C00103,M-H2O-H [1-],0.000570000000010396,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,Glucose 1-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C01172,M-H2O-H [1-],0.000570000000010396,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,beta-D-Glucose 6-phosphate,0.000152822,-1.33,FALSE,241.01188
+259.02242,C00085,M-H [1-],3.99999998990097e-06,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,Fructose 6-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C00668,M-H [1-],3.99999998990097e-06,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,alpha-D-glucose 6-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C00103,M-H [1-],3.99999998990097e-06,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,Glucose 1-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C01172,M-H [1-],3.99999998990097e-06,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,beta-D-Glucose 6-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02243,C00085,M-H [1-],5.99999998485146e-06,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,Fructose 6-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C00668,M-H [1-],5.99999998485146e-06,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,alpha-D-glucose 6-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C00103,M-H [1-],5.99999998485146e-06,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,Glucose 1-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C01172,M-H [1-],5.99999998485146e-06,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,beta-D-Glucose 6-phosphate,0.312254134,-0.36,FALSE,259.02243
+338.98866,C00354,M-H [1-],0.000164000000040687,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,"Fructose 1,6-bisphosphate",7.79e-05,-1.11,FALSE,338.98866
+808.11823,C00024,M-H [1-],0.000293999999939842,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,Acetyl-CoA,0.001821828,-0.79,FALSE,808.11823
+87.00877,C00022,M-H [1-],4.5999999997548e-05,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,Pyruvic acid,0.000431622,-1.44,FALSE,87.00877
+89.02442,C00186,M-H [1-],3.99999998990097e-06,Glycolysis or Gluconeogenesis,"",23,Matched.Compound,Lactic acid,0.000240254,-1.22,FALSE,89.02442
+255.23295,C00249,M-H [1-],2.5999999962778e-05,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,"",4,Matched.Compound,Palmitic acid,0.17605372,1.17,FALSE,255.23295
+104.03532,C00065,M-H [1-],3.99999998990097e-06,Glyoxylate and dicarboxylate metabolism,"",31,Matched.Compound,Serine,0.497848408,0.16,FALSE,104.03532
+133.01426,C00149,M-H [1-],3.59999999943739e-05,Glyoxylate and dicarboxylate metabolism,"",31,Matched.Compound,Malic acid,0.001718728,-0.47,FALSE,133.01426
+146.04588,C00025,M-H [1-],4.40000000025975e-05,Glyoxylate and dicarboxylate metabolism,"",31,Matched.Compound,Glutamic acid,0.000116605,1.04,FALSE,146.04588
+147.07642,C00064,M+H [1+],4.40000000310192e-05,Glyoxylate and dicarboxylate metabolism,"",31,Matched.Compound,Glutamine,0.854322998,0.14,TRUE,147.07642
+148.06045,C00025,M+H [1+],2.59999999911997e-05,Glyoxylate and dicarboxylate metabolism,"",31,Matched.Compound,Glutamic acid,0.001100992,-0.39,TRUE,148.06045
+173.00915,C00417,M-H [1-],2.59999999911997e-05,Glyoxylate and dicarboxylate metabolism,"",31,Matched.Compound,cis-Aconitic acid,0.890044082,-0.07,FALSE,173.00915
+184.98565,C00631,M-H [1-],2.59999999911997e-05,Glyoxylate and dicarboxylate metabolism,"",31,Matched.Compound,2-Phospho-D-glyceric acid,0.24001025,-0.57,FALSE,184.98565
+184.98566,C00631,M-H [1-],3.59999999943739e-05,Glyoxylate and dicarboxylate metabolism,"",31,Matched.Compound,2-Phospho-D-glyceric acid,0.078323724,-0.42,FALSE,184.98566
+191.01972,C00311,M-H [1-],3.99999998990097e-06,Glyoxylate and dicarboxylate metabolism,"",31,Matched.Compound,Isocitric acid,0.684269605,0.09,FALSE,191.01972
+191.01972,C00158,M-H [1-],3.99999998990097e-06,Glyoxylate and dicarboxylate metabolism,"",31,Matched.Compound,Citric acid,0.684269605,0.09,FALSE,191.01972
+191.01973,C00311,M-H [1-],6.00000001327317e-06,Glyoxylate and dicarboxylate metabolism,"",31,Matched.Compound,Isocitric acid,0.908922515,0.19,FALSE,191.01973
+191.01973,C00158,M-H [1-],6.00000001327317e-06,Glyoxylate and dicarboxylate metabolism,"",31,Matched.Compound,Citric acid,0.908922515,0.19,FALSE,191.01973
+76.03932,C00037,M+H [1+],4.40000000025975e-05,Glyoxylate and dicarboxylate metabolism,"",31,Matched.Compound,Glycine,0.326905645,-0.13,TRUE,76.03932
+808.11823,C00024,M-H [1-],0.000293999999939842,Glyoxylate and dicarboxylate metabolism,"",31,Matched.Compound,Acetyl-CoA,0.001821828,-0.79,FALSE,808.11823
+87.00877,C00022,M-H [1-],4.5999999997548e-05,Glyoxylate and dicarboxylate metabolism,"",31,Matched.Compound,Pyruvic acid,0.000431622,-1.44,FALSE,87.00877
+123.05529,C05828,M-H2O+H [1+],1.35332299890933e-05,Histidine metabolism,"",16,Matched.Compound,Methylimidazoleacetic acid,0.004502956,-1.1,TRUE,123.05529
+132.03023,C00049,M-H [1-],5.99999998485146e-06,Histidine metabolism,"",16,Matched.Compound,L-Aspartic acid,4.41e-07,2.78,FALSE,132.03023
+146.04588,C00025,M-H [1-],4.40000000025975e-05,Histidine metabolism,"",16,Matched.Compound,Glutamic acid,0.000116605,1.04,FALSE,146.04588
+148.06045,C00025,M+H [1+],2.59999999911997e-05,Histidine metabolism,"",16,Matched.Compound,Glutamic acid,0.001100992,-0.39,TRUE,148.06045
+154.06221,C00135,M-H [1-],1.40000000214968e-05,Histidine metabolism,"",16,Matched.Compound,Histidine,0.742996594,0.19,FALSE,154.06221
+170.0924,C01152,M+H [1+],2.39999999962492e-05,Histidine metabolism,"",16,Matched.Compound,1-Methylhistidine,0.144780227,-0.22,TRUE,170.0924
+175.07131,C00439,M+H [1+],6.59999999754746e-05,Histidine metabolism,"",16,Matched.Compound,Formiminoglutamic acid,7.45e-05,-2.49,TRUE,175.07131
+227.1139,C00386,M+H [1+],2.4000000024671e-05,Histidine metabolism,"",16,Matched.Compound,Carnosine,0.003518302,-1.25,TRUE,227.1139
+168.99075,C00118,M-H [1-],2.59999999911997e-05,Inositol phosphate metabolism,"",21,Matched.Compound,Glyceraldehyde 3-phosphate,0.916146696,0.07,FALSE,168.99075
+168.99075,C00111,M-H [1-],2.59999999911997e-05,Inositol phosphate metabolism,"",21,Matched.Compound,Dihydroxyacetone phosphate,0.916146696,0.07,FALSE,168.99075
+179.0561,C00137,M-H [1-],2.4000000024671e-05,Inositol phosphate metabolism,"",21,Matched.Compound,myo-Inositol,5.03e-05,-1.3,FALSE,179.0561
+179.05612,C00137,M-H [1-],4.00000001832268e-06,Inositol phosphate metabolism,"",21,Matched.Compound,myo-Inositol,0.278443464,-0.46,FALSE,179.05612
+241.01188,C00092,M-H2O-H [1-],0.000570000000010396,Inositol phosphate metabolism,"",21,Matched.Compound,Glucose 6-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C03546,M-H2O-H [1-],0.000570000000010396,Inositol phosphate metabolism,"",21,Matched.Compound,D-myo-Inositol 4-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C04006,M-H2O-H [1-],0.000570000000010396,Inositol phosphate metabolism,"",21,Matched.Compound,myo-Inositol 1-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C01177,M-H2O-H [1-],0.000570000000010396,Inositol phosphate metabolism,"",21,Matched.Compound,myo-Inositol 6-phosphate,0.000152822,-1.33,FALSE,241.01188
+259.02242,C00092,M-H [1-],3.99999998990097e-06,Inositol phosphate metabolism,"",21,Matched.Compound,Glucose 6-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C03546,M-H [1-],3.99999998990097e-06,Inositol phosphate metabolism,"",21,Matched.Compound,D-myo-Inositol 4-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C04006,M-H [1-],3.99999998990097e-06,Inositol phosphate metabolism,"",21,Matched.Compound,myo-Inositol 1-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C01177,M-H [1-],3.99999998990097e-06,Inositol phosphate metabolism,"",21,Matched.Compound,myo-Inositol 6-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02243,C00092,M-H [1-],5.99999998485146e-06,Inositol phosphate metabolism,"",21,Matched.Compound,Glucose 6-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C03546,M-H [1-],5.99999998485146e-06,Inositol phosphate metabolism,"",21,Matched.Compound,D-myo-Inositol 4-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C04006,M-H [1-],5.99999998485146e-06,Inositol phosphate metabolism,"",21,Matched.Compound,myo-Inositol 1-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C01177,M-H [1-],5.99999998485146e-06,Inositol phosphate metabolism,"",21,Matched.Compound,myo-Inositol 6-phosphate,0.312254134,-0.36,FALSE,259.02243
+338.98866,C01220,M-H [1-],0.000164000000040687,Inositol phosphate metabolism,"",21,Matched.Compound,"D-myo-Inositol 1,4-bisphosphate",7.79e-05,-1.11,FALSE,338.98866
+338.98866,C04063,M-H [1-],0.000164000000040687,Inositol phosphate metabolism,"",21,Matched.Compound,"D-myo-Inositol 3,4-bisphosphate",7.79e-05,-1.11,FALSE,338.98866
+338.98866,C04062,M-H [1-],0.000164000000040687,Inositol phosphate metabolism,"",21,Matched.Compound,"D-myo-Inositol 1,3-bisphosphate",7.79e-05,-1.11,FALSE,338.98866
+808.11823,C00024,M-H [1-],0.000293999999939842,Inositol phosphate metabolism,"",21,Matched.Compound,Acetyl-CoA,0.001821828,-0.79,FALSE,808.11823
+87.00877,C00222,M-H [1-],4.5999999997548e-05,Inositol phosphate metabolism,"",21,Matched.Compound,Malonic semialdehyde,0.000431622,-1.44,FALSE,87.00877
+279.23295,C01595,M-H [1-],2.59999999911997e-05,Linoleic acid metabolism,"",4,Matched.Compound,Linoleic acid,0.334212692,1.13,FALSE,279.23295
+145.01429,C00026,M-H [1-],6.59999999754746e-05,Lipoic acid metabolism,"",17,Matched.Compound,Oxoglutaric acid,1.02e-06,-1.31,FALSE,145.01429
+76.03932,C00037,M+H [1+],4.40000000025975e-05,Lipoic acid metabolism,"",17,Matched.Compound,Glycine,0.326905645,-0.13,TRUE,76.03932
+808.11823,C00024,M-H [1-],0.000293999999939842,Lipoic acid metabolism,"",17,Matched.Compound,Acetyl-CoA,0.001821828,-0.79,FALSE,808.11823
+87.00877,C00022,M-H [1-],4.5999999997548e-05,Lipoic acid metabolism,"",17,Matched.Compound,Pyruvic acid,0.000431622,-1.44,FALSE,87.00877
+128.0706,C00450,M+H [1+],2.4000000024671e-05,Lysine degradation,"",21,Matched.Compound,"2,3,4,5-Tetrahydro-2-pyridinecarboxylic acid",0.010645162,-0.71,TRUE,128.0706
+128.0706,C04076,M-H2O+H [1+],2.35332300064783e-05,Lysine degradation,"",21,Matched.Compound,Allysine,0.010645162,-0.71,TRUE,128.0706
+128.07061,C00450,M+H [1+],3.39999999994234e-05,Lysine degradation,"",21,Matched.Compound,"2,3,4,5-Tetrahydro-2-pyridinecarboxylic acid",0.591044686,0.16,TRUE,128.07061
+128.07061,C04076,M-H2O+H [1+],3.35332299812308e-05,Lysine degradation,"",21,Matched.Compound,Allysine,0.591044686,0.16,TRUE,128.07061
+146.08119,C04076,M+H [1+],1.39999999930751e-05,Lysine degradation,"",21,Matched.Compound,Allysine,0.000364995,-1.29,TRUE,146.08119
+160.06152,C00956,M-H [1-],4.00000001832268e-06,Lysine degradation,"",21,Matched.Compound,Aminoadipic acid,0.146302062,-0.29,FALSE,160.06152
+160.06153,C00956,M-H [1-],5.99999998485146e-06,Lysine degradation,"",21,Matched.Compound,Aminoadipic acid,0.957769015,-0.01,FALSE,160.06153
+162.0761,C00956,M+H [1+],2.39999999962492e-05,Lysine degradation,"",21,Matched.Compound,Aminoadipic acid,3.05e-05,-0.9,TRUE,162.0761
+189.15974,C03793,M+H [1+],3.59999999943739e-05,Lysine degradation,"",21,Matched.Compound,"N6,N6,N6-Trimethyl-L-lysine",0.002467356,-0.91,TRUE,189.15974
+808.11823,C00024,M-H [1-],0.000293999999939842,Lysine degradation,"",21,Matched.Compound,Acetyl-CoA,0.001821828,-0.79,FALSE,808.11823
+481.97723,C00063,M-H [1-],5.99999998485146e-06,Mannose type O-glycan biosynthesis,"",3,Matched.Compound,Cytidine triphosphate,0.003579543,-0.5,FALSE,481.97723
+538.08359,C00789,M+H [1+],0.000213999999914449,Mannose type O-glycan biosynthesis,"",3,Matched.Compound,CDP-ribitol,0.019639031,-0.43,TRUE,538.08359
+309.03974,C19586,M-H2O-H [1-],0.000169999999968695,Metabolism of xenobiotics by cytochrome P450,"",68,Matched.Compound,"2,3-Epoxyaflatoxin B1",0.027565097,0.38,FALSE,309.03974
+309.03974,C16756,M-H2O-H [1-],0.000169999999968695,Metabolism of xenobiotics by cytochrome P450,"",68,Matched.Compound,Aflatoxin M1,0.027565097,0.38,FALSE,309.03974
+309.03974,C19595,M-H2O-H [1-],0.000169999999968695,Metabolism of xenobiotics by cytochrome P450,"",68,Matched.Compound,"Aflatoxin B1-endo-8,9-epoxide",0.027565097,0.38,FALSE,309.03974
+309.03974,C19585,M-H2O-H [1-],0.000169999999968695,Metabolism of xenobiotics by cytochrome P450,"",68,Matched.Compound,Aflatoxin Q1,0.027565097,0.38,FALSE,309.03974
+333.05926,C19562,M-H2O-H [1-],0.000749999999982265,Metabolism of xenobiotics by cytochrome P450,"",68,Matched.Compound,7-Hydroxymethyl-12-methylbenz[a]anthracene sulfate,4.83e-05,-1.06,FALSE,333.05926
+348.087,C14871,M-H [1-],0.000124000000027991,Metabolism of xenobiotics by cytochrome P450,"",68,Matched.Compound,S-(Formylmethyl)glutathione,0.000938249,-1.2,FALSE,348.087
+123.05529,C00153,M+H [1+],1.39999999930751e-05,Nicotinate and nicotinamide metabolism,"",15,Matched.Compound,Niacinamide,0.004502956,-1.1,TRUE,123.05529
+132.03023,C00049,M-H [1-],5.99999998485146e-06,Nicotinate and nicotinamide metabolism,"",15,Matched.Compound,L-Aspartic acid,4.41e-07,2.78,FALSE,132.03023
+146.04588,C00025,M-H [1-],4.40000000025975e-05,Nitrogen metabolism,"",6,Matched.Compound,Glutamic acid,0.000116605,1.04,FALSE,146.04588
+147.07642,C00064,M+H [1+],4.40000000310192e-05,Nitrogen metabolism,"",6,Matched.Compound,Glutamine,0.854322998,0.14,TRUE,147.07642
+148.06045,C00025,M+H [1+],2.59999999911997e-05,Nitrogen metabolism,"",6,Matched.Compound,Glutamic acid,0.001100992,-0.39,TRUE,148.06045
+104.03532,C00065,M-H [1-],3.99999998990097e-06,One carbon pool by folate,"",26,Matched.Compound,Serine,0.497848408,0.16,FALSE,104.03532
+104.07061,C01026,M+H [1+],3.39999999994234e-05,One carbon pool by folate,"",26,Matched.Compound,Dimethylglycine,0.001126831,-0.29,TRUE,104.07061
+268.104,C00212,M+H [1+],7.59999999786487e-05,One carbon pool by folate,"",26,Matched.Compound,Adenosine,0.011287244,-0.68,TRUE,268.104
+307.03374,C00365,M-H [1-],1.60000000164473e-05,One carbon pool by folate,"",26,Matched.Compound,dUMP,0.005012551,-0.48,FALSE,307.03374
+321.04938,C00364,M-H [1-],5.59999999723004e-05,One carbon pool by folate,"",26,Matched.Compound,5-Thymidylic acid,0.488674297,-0.21,FALSE,321.04938
+399.14455,C00019,M+H [1+],7.39999999836982e-05,One carbon pool by folate,"",26,Matched.Compound,S-Adenosylmethionine,3e-05,-0.82,TRUE,399.14455
+440.13236,C00504,M-H [1-],6.40000000089458e-05,One carbon pool by folate,"",26,Matched.Compound,Folic acid,0.027069725,-1.11,FALSE,440.13236
+505.98827,C00002,M-H [1-],0.000154000000009091,One carbon pool by folate,"",26,Matched.Compound,Adenosine triphosphate,0.000279384,-0.79,FALSE,505.98827
+508.00307,C00002,M+H [1+],9.39999999900465e-05,One carbon pool by folate,"",26,Matched.Compound,Adenosine triphosphate,0.001656738,-0.94,TRUE,508.00307
+76.03932,C00037,M+H [1+],4.40000000025975e-05,One carbon pool by folate,"",26,Matched.Compound,Glycine,0.326905645,-0.13,TRUE,76.03932
+86.06002,C01026,M-H2O+H [1+],4.35332299986158e-05,One carbon pool by folate,"",26,Matched.Compound,Dimethylglycine,0.009943585,-0.68,TRUE,86.06002
+90.05493,C00213,M+H [1+],4.60000000117589e-05,One carbon pool by folate,"",26,Matched.Compound,Sarcosine,0.00111173,-0.63,TRUE,90.05493
+90.05495,C00213,M+H [1+],2.60000000054106e-05,One carbon pool by folate,"",26,Matched.Compound,Sarcosine,1.18e-07,-1.06,TRUE,90.05495
+111.02001,C00106,M-H [1-],1.39999999930751e-05,Pantothenate and CoA biosynthesis,"",18,Matched.Compound,Uracil,0.999953359,0.14,FALSE,111.02001
+131.04623,C02642,M-H [1-],5.99999998485146e-06,Pantothenate and CoA biosynthesis,"",18,Matched.Compound,Ureidopropionic acid,0.410848838,0.28,FALSE,131.04623
+132.03023,C00049,M-H [1-],5.99999998485146e-06,Pantothenate and CoA biosynthesis,"",18,Matched.Compound,L-Aspartic acid,4.41e-07,2.78,FALSE,132.03023
+218.1034,C00864,M-H [1-],2.4000000024671e-05,Pantothenate and CoA biosynthesis,"",18,Matched.Compound,Pantothenic acid,2.81e-05,-0.99,FALSE,218.1034
+426.02206,C00054,M-H [1-],6.40000000089458e-05,Pantothenate and CoA biosynthesis,"",18,Matched.Compound,"Adenosine 3',5'-diphosphate",0.000785849,-1.11,FALSE,426.02206
+766.1079,C00010,M-H [1-],2.39999999394058e-05,Pantothenate and CoA biosynthesis,"",18,Matched.Compound,Coenzyme A,0.003192,-1.2,FALSE,766.1079
+90.05493,C00099,M+H [1+],4.60000000117589e-05,Pantothenate and CoA biosynthesis,"",18,Matched.Compound,beta-Alanine,0.00111173,-0.63,TRUE,90.05493
+90.05495,C00099,M+H [1+],2.60000000054106e-05,Pantothenate and CoA biosynthesis,"",18,Matched.Compound,beta-Alanine,1.18e-07,-1.06,TRUE,90.05495
+147.02987,C02266,M-H [1-],5.40000000341934e-05,Pentose and glucuronate interconversions,"",18,Matched.Compound,"D-Xylono-1,5-lactone",0.104233405,-0.19,FALSE,147.02987
+195.05101,C00800,M-H [1-],1.40000000214968e-05,Pentose and glucuronate interconversions,"",18,Matched.Compound,Gulonic acid,0.001226582,0.58,FALSE,195.05101
+195.05102,C00800,M-H [1-],4.00000001832268e-06,Pentose and glucuronate interconversions,"",18,Matched.Compound,Gulonic acid,7.46e-10,-6.19,FALSE,195.05102
+211.00131,C00199,M-H2O-H [1-],0.000499999999988177,Pentose and glucuronate interconversions,"",18,Matched.Compound,D-Ribulose 5-phosphate,0.383876898,-0.16,FALSE,211.00131
+211.00131,C00231,M-H2O-H [1-],0.000499999999988177,Pentose and glucuronate interconversions,"",18,Matched.Compound,Xylulose 5-phosphate,0.383876898,-0.16,FALSE,211.00131
+229.01187,C00199,M-H [1-],5.40000000341934e-05,Pentose and glucuronate interconversions,"",18,Matched.Compound,D-Ribulose 5-phosphate,0.003007689,-1.04,FALSE,229.01187
+229.01187,C00231,M-H [1-],5.40000000341934e-05,Pentose and glucuronate interconversions,"",18,Matched.Compound,Xylulose 5-phosphate,0.003007689,-1.04,FALSE,229.01187
+241.01188,C00103,M-H2O-H [1-],0.000570000000010396,Pentose and glucuronate interconversions,"",18,Matched.Compound,Glucose 1-phosphate,0.000152822,-1.33,FALSE,241.01188
+259.02242,C00103,M-H [1-],3.99999998990097e-06,Pentose and glucuronate interconversions,"",18,Matched.Compound,Glucose 1-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02243,C00103,M-H [1-],5.99999998485146e-06,Pentose and glucuronate interconversions,"",18,Matched.Compound,Glucose 1-phosphate,0.312254134,-0.36,FALSE,259.02243
+538.08359,C00789,M+H [1+],0.000213999999914449,Pentose and glucuronate interconversions,"",18,Matched.Compound,CDP-ribitol,0.019639031,-0.43,TRUE,538.08359
+565.04754,C00029,M-H [1-],0.000183999999876505,Pentose and glucuronate interconversions,"",18,Matched.Compound,Uridine diphosphate glucose,0.000220563,-0.69,FALSE,565.04754
+579.02681,C00167,M-H [1-],0.000214000000028136,Pentose and glucuronate interconversions,"",18,Matched.Compound,Uridine diphosphate glucuronic acid,6.6e-05,-1.75,FALSE,579.02681
+133.05064,C01801,M-H [1-],1.59999999880256e-05,Pentose phosphate pathway,"",23,Matched.Compound,Deoxyribose,0.002262354,-0.7,FALSE,133.05064
+168.99075,C00118,M-H [1-],2.59999999911997e-05,Pentose phosphate pathway,"",23,Matched.Compound,Glyceraldehyde 3-phosphate,0.916146696,0.07,FALSE,168.99075
+184.98565,C00631,M-H [1-],2.59999999911997e-05,Pentose phosphate pathway,"",23,Matched.Compound,2-Phospho-D-glyceric acid,0.24001025,-0.57,FALSE,184.98565
+184.98566,C00631,M-H [1-],3.59999999943739e-05,Pentose phosphate pathway,"",23,Matched.Compound,2-Phospho-D-glyceric acid,0.078323724,-0.42,FALSE,184.98566
+195.05101,C00257,M-H [1-],1.40000000214968e-05,Pentose phosphate pathway,"",23,Matched.Compound,Gluconic acid,0.001226582,0.58,FALSE,195.05101
+195.05102,C00257,M-H [1-],4.00000001832268e-06,Pentose phosphate pathway,"",23,Matched.Compound,Gluconic acid,7.46e-10,-6.19,FALSE,195.05102
+211.00131,C00117,M-H2O-H [1-],0.000499999999988177,Pentose phosphate pathway,"",23,Matched.Compound,D-Ribose 5-phosphate,0.383876898,-0.16,FALSE,211.00131
+211.00131,C00620,M-H2O-H [1-],0.000499999999988177,Pentose phosphate pathway,"",23,Matched.Compound,Ribose 1-phosphate,0.383876898,-0.16,FALSE,211.00131
+211.00131,C00199,M-H2O-H [1-],0.000499999999988177,Pentose phosphate pathway,"",23,Matched.Compound,D-Ribulose 5-phosphate,0.383876898,-0.16,FALSE,211.00131
+211.00131,C00231,M-H2O-H [1-],0.000499999999988177,Pentose phosphate pathway,"",23,Matched.Compound,Xylulose 5-phosphate,0.383876898,-0.16,FALSE,211.00131
+229.01187,C00117,M-H [1-],5.40000000341934e-05,Pentose phosphate pathway,"",23,Matched.Compound,D-Ribose 5-phosphate,0.003007689,-1.04,FALSE,229.01187
+229.01187,C00620,M-H [1-],5.40000000341934e-05,Pentose phosphate pathway,"",23,Matched.Compound,Ribose 1-phosphate,0.003007689,-1.04,FALSE,229.01187
+229.01187,C00199,M-H [1-],5.40000000341934e-05,Pentose phosphate pathway,"",23,Matched.Compound,D-Ribulose 5-phosphate,0.003007689,-1.04,FALSE,229.01187
+229.01187,C00231,M-H [1-],5.40000000341934e-05,Pentose phosphate pathway,"",23,Matched.Compound,Xylulose 5-phosphate,0.003007689,-1.04,FALSE,229.01187
+241.01188,C00085,M-H2O-H [1-],0.000570000000010396,Pentose phosphate pathway,"",23,Matched.Compound,Fructose 6-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C00668,M-H2O-H [1-],0.000570000000010396,Pentose phosphate pathway,"",23,Matched.Compound,alpha-D-glucose 6-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C01172,M-H2O-H [1-],0.000570000000010396,Pentose phosphate pathway,"",23,Matched.Compound,beta-D-Glucose 6-phosphate,0.000152822,-1.33,FALSE,241.01188
+259.02136,C01236,M+H [1+],1.59999999596039e-05,Pentose phosphate pathway,"",23,Matched.Compound,6-Phosphonoglucono-D-lactone,0.004126364,-1.94,TRUE,259.02136
+259.02136,C00345,M-H2O+H [1+],8.35332299971014e-05,Pentose phosphate pathway,"",23,Matched.Compound,6-Phosphogluconic acid,0.004126364,-1.94,TRUE,259.02136
+259.02242,C00085,M-H [1-],3.99999998990097e-06,Pentose phosphate pathway,"",23,Matched.Compound,Fructose 6-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C00668,M-H [1-],3.99999998990097e-06,Pentose phosphate pathway,"",23,Matched.Compound,alpha-D-glucose 6-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C01172,M-H [1-],3.99999998990097e-06,Pentose phosphate pathway,"",23,Matched.Compound,beta-D-Glucose 6-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02243,C00085,M-H [1-],5.99999998485146e-06,Pentose phosphate pathway,"",23,Matched.Compound,Fructose 6-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C00668,M-H [1-],5.99999998485146e-06,Pentose phosphate pathway,"",23,Matched.Compound,alpha-D-glucose 6-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C01172,M-H [1-],5.99999998485146e-06,Pentose phosphate pathway,"",23,Matched.Compound,beta-D-Glucose 6-phosphate,0.312254134,-0.36,FALSE,259.02243
+275.01735,C00345,M-H [1-],2.59999999911997e-05,Pentose phosphate pathway,"",23,Matched.Compound,6-Phosphogluconic acid,0.004771769,-1.87,FALSE,275.01735
+289.03301,C05382,M-H [1-],1.40000000214968e-05,Pentose phosphate pathway,"",23,Matched.Compound,D-Sedoheptulose 7-phosphate,0.003648708,-1.77,FALSE,289.03301
+338.98866,C00354,M-H [1-],0.000164000000040687,Pentose phosphate pathway,"",23,Matched.Compound,"Fructose 1,6-bisphosphate",7.79e-05,-1.11,FALSE,338.98866
+164.07169,C00079,M-H [1-],3.40000000278451e-05,Phenylalanine metabolism,"",8,Matched.Compound,Phenylalanine,0.196612428,-0.13,FALSE,164.07169
+182.08114,C00082,M+H [1+],3.59999999943739e-05,Phenylalanine metabolism,"",8,Matched.Compound,L-Tyrosine,0.045119377,-0.31,TRUE,182.08114
+164.07169,C00079,M-H [1-],3.40000000278451e-05,"Phenylalanine, tyrosine and tryptophan biosynthesis","",4,Matched.Compound,Phenylalanine,0.196612428,-0.13,FALSE,164.07169
+182.08114,C00082,M+H [1+],3.59999999943739e-05,"Phenylalanine, tyrosine and tryptophan biosynthesis","",4,Matched.Compound,L-Tyrosine,0.045119377,-0.31,TRUE,182.08114
+130.05097,C00430,M-H [1-],4.5999999997548e-05,Porphyrin metabolism,"",29,Matched.Compound,5-Aminolevulinic acid,0.638338765,-0.13,FALSE,130.05097
+130.05098,C00430,M-H [1-],5.60000000007221e-05,Porphyrin metabolism,"",29,Matched.Compound,5-Aminolevulinic acid,0.172958473,0.22,FALSE,130.05098
+132.06552,C00430,M+H [1+],4.40000000025975e-05,Porphyrin metabolism,"",29,Matched.Compound,5-Aminolevulinic acid,0.974431175,0.13,TRUE,132.06552
+146.04588,C00025,M-H [1-],4.40000000025975e-05,Porphyrin metabolism,"",29,Matched.Compound,Glutamic acid,0.000116605,1.04,FALSE,146.04588
+148.06045,C00025,M+H [1+],2.59999999911997e-05,Porphyrin metabolism,"",29,Matched.Compound,Glutamic acid,0.001100992,-0.39,TRUE,148.06045
+209.09208,C00931,M-H2O+H [1+],3.53323000013006e-06,Porphyrin metabolism,"",29,Matched.Compound,Porphobilinogen,1.88e-06,3.29,TRUE,209.09208
+76.03932,C00037,M+H [1+],4.40000000025975e-05,Porphyrin metabolism,"",29,Matched.Compound,Glycine,0.326905645,-0.13,TRUE,76.03932
+124.00741,C00245,M-H [1-],1.4000000007286e-05,Primary bile acid biosynthesis,"",46,Matched.Compound,Taurine,4.92e-05,-0.78,FALSE,124.00741
+369.35159,C00187,M-H2O+H [1+],1.35332300033042e-05,Primary bile acid biosynthesis,"",46,Matched.Compound,Cholesterol,0.191911212,0.39,TRUE,369.35159
+401.34161,C05455,M+H [1+],0.000234000000034484,Primary bile acid biosynthesis,"",46,Matched.Compound,7a-Hydroxy-cholestene-3-one,0.009894169,0.77,TRUE,401.34161
+401.34161,C05453,M-H2O+H [1+],0.000233533230016292,Primary bile acid biosynthesis,"",46,Matched.Compound,"7a,12a-Dihydroxy-5b-cholestan-3-one",0.009894169,0.77,TRUE,401.34161
+401.34161,C06341,M-H2O+H [1+],0.000233533230016292,Primary bile acid biosynthesis,"",46,Matched.Compound,"7-a,27-Dihydroxycholesterol",0.009894169,0.77,TRUE,401.34161
+401.34161,C15520,M-H2O+H [1+],0.000233533230016292,Primary bile acid biosynthesis,"",46,Matched.Compound,"7-a,25-Dihydroxycholesterol",0.009894169,0.77,TRUE,401.34161
+401.34161,C05445,M-H2O+H [1+],0.000233533230016292,Primary bile acid biosynthesis,"",46,Matched.Compound,"3a,7a-Dihydroxy-5b-cholestan-26-al",0.009894169,0.77,TRUE,401.34161
+401.34161,C15518,M-H2O+H [1+],0.000233533230016292,Primary bile acid biosynthesis,"",46,Matched.Compound,"(24S)-7alpha,24-Dihydroxycholesterol",0.009894169,0.77,TRUE,401.34161
+448.30684,C05466,M-H [1-],1.60000000164473e-05,Primary bile acid biosynthesis,"",46,Matched.Compound,Chenodeoxycholic acid glycine conjugate,0.26760904,-0.73,FALSE,448.30684
+498.28944,C05465,M-H [1-],8.40000000152941e-05,Primary bile acid biosynthesis,"",46,Matched.Compound,Taurochenodesoxycholic acid,0.011438215,-0.97,FALSE,498.28944
+514.28451,C05122,M-H [1-],8.60000000102445e-05,Primary bile acid biosynthesis,"",46,Matched.Compound,Taurocholic acid,0.014459067,-1.7,FALSE,514.28451
+76.03932,C00037,M+H [1+],4.40000000025975e-05,Primary bile acid biosynthesis,"",46,Matched.Compound,Glycine,0.326905645,-0.13,TRUE,76.03932
+808.11823,C00024,M-H [1-],0.000293999999939842,Propanoate metabolism,"",19,Matched.Compound,Acetyl-CoA,0.001821828,-0.79,FALSE,808.11823
+87.00877,C00222,M-H [1-],4.5999999997548e-05,Propanoate metabolism,"",19,Matched.Compound,Malonic semialdehyde,0.000431622,-1.44,FALSE,87.00877
+89.02442,C01013,M-H [1-],3.99999998990097e-06,Propanoate metabolism,"",19,Matched.Compound,Hydroxypropionic acid,0.000240254,-1.22,FALSE,89.02442
+90.05493,C00099,M+H [1+],4.60000000117589e-05,Propanoate metabolism,"",19,Matched.Compound,beta-Alanine,0.00111173,-0.63,TRUE,90.05493
+90.05495,C00099,M+H [1+],2.60000000054106e-05,Propanoate metabolism,"",19,Matched.Compound,beta-Alanine,1.18e-07,-1.06,TRUE,90.05495
+147.07642,C00064,M+H [1+],4.40000000310192e-05,Purine metabolism,"",70,Matched.Compound,Glutamine,0.854322998,0.14,TRUE,147.07642
+151.02616,C00385,M-H [1-],3.59999999943739e-05,Purine metabolism,"",70,Matched.Compound,Xanthine,0.001707732,-2.38,FALSE,151.02616
+157.03669,C02350,M-H [1-],3.40000000278451e-05,Purine metabolism,"",70,Matched.Compound,Allantoin,0.62125257,-0.06,FALSE,157.03669
+211.00131,C00117,M-H2O-H [1-],0.000499999999988177,Purine metabolism,"",70,Matched.Compound,D-Ribose 5-phosphate,0.383876898,-0.16,FALSE,211.00131
+211.00131,C00620,M-H2O-H [1-],0.000499999999988177,Purine metabolism,"",70,Matched.Compound,Ribose 1-phosphate,0.383876898,-0.16,FALSE,211.00131
+229.01187,C00117,M-H [1-],5.40000000341934e-05,Purine metabolism,"",70,Matched.Compound,D-Ribose 5-phosphate,0.003007689,-1.04,FALSE,229.01187
+229.01187,C00620,M-H [1-],5.40000000341934e-05,Purine metabolism,"",70,Matched.Compound,Ribose 1-phosphate,0.003007689,-1.04,FALSE,229.01187
+266.0884,C00387,M-H2O+H [1+],2.35332299780566e-05,Purine metabolism,"",70,Matched.Compound,Guanosine,0.89429466,0.07,TRUE,266.0884
+268.104,C00212,M+H [1+],7.59999999786487e-05,Purine metabolism,"",70,Matched.Compound,Adenosine,0.011287244,-0.68,TRUE,268.104
+268.104,C00330,M+H [1+],7.59999999786487e-05,Purine metabolism,"",70,Matched.Compound,Deoxyguanosine,0.011287244,-0.68,TRUE,268.104
+283.0684,C01762,M-H [1-],2.39999999962492e-05,Purine metabolism,"",70,Matched.Compound,Xanthosine,0.025349415,3.67,FALSE,283.0684
+313.04425,C04376,M-H [1-],2.59999999911997e-05,Purine metabolism,"",70,Matched.Compound,5'-Phosphoribosyl-N-formylglycinamide,0.970970653,0.09,FALSE,313.04425
+346.05571,C00020,M-H [1-],0.000114000000053238,Purine metabolism,"",70,Matched.Compound,Adenosine monophosphate,1.28e-05,-1.39,FALSE,346.05571
+346.05571,C00362,M-H [1-],0.000114000000053238,Purine metabolism,"",70,Matched.Compound,2'-Deoxyguanosine 5'-monophosphate,1.28e-05,-1.39,FALSE,346.05571
+362.05066,C00144,M-H [1-],6.40000000089458e-05,Purine metabolism,"",70,Matched.Compound,Guanosine monophosphate,0.000941734,-1.35,FALSE,362.05066
+426.02206,C00008,M-H [1-],6.40000000089458e-05,Purine metabolism,"",70,Matched.Compound,ADP,0.000785849,-1.11,FALSE,426.02206
+426.02206,C00361,M-H [1-],6.40000000089458e-05,Purine metabolism,"",70,Matched.Compound,dGDP,0.000785849,-1.11,FALSE,426.02206
+442.01703,C00035,M-H [1-],5.99999998485146e-06,Purine metabolism,"",70,Matched.Compound,Guanosine diphosphate,3.77e-05,-1.1,FALSE,442.01703
+505.98827,C00002,M-H [1-],0.000154000000009091,Purine metabolism,"",70,Matched.Compound,Adenosine triphosphate,0.000279384,-0.79,FALSE,505.98827
+505.98827,C00286,M-H [1-],0.000154000000009091,Purine metabolism,"",70,Matched.Compound,dGTP,0.000279384,-0.79,FALSE,505.98827
+508.00307,C00002,M+H [1+],9.39999999900465e-05,Purine metabolism,"",70,Matched.Compound,Adenosine triphosphate,0.001656738,-0.94,TRUE,508.00307
+508.00307,C00286,M+H [1+],9.39999999900465e-05,Purine metabolism,"",70,Matched.Compound,dGTP,0.001656738,-0.94,TRUE,508.00307
+521.98338,C00044,M-H [1-],4.39999998889107e-05,Purine metabolism,"",70,Matched.Compound,Guanosine triphosphate,0.00081538,-0.93,FALSE,521.98338
+558.06425,C00301,M-H [1-],0.000173999999901753,Purine metabolism,"",70,Matched.Compound,Adenosine diphosphate ribose,0.000225197,-0.77,FALSE,558.06425
+560.07915,C00301,M+H [1+],0.00017400000001544,Purine metabolism,"",70,Matched.Compound,Adenosine diphosphate ribose,2.83e-06,-1.73,TRUE,560.07915
+104.07061,C01205,M+H [1+],3.39999999994234e-05,Pyrimidine metabolism,"",39,Matched.Compound,(R)-beta-Aminoisobutyric acid,0.001126831,-0.29,TRUE,104.07061
+111.02001,C00106,M-H [1-],1.39999999930751e-05,Pyrimidine metabolism,"",39,Matched.Compound,Uracil,0.999953359,0.14,FALSE,111.02001
+131.04623,C02642,M-H [1-],5.99999998485146e-06,Pyrimidine metabolism,"",39,Matched.Compound,Ureidopropionic acid,0.410848838,0.28,FALSE,131.04623
+147.07642,C00064,M+H [1+],4.40000000310192e-05,Pyrimidine metabolism,"",39,Matched.Compound,Glutamine,0.854322998,0.14,TRUE,147.07642
+147.07642,C21029,M+H [1+],4.40000000310192e-05,Pyrimidine metabolism,"",39,Matched.Compound,(R)-3-Ureidoisobutyrate,0.854322998,0.14,TRUE,147.07642
+175.03603,C00438,M-H [1-],6.00000001327317e-06,Pyrimidine metabolism,"",39,Matched.Compound,Ureidosuccinic acid,0.000267443,2.97,FALSE,175.03603
+304.03401,C00055,M-H2O-H [1-],0.00050000000004502,Pyrimidine metabolism,"",39,Matched.Compound,Cytidine monophosphate,0.139681717,-0.47,FALSE,304.03401
+305.01805,C00105,M-H2O-H [1-],0.000540000000000873,Pyrimidine metabolism,"",39,Matched.Compound,Uridine 5'-monophosphate,0.210146922,-1.01,FALSE,305.01805
+305.01807,C00105,M-H2O-H [1-],0.000560000000007221,Pyrimidine metabolism,"",39,Matched.Compound,Uridine 5'-monophosphate,0.399709785,-0.13,FALSE,305.01807
+307.03374,C00365,M-H [1-],1.60000000164473e-05,Pyrimidine metabolism,"",39,Matched.Compound,dUMP,0.005012551,-0.48,FALSE,307.03374
+321.04938,C00364,M-H [1-],5.59999999723004e-05,Pyrimidine metabolism,"",39,Matched.Compound,5-Thymidylic acid,0.488674297,-0.21,FALSE,321.04938
+323.02862,C00105,M-H [1-],4.00000004674439e-06,Pyrimidine metabolism,"",39,Matched.Compound,Uridine 5'-monophosphate,0.001547081,-0.85,FALSE,323.02862
+402.01086,C00112,M-H [1-],6.40000000089458e-05,Pyrimidine metabolism,"",39,Matched.Compound,CDP,0.002594529,-0.75,FALSE,402.01086
+402.99482,C00015,M-H [1-],0.000104000000021642,Pyrimidine metabolism,"",39,Matched.Compound,Uridine 5'-diphosphate,0.000392552,-1.05,FALSE,402.99482
+480.98195,C00459,M-H [1-],7.40000000405416e-05,Pyrimidine metabolism,"",39,Matched.Compound,Thymidine 5'-triphosphate,0.000463661,-1.14,FALSE,480.98195
+481.97723,C00063,M-H [1-],5.99999998485146e-06,Pyrimidine metabolism,"",39,Matched.Compound,Cytidine triphosphate,0.003579543,-0.5,FALSE,481.97723
+482.96114,C00075,M-H [1-],8.40000000152941e-05,Pyrimidine metabolism,"",39,Matched.Compound,Uridine triphosphate,0.002859797,-0.86,FALSE,482.96114
+86.06002,C01205,M-H2O+H [1+],4.35332299986158e-05,Pyrimidine metabolism,"",39,Matched.Compound,(R)-beta-Aminoisobutyric acid,0.009943585,-0.68,TRUE,86.06002
+90.05493,C00099,M+H [1+],4.60000000117589e-05,Pyrimidine metabolism,"",39,Matched.Compound,beta-Alanine,0.00111173,-0.63,TRUE,90.05493
+90.05495,C00099,M+H [1+],2.60000000054106e-05,Pyrimidine metabolism,"",39,Matched.Compound,beta-Alanine,1.18e-07,-1.06,TRUE,90.05495
+133.01426,C00149,M-H [1-],3.59999999943739e-05,Pyruvate metabolism,"",20,Matched.Compound,Malic acid,0.001718728,-0.47,FALSE,133.01426
+166.97508,C00074,M-H [1-],4.40000000310192e-05,Pyruvate metabolism,"",20,Matched.Compound,Phosphoenolpyruvic acid,0.124387806,-0.55,FALSE,166.97508
+378.09756,C03451,M-H [1-],6.40000000089458e-05,Pyruvate metabolism,"",20,Matched.Compound,S-Lactoylglutathione,0.005496127,-0.69,FALSE,378.09756
+378.09759,C03451,M-H [1-],3.39999999710017e-05,Pyruvate metabolism,"",20,Matched.Compound,S-Lactoylglutathione,0.271568219,-0.1,FALSE,378.09759
+808.11823,C00024,M-H [1-],0.000293999999939842,Pyruvate metabolism,"",20,Matched.Compound,Acetyl-CoA,0.001821828,-0.79,FALSE,808.11823
+87.00877,C00022,M-H [1-],4.5999999997548e-05,Pyruvate metabolism,"",20,Matched.Compound,Pyruvic acid,0.000431622,-1.44,FALSE,87.00877
+89.02442,C00186,M-H [1-],3.99999998990097e-06,Pyruvate metabolism,"",20,Matched.Compound,Lactic acid,0.000240254,-1.22,FALSE,89.02442
+89.02442,C00256,M-H [1-],3.99999998990097e-06,Pyruvate metabolism,"",20,Matched.Compound,D-Lactic acid,0.000240254,-1.22,FALSE,89.02442
+359.13504,C00255,M-H2O+H [1+],6.35332299907532e-05,Riboflavin metabolism,"",4,Matched.Compound,Riboflavin,0.002129868,-0.95,TRUE,359.13504
+375.13114,C00255,M-H [1-],0.000115999999991345,Riboflavin metabolism,"",4,Matched.Compound,Riboflavin,0.056010654,-0.1,FALSE,375.13114
+784.1499,C00016,M-H [1-],7.60000000354921e-05,Riboflavin metabolism,"",4,Matched.Compound,FAD,0.0003438,-1.11,FALSE,784.1499
+90.05493,C00041,M+H [1+],4.60000000117589e-05,Selenocompound metabolism,"",16,Matched.Compound,L-Alanine,0.00111173,-0.63,TRUE,90.05493
+90.05495,C00041,M+H [1+],2.60000000054106e-05,Selenocompound metabolism,"",16,Matched.Compound,L-Alanine,1.18e-07,-1.06,TRUE,90.05495
+104.03532,C00065,M-H [1-],3.99999998990097e-06,Sphingolipid metabolism,"",11,Matched.Compound,Serine,0.497848408,0.16,FALSE,104.03532
+282.27915,C00319,M-H2O+H [1+],7.3533230022349e-05,Sphingolipid metabolism,"",11,Matched.Compound,Sphingosine,0.000425997,0.91,TRUE,282.27915
+282.27915,C02934,M-H2O+H [1+],7.3533230022349e-05,Sphingolipid metabolism,"",11,Matched.Compound,3-Dehydrosphinganine,0.000425997,0.91,TRUE,282.27915
+302.3054,C00836,M+H [1+],2.40000000530927e-05,Sphingolipid metabolism,"",11,Matched.Compound,Sphinganine,0.003516184,0.82,TRUE,302.3054
+460.32803,C01747,M-H [1-],5.99999998485146e-06,Sphingolipid metabolism,"",11,Matched.Compound,Galactosylsphingosine,0.145127608,0.48,FALSE,460.32803
+460.32803,C03108,M-H [1-],5.99999998485146e-06,Sphingolipid metabolism,"",11,Matched.Compound,Glucosylsphingosine,0.145127608,0.48,FALSE,460.32803
+179.0561,C00095,M-H [1-],2.4000000024671e-05,Starch and sucrose metabolism,"",12,Matched.Compound,D-Fructose,5.03e-05,-1.3,FALSE,179.0561
+179.0561,C00031,M-H [1-],2.4000000024671e-05,Starch and sucrose metabolism,"",12,Matched.Compound,D-Glucose,5.03e-05,-1.3,FALSE,179.0561
+179.05612,C00095,M-H [1-],4.00000001832268e-06,Starch and sucrose metabolism,"",12,Matched.Compound,D-Fructose,0.278443464,-0.46,FALSE,179.05612
+179.05612,C00031,M-H [1-],4.00000001832268e-06,Starch and sucrose metabolism,"",12,Matched.Compound,D-Glucose,0.278443464,-0.46,FALSE,179.05612
+241.01188,C00085,M-H2O-H [1-],0.000570000000010396,Starch and sucrose metabolism,"",12,Matched.Compound,Fructose 6-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C00103,M-H2O-H [1-],0.000570000000010396,Starch and sucrose metabolism,"",12,Matched.Compound,Glucose 1-phosphate,0.000152822,-1.33,FALSE,241.01188
+241.01188,C00092,M-H2O-H [1-],0.000570000000010396,Starch and sucrose metabolism,"",12,Matched.Compound,Glucose 6-phosphate,0.000152822,-1.33,FALSE,241.01188
+259.02242,C00085,M-H [1-],3.99999998990097e-06,Starch and sucrose metabolism,"",12,Matched.Compound,Fructose 6-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C00103,M-H [1-],3.99999998990097e-06,Starch and sucrose metabolism,"",12,Matched.Compound,Glucose 1-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02242,C00092,M-H [1-],3.99999998990097e-06,Starch and sucrose metabolism,"",12,Matched.Compound,Glucose 6-phosphate,2.14e-06,-1.85,FALSE,259.02242
+259.02243,C00085,M-H [1-],5.99999998485146e-06,Starch and sucrose metabolism,"",12,Matched.Compound,Fructose 6-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C00103,M-H [1-],5.99999998485146e-06,Starch and sucrose metabolism,"",12,Matched.Compound,Glucose 1-phosphate,0.312254134,-0.36,FALSE,259.02243
+259.02243,C00092,M-H [1-],5.99999998485146e-06,Starch and sucrose metabolism,"",12,Matched.Compound,Glucose 6-phosphate,0.312254134,-0.36,FALSE,259.02243
+338.98866,C01231,M-H [1-],0.000164000000040687,Starch and sucrose metabolism,"",12,Matched.Compound,"alpha-D-Glucose 1,6-bisphosphate",7.79e-05,-1.11,FALSE,338.98866
+341.10885,C00089,M-H [1-],7.39999999836982e-05,Starch and sucrose metabolism,"",12,Matched.Compound,Sucrose,1.01e-05,-3.47,FALSE,341.10885
+341.10885,C00185,M-H [1-],7.39999999836982e-05,Starch and sucrose metabolism,"",12,Matched.Compound,Cellobiose,1.01e-05,-3.47,FALSE,341.10885
+341.10885,C01083,M-H [1-],7.39999999836982e-05,Starch and sucrose metabolism,"",12,Matched.Compound,Trehalose,1.01e-05,-3.47,FALSE,341.10885
+341.10885,C00208,M-H [1-],7.39999999836982e-05,Starch and sucrose metabolism,"",12,Matched.Compound,D-Maltose,1.01e-05,-3.47,FALSE,341.10885
+341.10885,C00252,M-H [1-],7.39999999836982e-05,Starch and sucrose metabolism,"",12,Matched.Compound,Isomaltose,1.01e-05,-3.47,FALSE,341.10885
+343.12352,C00089,M+H [1+],4.40000000025975e-05,Starch and sucrose metabolism,"",12,Matched.Compound,Sucrose,0.167926245,-0.65,TRUE,343.12352
+343.12352,C00185,M+H [1+],4.40000000025975e-05,Starch and sucrose metabolism,"",12,Matched.Compound,Cellobiose,0.167926245,-0.65,TRUE,343.12352
+343.12352,C01083,M+H [1+],4.40000000025975e-05,Starch and sucrose metabolism,"",12,Matched.Compound,Trehalose,0.167926245,-0.65,TRUE,343.12352
+343.12352,C00208,M+H [1+],4.40000000025975e-05,Starch and sucrose metabolism,"",12,Matched.Compound,D-Maltose,0.167926245,-0.65,TRUE,343.12352
+343.12352,C00252,M+H [1+],4.40000000025975e-05,Starch and sucrose metabolism,"",12,Matched.Compound,Isomaltose,0.167926245,-0.65,TRUE,343.12352
+565.04754,C00029,M-H [1-],0.000183999999876505,Starch and sucrose metabolism,"",12,Matched.Compound,Uridine diphosphate glucose,0.000220563,-0.69,FALSE,565.04754
+369.35159,C01189,M-H2O+H [1+],1.35332300033042e-05,Steroid biosynthesis,"",40,Matched.Compound,Lathosterol,0.191911212,0.39,TRUE,369.35159
+369.35159,C03845,M-H2O+H [1+],1.35332300033042e-05,Steroid biosynthesis,"",40,Matched.Compound,5alpha-Cholest-8-en-3beta-ol,0.191911212,0.39,TRUE,369.35159
+369.35159,C00187,M-H2O+H [1+],1.35332300033042e-05,Steroid biosynthesis,"",40,Matched.Compound,Cholesterol,0.191911212,0.39,TRUE,369.35159
+401.34161,C01561,M+H [1+],0.000234000000034484,Steroid biosynthesis,"",40,Matched.Compound,Calcidiol,0.009894169,0.77,TRUE,401.34161
+369.35159,C00187,M-H2O+H [1+],1.35332300033042e-05,Steroid hormone biosynthesis,"",87,Matched.Compound,Cholesterol,0.191911212,0.39,TRUE,369.35159
+401.34161,C05499,M-H2O+H [1+],0.000233533230016292,Steroid hormone biosynthesis,"",87,Matched.Compound,"17a,20a-Dihydroxycholesterol",0.009894169,0.77,TRUE,401.34161
+401.34161,C05501,M-H2O+H [1+],0.000233533230016292,Steroid hormone biosynthesis,"",87,Matched.Compound,"20a,22b-Dihydroxycholesterol",0.009894169,0.77,TRUE,401.34161
+465.30435,C18043,M-H [1-],7.39999999836982e-05,Steroid hormone biosynthesis,"",87,Matched.Compound,Cholesterol sulfate,0.02433475,0.46,FALSE,465.30435
+110.02702,C00519,M+H [1+],5.6000000014933e-05,Taurine and hypotaurine metabolism,"",8,Matched.Compound,Hypotaurine,1.45e-05,-0.97,TRUE,110.02702
+124.00741,C00245,M-H [1-],1.4000000007286e-05,Taurine and hypotaurine metabolism,"",8,Matched.Compound,Taurine,4.92e-05,-0.78,FALSE,124.00741
+152.00231,C00606,M-H [1-],1.40000000214968e-05,Taurine and hypotaurine metabolism,"",8,Matched.Compound,3-Sulfinoalanine,0.318504677,-0.32,FALSE,152.00231
+235.03943,C05844,M-H2O-H [1-],0.000520000000022947,Taurine and hypotaurine metabolism,"",8,Matched.Compound,5-L-Glutamyl-taurine,0.144676004,-0.48,FALSE,235.03943
+253.04997,C05844,M-H [1-],5.40000000057717e-05,Taurine and hypotaurine metabolism,"",8,Matched.Compound,5-L-Glutamyl-taurine,1.74e-05,-1.04,FALSE,253.04997
+514.28451,C05122,M-H [1-],8.60000000102445e-05,Taurine and hypotaurine metabolism,"",8,Matched.Compound,Taurocholic acid,0.014459067,-1.7,FALSE,514.28451
+808.11823,C00024,M-H [1-],0.000293999999939842,Terpenoid backbone biosynthesis,"",14,Matched.Compound,Acetyl-CoA,0.001821828,-0.79,FALSE,808.11823
+166.04983,C05653,M+H [1+],4.5999999997548e-05,Tryptophan metabolism,"",41,Matched.Compound,Formylanthranilic acid,0.207548018,0.2,TRUE,166.04983
+176.07061,C05634,M+H [1+],3.39999999994234e-05,Tryptophan metabolism,"",41,Matched.Compound,5-Hydroxyindoleacetaldehyde,0.155668613,-1.04,TRUE,176.07061
+176.07061,C00954,M+H [1+],3.39999999994234e-05,Tryptophan metabolism,"",41,Matched.Compound,Indoleacetic acid,0.155668613,-1.04,TRUE,176.07061
+192.06552,C05635,M+H [1+],4.40000000025975e-05,Tryptophan metabolism,"",41,Matched.Compound,5-Hydroxyindoleacetic acid,0.000119191,3.2,TRUE,192.06552
+204.06663,C05660,M-H [1-],5.99999998485146e-06,Tryptophan metabolism,"",41,Matched.Compound,5-Methoxyindoleacetate,0.057387104,-1.12,FALSE,204.06663
+209.09208,C00328,M+H [1+],4.00000001832268e-06,Tryptophan metabolism,"",41,Matched.Compound,Kynurenine,1.88e-06,3.29,TRUE,209.09208
+209.09208,C05647,M+H [1+],4.00000001832268e-06,Tryptophan metabolism,"",41,Matched.Compound,Formyl-5-hydroxykynurenamine,1.88e-06,3.29,TRUE,209.09208
+219.07641,C02700,M-H2O+H [1+],3.35332300096525e-05,Tryptophan metabolism,"",41,Matched.Compound,L-Formylkynurenine,8.85e-06,2.59,TRUE,219.07641
+219.07751,C00643,M-H [1-],1.40000000214968e-05,Tryptophan metabolism,"",41,Matched.Compound,5-Hydroxy-L-tryptophan,1.57e-07,5.74,FALSE,219.07751
+253.08196,C05648,M+H [1+],8.40000000152941e-05,Tryptophan metabolism,"",41,Matched.Compound,5-Hydroxy-N-formylkynurenine,1.02e-05,-1.16,TRUE,253.08196
+808.11823,C00024,M-H [1-],0.000293999999939842,Tryptophan metabolism,"",41,Matched.Compound,Acetyl-CoA,0.001821828,-0.79,FALSE,808.11823
+170.08117,C00547,M+H [1+],6.00000001327317e-06,Tyrosine metabolism,"",42,Matched.Compound,Norepinephrine,0.021088126,-0.82,TRUE,170.08117
+180.10189,C05588,M-H2O+H [1+],1.35332300033042e-05,Tyrosine metabolism,"",42,Matched.Compound,Metanephrine,0.257514377,0.55,TRUE,180.10189
+181.05064,C05583,M-H [1-],1.59999999880256e-05,Tyrosine metabolism,"",42,Matched.Compound,3-Methoxy-4-hydroxyphenylglycolaldehyde,0.010324308,-0.51,FALSE,181.05064
+181.05064,C05582,M-H [1-],1.59999999880256e-05,Tyrosine metabolism,"",42,Matched.Compound,Homovanillic acid,0.010324308,-0.51,FALSE,181.05064
+182.08114,C00082,M+H [1+],3.59999999943739e-05,Tyrosine metabolism,"",42,Matched.Compound,L-Tyrosine,0.045119377,-0.31,TRUE,182.08114
+184.0968,C05589,M+H [1+],2.4000000024671e-05,Tyrosine metabolism,"",42,Matched.Compound,Normetanephrine,0.000163775,-0.8,TRUE,184.0968
+184.0968,C00788,M+H [1+],2.4000000024671e-05,Tyrosine metabolism,"",42,Matched.Compound,Epinephrine,0.000163775,-0.8,TRUE,184.0968
+194.04478,C01693,M+H [1+],4.00000001832268e-06,Tyrosine metabolism,"",42,Matched.Compound,L-Dopachrome,0.788469556,-0.1,TRUE,194.04478
+194.04478,C04185,M+H [1+],4.00000001832268e-06,Tyrosine metabolism,"",42,Matched.Compound,"5,6-Dihydroxyindole-2-carboxylic acid",0.788469556,-0.1,TRUE,194.04478
+87.00877,C00022,M-H [1-],4.5999999997548e-05,Tyrosine metabolism,"",42,Matched.Compound,Pyruvic acid,0.000431622,-1.44,FALSE,87.00877
+182.08114,C00082,M+H [1+],3.59999999943739e-05,Ubiquinone and other terpenoid-quinone biosynthesis,"",7,Matched.Compound,L-Tyrosine,0.045119377,-0.31,TRUE,182.08114
+120.06552,C00188,M+H [1+],4.40000000025975e-05,"Valine, leucine and isoleucine biosynthesis","",8,Matched.Compound,L-Threonine,0.215067167,-0.22,TRUE,120.06552
+129.05574,C00671,M-H [1-],1.59999999880256e-05,"Valine, leucine and isoleucine biosynthesis","",8,Matched.Compound,3-Methyl-2-oxovaleric acid,0.005280439,-0.57,FALSE,129.05574
+129.05574,C00233,M-H [1-],1.59999999880256e-05,"Valine, leucine and isoleucine biosynthesis","",8,Matched.Compound,Ketoleucine,0.005280439,-0.57,FALSE,129.05574
+132.10191,C00407,M+H [1+],3.39999999994234e-05,"Valine, leucine and isoleucine biosynthesis","",8,Matched.Compound,Isoleucine,0.036112675,-0.43,TRUE,132.10191
+132.10191,C00123,M+H [1+],3.39999999994234e-05,"Valine, leucine and isoleucine biosynthesis","",8,Matched.Compound,Leucine,0.036112675,-0.43,TRUE,132.10191
+104.07061,C01205,M+H [1+],3.39999999994234e-05,"Valine, leucine and isoleucine degradation","",35,Matched.Compound,(R)-beta-Aminoisobutyric acid,0.001126831,-0.29,TRUE,104.07061
+104.07061,C03284,M+H [1+],3.39999999994234e-05,"Valine, leucine and isoleucine degradation","",35,Matched.Compound,(S)-beta-Aminoisobutyric acid,0.001126831,-0.29,TRUE,104.07061
+129.05574,C00671,M-H [1-],1.59999999880256e-05,"Valine, leucine and isoleucine degradation","",35,Matched.Compound,3-Methyl-2-oxovaleric acid,0.005280439,-0.57,FALSE,129.05574
+129.05574,C00233,M-H [1-],1.59999999880256e-05,"Valine, leucine and isoleucine degradation","",35,Matched.Compound,Ketoleucine,0.005280439,-0.57,FALSE,129.05574
+132.10191,C00407,M+H [1+],3.39999999994234e-05,"Valine, leucine and isoleucine degradation","",35,Matched.Compound,Isoleucine,0.036112675,-0.43,TRUE,132.10191
+132.10191,C00123,M+H [1+],3.39999999994234e-05,"Valine, leucine and isoleucine degradation","",35,Matched.Compound,Leucine,0.036112675,-0.43,TRUE,132.10191
+808.11823,C00024,M-H [1-],0.000293999999939842,"Valine, leucine and isoleucine degradation","",35,Matched.Compound,Acetyl-CoA,0.001821828,-0.79,FALSE,808.11823
+836.14989,C00630,M-H [1-],6.60000000607397e-05,"Valine, leucine and isoleucine degradation","",35,Matched.Compound,Isobutyryl-CoA,0.006668008,-0.7,FALSE,836.14989
+852.18035,C02939,M+H [1+],0.000373999999965235,"Valine, leucine and isoleucine degradation","",35,Matched.Compound,Isovaleryl-CoA,0.004861514,-1.82,TRUE,852.18035
+852.18035,C15980,M+H [1+],0.000373999999965235,"Valine, leucine and isoleucine degradation","",35,Matched.Compound,C15980,0.004861514,-1.82,TRUE,852.18035
+86.06002,C01205,M-H2O+H [1+],4.35332299986158e-05,"Valine, leucine and isoleucine degradation","",35,Matched.Compound,(R)-beta-Aminoisobutyric acid,0.009943585,-0.68,TRUE,86.06002
+86.06002,C03284,M-H2O+H [1+],4.35332299986158e-05,"Valine, leucine and isoleucine degradation","",35,Matched.Compound,(S)-beta-Aminoisobutyric acid,0.009943585,-0.68,TRUE,86.06002
+166.04983,C00847,M-H2O+H [1+],4.64667700157406e-05,Vitamin B6 metabolism,"",9,Matched.Compound,4-Pyridoxic acid,0.207548018,0.2,TRUE,166.04983
+168.06551,C00250,M+H [1+],3.39999999994234e-05,Vitamin B6 metabolism,"",9,Matched.Compound,Pyridoxal,0.000748754,-0.82,TRUE,168.06551
+170.08117,C00314,M+H [1+],6.00000001327317e-06,Vitamin B6 metabolism,"",9,Matched.Compound,Pyridoxine,0.021088126,-0.82,TRUE,170.08117

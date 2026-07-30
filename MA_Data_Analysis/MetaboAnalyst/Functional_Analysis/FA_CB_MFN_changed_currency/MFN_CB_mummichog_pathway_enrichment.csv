@@ -1,0 +1,46 @@
+,Pathway total,Hits.total,Hits.sig,Expected,P(Fisher),P(EASE),P(Gamma),Emp.Hits,Empirical,AdjP.Fisher,AdjP.EASE,AdjP.Gamma,Pathway Number,cpd.hits,,,,,,,,,,,,,cpd.hits
+Tryptophan metabolism,94,22,5,1.5975,0.13388,0.2902,0.0036554,2,0.02,1,1,0.164493,P1,C00026,C05647,C00643,C02406,C02700,C00328,C00041,,C00026,2-Ketoglutaric acid,,correct,,C00026;C05647;C00643;C02406;C02700;C00328;C00041
+Alanine and Aspartate Metabolism,30,17,4,0.50983,0.15837,0.35903,0.0047722,3,0.03,1,1,0.2099768,P2,C00026,C01042,C00099,C00133,C00402,C00041,C00049,,C00049,L-Aspartate,,not correct,,C00026;C01042;C00099;C00133;C00402;C00041;C00049
+Beta-Alanine metabolism,20,10,3,0.33989,0.12263,0.3617,0.0048225,7,0.07,1,1,0.2099768,P3,C00099,C00026,C00049,,,,,,C00085,D-Fructose 6-phosphate,,not correct,,C00099;C00026;C00049
+Nucleotide Sugar Metabolism,7,4,2,0.11896,0.080842,0.41508,0.0059583,2,0.02,1,1,0.2502486,P4,C00103,C00190,,,,,,,C00092,D-Glucose 6-phosphate,,not correct,,C00103;C00190
+Pentose phosphate pathway,37,25,4,0.62879,0.39773,0.62778,0.014654,6,0.06,1,1,0.600814,P5,C00257,C00092,C12214,C05345,C00085,C01172,C00301,,C00093,sn-Glycerol 3-phosphate,,not correct,,C00257;C00092;C12214;C05345;C00085;C01172;C00301
+Glutathione Metabolism,19,8,2,0.32289,0.27112,0.65986,0.016976,24,0.24,1,1,0.67904,P6,C03740,C00041,,,,,,,C00103,D-Glucose 1-phosphate,,not correct,,C03740;C00041
+Carbon fixation,10,8,2,0.16994,0.27112,0.65986,0.016976,8,0.08,1,1,0.67904,P7,C00085,C00049,,,,,,,C00190,UDP-D-xylose,,maybe correct ,,C00085;C00049
+Vitamin B3 (nicotinate and nicotinamide) metabolism,28,9,2,0.47584,0.3217,0.70324,0.020862,17,0.17,1,1,0.792756,P8,C00301,C00049,,,,,,,C00257,D-Gluconic acid,,correct,,C00301;C00049
+Glutamate metabolism,15,9,2,0.25492,0.3217,0.70324,0.020862,29,0.29,1,1,0.792756,P9,C00026,C00041,,,,,,,C00275,D-Mannose 6-phosphate,,not correct,,C00026;C00041
+Porphyrin metabolism,43,9,2,0.73076,0.3217,0.70324,0.020862,16,0.16,1,1,0.792756,P10,C05520;C00931,,,,,,,,C00352,D-Glucosamine phosphate,,maybe but most likely not correct (MS2),,C05520;C00931
+Hexose phosphorylation,20,12,2,0.33989,0.4663,0.80337,0.035102,6,0.06,1,1,1,P11,C02965;C00275;C00085;C00092;C00352,,,,,,,,C00402,D-Aspartic acid,,not correct,,C02965;C00275;C00085;C00092;C00352
+Urea cycle/amino group metabolism,85,23,3,1.4445,0.58201,0.80985,0.036413,43,0.43,1,1,1,P12,C00213;C00026;C00049,,,,,,,,C00446,alpha-D-Galactose 1-phosphate,,maybe correct ,,C00213;C00026;C00049
+Histidine metabolism,33,13,2,0.56081,0.5106,0.82871,0.040631,28,0.28,1,1,1,P13,C00026,C00099,,,,,,,C00636,D-Mannose 1-phosphate,,not correct,,C00026;C00099
+Sialic acid metabolism,107,16,2,1.8184,0.62879,0.88702,0.059155,19,0.19,1,1,1,P14,C05401;C04006;C01177;C03546,,,,,,,,C00643,5-Hydroxy-L-tryptophan,,not correct,,C05401;C04006;C01177;C03546
+Aspartate and asparagine metabolism,114,39,4,1.9374,0.76403,0.89356,0.061997,58,0.58,1,1,1,P15,C00026;C01035;C03740;C00402;C00049,,,,,,,,C00668,alpha-D-Glucose 6-phosphate,,not correct,,C00026;C01035;C03740;C00402;C00049
+Glycerophospholipid metabolism,156,29,3,2.6511,0.74409,0.90172,0.065863,43,0.43,1,1,1,P16,C05401,C00093,C01177,,,,,,C00800,L-Gulonic acid,,correct,,C05401;C00093;C01177
+Pyrimidine metabolism,70,30,3,1.1896,0.76576,0.91234,0.071519,50,0.5,1,1,1,P17,C00041;C00103;C00049;C00099,,,,,,,,C01042,N-Acetyl-L-aspartate,,correct,,C00041;C00103;C00049;C00099
+Arginine and Proline Metabolism,45,20,2,0.76475,0.75118,0.93549,0.087219,47,0.47,1,1,1,P18,C00026,C00049,,,,,,,C01045,N-Formyl-L-glutamate,,not correct ,,C00026;C00049
+Methionine and cysteine metabolism,94,21,2,1.5975,0.77591,0.94398,0.094648,49,0.49,1,1,1,P19,C00026,C02712,,,,,,,C01094,D-Fructose 1-phosphate,,maybe correct,,C00026;C02712
+Aminosugars metabolism,69,23,2,1.1726,0.81915,0.9578,0.10984,42,0.42,1,1,1,P20,C00275;C00352;C00085,,,,,,,,C01097,D-Tagatose 6-phosphate,,maybe correct ,,C00275;C00352;C00085
+Galactose metabolism,41,27,2,0.69677,0.88427,0.97617,0.14103,39,0.39,1,1,1,P21,C00103;C05401;C00446;C01097,,,,,,,,C01172,beta-D-Glucose 6-phosphate,,not correct?,,C00103;C05401;C00446;C01097
+"Glycine, serine, alanine and threonine metabolism",88,28,2,1.4955,0.89684,0.97937,0.14891,66,0.66,1,1,1,P22,C00026;C00213;C00133;C00041,,,,,,,,C01177,Inositol 1-phosphate,,not correct,,C00026;C00213;C00133;C00041
+Tyrosine metabolism,160,33,2,2.7191,0.94295,0.99002,0.18835,78,0.78,1,1,1,P23,C00026;C00041,,,,,,,,C02712,N-Acetylmethionine,,correct,,C00026;C00041
+N-Glycan biosynthesis,48,14,1,0.81573,0.85681,1,1,66,0.66,1,1,1,P24,C03862,,,,,,,,C02965,D-Hexose 6-phosphate,,maybe correct ,,C03862
+Glycolysis and Gluconeogenesis,49,28,1,0.83272,0.98102,1,1,80,0.8,1,1,1,P25,C00103;C00668;C00092;C00085;C05345;C01172,,,,,,,,C02976,entry not found,,,,C00103;C00668;C00092;C00085;C05345;C01172
+Carnitine shuttle,72,16,1,1.2236,0.89219,1,1,47,0.47,1,1,1,P26,pcrn,,,,,,,,C03546,myo-Inositol 4-phosphate,,not correct?,,pcrn
+Vitamin B1 (thiamin) metabolism,20,5,1,0.33989,0.49624,1,1,25,0.25,1,1,1,P27,C00026,,,,,,,,C03862,Dolichyl phosphate D-mannose,,?  No exact mass,,C00026
+Glycosylphosphatidylinositol(GPI)-anchor biosynthesis,6,2,1,0.10197,0.23902,1,1,8,0.08,1,1,1,P28,C03862,,,,,,,,C04006,1D-myo-Inositol 3-phosphate,,maybe correct ,,C03862
+Drug metabolism - cytochrome P450,53,10,1,0.9007,0.74859,1,1,40,0.4,1,1,1,P29,C07501,,,,,,,,C05345,beta-D-Fructose 6-phosphate,,not correct?,,C07501
+Vitamin B9 (folate) metabolism,33,8,1,0.56081,0.66763,1,1,46,0.46,1,1,1,P30,C01045,,,,,,,,C05401,Galactosylglycerol,,maybe correct ,,C01045
+"Valine, leucine and isoleucine degradation",65,16,1,1.1046,0.89219,1,1,50,0.5,1,1,1,P31,C00026,,,,,,,,C05520,2-Amino-3-oxoadipate,,not correct,,C00026
+Fructose and mannose metabolism,33,27,1,0.56081,0.97801,1,1,64,0.64,1,1,1,P32,C00257,CE3075,C00085,C05345,C00636,C02976,C01094,,C07501,Felbamate,,?,,C00275;CE3075;C00085;C05345;C00636;C02976;C01094
+Butanoate metabolism,34,11,1,0.57781,0.78146,1,1,56,0.56,1,1,1,P33,C00026,,,,,,,,C12214,Aminofructose 6-phosphate,,not correct,,C00026
+Ascorbate (Vitamin C) and Aldarate Metabolism,29,7,1,0.49284,0.61807,1,1,46,0.46,1,1,1,P34,C00800,,,,,,,,CE3075,entry not found,,,,C00800
+"Fatty acid oxidation, peroxisome",28,3,1,0.47584,0.33653,1,1,17,0.17,1,1,1,P35,C00026,,,,,,,,,,,,,C00026
+Purine metabolism,80,21,1,1.3595,0.94734,1,1,70,0.7,1,1,1,P36,C00049,,,,,,,,C00085,D-Fructose 6-phosphate;,,,,C00049
+TCA cycle,31,12,1,0.52682,0.81011,1,1,58,0.58,1,1,1,P37,C00026,,,,,,,,C00099,beta-Alanine,,,,C00026
+Proteoglycan biosynthesis,27,7,1,0.45885,0.61807,1,1,33,0.33,1,1,1,P38,C00190,,,,,,,,C00041,,,,,C00190
+Phosphatidylinositol phosphate metabolism,59,18,1,1.0027,0.91896,1,1,54,0.54,1,1,1,P39,C03546,C00092,C03862,C04006,C01177,,,,,,,,,C03546;C00092;C03862;C04006;C01177
+Pentose and Glucuronate Interconversions,15,7,1,0.25492,0.61807,1,1,58,0.58,1,1,1,P40,C00800,,,,,,,,,,,,,C00800
+Nitrogen metabolism,6,4,1,0.10197,0.42177,1,1,27,0.27,1,1,1,P41,C00049,,,,,,,,,,,,,C00049
+Starch and Sucrose Metabolism,33,14,1,0.56081,0.85681,1,1,61,0.61,1,1,1,P42,C00103,,,,,,,,,,,,,C00103
+Phytanic acid peroxisomal oxidation,34,4,1,0.57781,0.42177,1,1,18,0.18,1,1,1,P43,C00026,,,,,,,,,,,,,C00026
+Lysine metabolism,52,17,1,0.88371,0.90651,1,1,74,0.74,1,1,1,P44,C00026,,,,,,,,,,,,,C00026
+Selenoamino acid metabolism,35,4,1,0.5948,0.42177,1,1,20,0.2,1,1,1,P45,C00041,,,,,,,,,,,,,C00041

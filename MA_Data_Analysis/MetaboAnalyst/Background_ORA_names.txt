@@ -1,0 +1,223 @@
+GDP-L-fucose
+"1,2-Dimyristoyl-sn-glycero-3-PC"
+"1,4-Anhydro-2,5-dideoxy-2-(dimethylamino)-5-[(isopropylcarbamoyl)amino]-D-arabinitol"
+12alpha-hydroxy-3-oxo-5beta-cholan-24-oic Acid
+1-Methylhistidine
+"2-{N′-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-N-methylcarbamimidamido}acetic acid"
+2'-Deoxy-5-(hydroxymethyl)cytidine
+3-Hydroxymethylglutaric acid
+3-Phosphoglyceric acid
+3-Sulfinoalanine
+4-Guanidinobutanoic acid
+4-Hydroxyproline
+"5,5-dimethyl-2-{[(2-phenylacetyl)amino]methyl}-1,3-thiazolane-4-carboxylic acid"
+5-Hydroxyindoleacetic acid
+5'-Methylthioadenosine
+6-Oxopiperidine-2-carboxylic acid
+6-Phosphogluconic acid
+7-Ketocholesterol
+Acetylcholine
+Acetyl-CoA
+Adenosine
+Adenosine diphosphate ribose
+Adenosine monophosphate
+Adenosine triphosphate
+ADP
+Ala-Glu-Arg
+"Alanyl-N-(5-amino-1,5-dicarboxypentyl)glutamine"
+Ala-Val-Phe
+Ala-Val-Pro
+Allantoin
+Aminoadipic acid
+Arg-Glu-Ile
+Argininosuccinic acid
+Arginylasparagine
+Asn-Glu-Lys
+Asp-Ala-Arg
+Asparaginyl-Lysine
+Aspartyl-Aspartate
+Asymmetric dimethylarginine
+Azelaic acid
+beta-Alanine
+Biotin
+Boc-Asn
+Butyryl-CoA
+C-8 Ceramide-1-phosphate
+Carnosine
+CDP
+CDP-ethanolamine
+Chenodeoxycholic acid glycine conjugate
+Cholesterol
+Choline
+cis-Aconitic acid
+Citicoline
+Citric acid
+Coenzyme A
+Creatine
+Creatinine
+Cytidine triphosphate
+Daprodustat
+DELTA-VALEROBETAINE
+D-Fructose
+DG(18:1(9Z)/18:1(9Z)/0:0)
+DL-Stachydrine
+Dodecanoic acid
+D-Ribose 5-phosphate
+D-Sedoheptulose 7-phosphate
+epsilon-(gamma-Glutamyl)lysine
+Ergothioneine
+FAD
+Folic acid
+"Fructose 1,6-bisphosphate"
+Gabexate
+gamma-Aminobutyric acid
+Gln-Arg-Ala
+Gln-Gly-Ser
+Glu-Arg-Pro
+Gluconic acid
+Glucose 6-phosphate
+Glu-Ser-Arg
+Glutamic acid
+Glutamine
+Glutaminylglutamic acid
+Glutamylarginine
+Glutathione
+Glu-Thr-Gln
+Glu-Val-Lys
+Gly-Asn-Pro
+Glycerol 3-phosphate
+Glycerophosphocholine
+Glycine
+Glycyl-Aspartate
+Glycyl-Glutamate
+Glycylglycylglycine
+Gly-Gly-Arg
+Gly-Ile-Glu
+Gly-Phe-Glu
+Gly-Thr-Pro
+Guanosine diphosphate
+Guanosine diphosphate mannose
+Guanosine monophosphate
+Guanosine triphosphate
+Hippuric acid
+Histidine
+Histidylasparagine
+Homovanillic acid
+Hypotaurine
+Ile-Glu-Asp
+Indolelactic acid
+Isocitric acid
+Isoleucine
+Ketoleucine
+Kynurenine
+L-Acetylcarnitine
+Lactic acid
+L-Alanine
+L-Arginine
+L-Asparagine
+L-Aspartic acid
+L-Carnitine
+Leu-Asp-Lys
+Leucine
+Leucyl-leucyl-norleucine
+Leucyl-Valine
+Leu-Glu-Leu
+Leu-Gly-Asp
+Linoleic acid
+Lotaustralin
+L-Threonine
+L-Tyrosine
+Lysine
+LysoPC(16:0/0:0)
+Lysylglutamine
+Malic acid
+Maltotriose
+mebutamate
+Methionine sulfoxide
+Methyl hexadecanoic acid
+Methyl n-acetylanthranilate
+Met-Val-Ala
+Miltefosine
+Momilactone B
+myo-Inositol
+Myristic acid
+"N6,N6,N6-Trimethyl-L-lysine"
+N-Acetyl-a-neuraminic acid
+N-Acetylaspartylglutamic acid
+N-Acetyl-glucosamine 1-phosphate
+N-Acetyl-L-alanine
+N-Acetyl-L-aspartic acid
+N-Acetyl-Leu
+N-Acetyl-L-glutamic acid
+N-Acetyl-L-methionine
+N-Acetylserine
+N-Acetylserotonin
+NAD
+NADH
+NADP
+Nervonic acid
+N-Formyl-L-methionine
+Niacinamide
+Ornithine
+Oxidized glutathione
+Palmitic acid
+Palmitoylcarnitine
+Pantothenic acid
+Penicillin G
+Phenylacetylglycine
+Phenylalanine
+Phosphate
+Phosphocreatine
+Phosphoenolpyruvic acid
+Pro-Ala-Asp
+Pro-Ala-Ser
+Pro-Glu-Asp
+Pro-Glu-Glu
+Pro-Glu-Ile
+Pro-Glu-Thr
+Pro-Leu-Pro
+Proline
+Propionylcarnitine
+Pro-Pro-Pro
+Pro-Val-Ala
+Pyridoxal
+Pyridoxine
+Pyroglutamic acid
+Pyruvic acid
+S-Adenosylmethionine
+Ser-Glu-Thr
+Serine
+S-Lactoylglutathione
+SM(d18:1/14:0)
+"SM(d18:2(4E,14Z)/24:1(15Z))"
+Sphinganine
+Sphingosine
+Stearic acid
+Stearoylcarnitine
+Taurine
+Taurocholic acid
+Taurodeoxycholic acid
+Testosterone isocaproate
+Thiamine
+Threonic acid
+Thr-Glu-Leu
+Thr-Gly-Asp
+Thr-Gly-Lys
+Thr-Thr-Ile
+thymidine 3'-monophosphate
+Thymidine 5'-triphosphate
+Uracil
+Uridine 5'-monophosphate
+Uridine diphosphate glucose
+Uridine diphosphate glucuronic acid
+Uridine diphosphate-N-acetylglucosamine
+Uridine triphosphate
+Val-Asp-Ile
+Val-Asp-Lys
+Val-Glu-Gln
+Val-Glu-Lys
+Val-Leu-Ile
+Val-Val-Ala
+Val-Val-Leu
+Valylproline
+Xanthine

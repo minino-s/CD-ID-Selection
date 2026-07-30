@@ -1,0 +1,1 @@
+chemspider:103115, chemspider:201317, chemspider:388670, chemspider:391403, chemspider:43055099, chemspider:74037, chemspider:803, hmdb:HMDB0002931, hmdb:HMDB0007218, hmdb:HMDB0011745, hmdb:HMDB0028704, hmdb:HMDB0028736, hmdb:HMDB0028813, hmdb:HMDB0028880, hmdb:HMDB0028949, hmdb:HMDB0029419, hmdb:HMDB0036749, hmdb:HMDB00766, hmdb:HMDB0252569

@@ -1,0 +1,22 @@
+,Pathway total,Hits.total,Hits.sig,Expected,P(Fisher),P(EASE),P(Gamma),Emp.Hits,Empirical,AdjP.Fisher,AdjP.EASE,AdjP.Gamma,Pathway Number,cpd.hits,,,,,,,,,,
+"Alanine, aspartate and glutamate metabolism",28,16,4,0.43712,0.01314,0.062527,0.0035719,0,0,0.2628,1,0.071438,P1,C00025,C00041,C03406,,,,C00025,glutamic acid,,,C03406;C00041;C00025;C12270
+Porphyrin metabolism,29,4,2,0.45273,0.02144,0.22127,0.0059778,1,0.01,0.40736,1,0.1135782,P2,C00025,C00430,,,,,C03440,D hydroxyprolin,,,C00430;C00025
+Arginine biosynthesis,14,8,2,0.21856,0.085772,0.39583,0.010832,4,0.04,1,1,0.194976,P3,C00025,C03406,,,,,C05938,hydroxy gutamate semialdehyde ,,,C00025;C03406
+Cysteine and methionine metabolism,33,10,2,0.51518,0.12771,0.46861,0.014049,4,0.04,1,1,0.238833,P4,C21015,C00216,,,,,C04540,N4-(acetyl-beta-D-glucosaminyl)asparagine,,,C21015;C21016
+"Glycine, serine and threonine metabolism",30,11,2,0.46834,0.15027,0.50182,0.015868,11,0.11,1,1,0.253888,P5,C00213,C00430,,,,,C01157,L- hydroxyproline,,,C00213;C00430
+D-Amino acid metabolism,15,12,2,0.23417,0.17362,0.53307,0.01783,2,0.02,1,1,0.26745,P6,C00217,C03440,C01110,,,,C03415,N2-succinyl-L-ornithine,,,C00217;C03440;C01110
+Arginine and proline metabolism,35,17,2,0.5464,0.29659,0.66353,0.029832,15,0.15,1,1,0.417648,P7,C00025,C01157,C05938,C01165,C05147,,C01165,glutamate 5-semialdehyde,,,C01157;C05938;C01165;C00025;C05147
+Pyrimidine metabolism,39,16,1,0.60885,0.66226,1,1,40,0.4,1,1,1,P8,C00099,,,,,,C00041,L-alanine ,,,
+Lysine degradation,21,5,1,0.32784,0.28268,1,1,22,0.22,1,1,1,P9,C00956,,,,,,C00099,beta-alanine ,,,
+Histidine metabolism,16,7,1,0.24978,0.37304,1,1,18,0.18,1,1,1,P10,C00025,,,,,,C03406,Argininosuccinic acid ,,,
+beta-Alanine metabolism,21,9,1,0.32784,0.45256,1,1,14,0.14,1,1,1,P11,C00099,,,,,,C00133,D- Alanine,,,
+Selenocompound metabolism,16,1,1,0.24978,0.06383,1,1,0,0,1,1,1,P12,C00041,,,,,,C00213,Sarcosine,,,
+Glutathione metabolism,19,7,1,0.29662,0.37304,1,1,18,0.18,1,1,1,P13,C00025,,,,,,C00430,5-Aminolevulinate,,,
+Glyoxylate and dicarboxylate metabolism,31,11,1,0.48395,0.5225,1,1,34,0.34,1,1,1,P14,C00025,,,,,,C00956,L-2-Aminoadipate,,,
+Propanoate metabolism,19,4,1,0.29662,0.23302,1,1,9,0.09,1,1,1,P15,C00099,,,,,,C00302,"Glutamate, Glutaminic acid",,,
+Butanoate metabolism,15,6,1,0.23417,0.32929,1,1,19,0.19,1,1,1,P16,C00025,,,,,,C05147,trans-3-Hydroxy-L-proline,,,
+One carbon pool by folate,26,10,1,0.4059,0.48866,1,1,35,0.35,1,1,1,P17,C00213,,,,,,C21015,gamma-L-Glutamyl-L-2-aminobutyrate,,,
+Riboflavin metabolism,4,2,1,0.062446,0.1238,1,1,3,0.03,1,1,1,P18,C00255,,,,,,C21016,Ophthalmate,,,
+Pantothenate and CoA biosynthesis,18,7,1,0.28101,0.37304,1,1,12,0.12,1,1,1,P19,C00099,,,,,,C00255,Riboflavin,,,
+Nitrogen metabolism,6,2,1,0.093669,0.1238,1,1,4,0.04,1,1,1,P20,C00025,,,,,,C12270,N-Acetylaspartylglutamate,,,
+,,,,,,,,,,,,,,,,,,,,C01110,5-Amino-2-oxopentanoic acid,,,

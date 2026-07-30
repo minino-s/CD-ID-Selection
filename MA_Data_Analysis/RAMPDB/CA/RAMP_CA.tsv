@@ -1,0 +1,20 @@
+id	Num_In_Path_Metab	Num_In_Path_Gene	Num_In_Path	Pval_Metab	Pval_combined	Pval	Pval_combined_FDR	Pval_FDR	Pval_combined_Holm	Pval_Holm	Total_In_Path_Metab	Total_In_Path_Gene	Total_In_Path	analytes	pathwayName	pathwaySource	pathwayId	cluster_assignment	metabCount	geneCount	pathCount	OR
+			5			0.000017		0.000738		0.01883			39	UTP  |  Uridine diphosphate-N-acetylglucosamine  |  N-Acetyl-glucosamine 1-phosphate  |  Glucose 6-phosphate  |  Uridine diphosphate glucuronic acid	Amino Sugar Metabolism	kegg	map00520	Did not cluster			5/39	0.050259
+			3			0.000032		0.000802		0.035779			30	AMP  |  D-Sedoheptulose 7-phosphate  |  6-Phosphogluconic acid	Pentose phosphate pathway	reactome	R-HSA-71336	1			3/30	0.016963
+			3			6.807126e-7		0.000079		0.000784			9	Glycerophosphocholine  |  Glycerol 3-phosphate  |  Choline	Hydrolysis of LPC	reactome	R-HSA-1483115	2			3/9	0.003786
+			4			3.025023e-7		0.000042		0.000349			28	Glycerophosphocholine  |  Glycerol 3-phosphate  |  GTP  |  Choline	PI Metabolism	reactome	R-HSA-1483255	Did not cluster			4/28	0.010877
+			3			0.000001333364		0.000119		0.001531			11	Glycerophosphocholine  |  Glycerol 3-phosphate  |  Choline	Glycerophospholipid catabolism	reactome	R-HSA-6814848	2			3/11	0.005026
+			3			0.000021		0.0008		0.023288			26	AMP  |  UTP  |  dTTP	Phosphate bond hydrolysis by NTPDase proteins	reactome	R-HSA-8850843	Did not cluster			3/26	0.014471
+			3			0.000024		0.0008		0.026674			25	cis-Aconitic acid  |  GTP  |  NADH	TCA cycle (aka Krebs or citric acid cycle)	wiki	WP78	Did not cluster			3/25	0.015093
+			4			2.23193e-7		0.000042		0.000258			24	AMP  |  Fructose 1,6-bisphosphate  |  NADH  |  Phosphocreatine	Aerobic glycolysis - augmented	wiki	WP4628	3			4/24	0.009928
+			3			0.000012		0.000684		0.013452			20	AMP  |  Fructose 1,6-bisphosphate  |  NADH	Aerobic glycolysis	wiki	WP4629	3			3/20	0.011669
+			3			8.835049e-7		0.000093		0.001016			9	D-Sedoheptulose 7-phosphate  |  6-Phosphogluconic acid  |  Glucose 6-phosphate	Pentose phosphate metabolism	wiki	WP134	1			3/9	0.004155
+			3			0.000008465093		0.000546		0.009676			18	AMP  |  D-Sedoheptulose 7-phosphate  |  6-Phosphogluconic acid	Pentose phosphate pathway in senescent cells	wiki	WP5043	1			3/18	0.010279
+			3			0.000005827202		0.000422		0.006672			16	Glycerol 3-phosphate  |  Fructose 1,6-bisphosphate  |  NADH	HIF1A and PPARG in cardiac hypertropthy	wiki	WP2456	3			3/16	0.008938
+			4			2.135857e-8		0.000025		0.000025			14	UTP  |  Glucose 6-phosphate  |  NADH  |  Uridine diphosphate glucuronic acid	Glucuronidation	wiki	WP698	Did not cluster			4/14	0.005003
+			3			0.000001260217		0.000119		0.001448			10	Glycerophosphocholine  |  Acetylcholine  |  Choline	Acetylcholine synthesis	wiki	WP528	Did not cluster			3/10	0.004802
+			4			0.000007877507		0.000538		0.009012			57	Glycerol 3-phosphate  |  NADH  |  CDP-ethanolamine  |  Choline	Glycerophospholipid biosynthetic pathway	wiki	WP2533	4			4/57	0.026256
+			4			1.862868e-7		0.000042		0.000216			23	Glycerophosphocholine  |  Glycerol 3-phosphate  |  Acetylcholine  |  Choline	Phosphatidylcholine catabolism	wiki	WP4195	Did not cluster			4/23	0.009424
+			4			3.130303e-7		0.000042		0.000361			26	Fructose 1,6-bisphosphate  |  6-Phosphogluconic acid  |  Glucose 6-phosphate  |  NADH	Cori cycle	wiki	WP1946	3			4/26	0.010889
+			3			0.000037		0.000802		0.041708			29	Glycerol 3-phosphate  |  CDP-ethanolamine  |  Choline	Glycerolipids and glycerophospholipids	wiki	WP4722	4			3/29	0.017828
+			4			0.000001516691		0.000126		0.00174			38	Fructose 1,6-bisphosphate  |  D-Sedoheptulose 7-phosphate  |  6-Phosphogluconic acid  |  Glucose 6-phosphate	Metabolic reprogramming in colon cancer	wiki	WP4290	Did not cluster			4/38	0.016826

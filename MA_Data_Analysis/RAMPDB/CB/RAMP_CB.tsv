@@ -1,0 +1,163 @@
+id	Num_In_Path_Metab	Num_In_Path_Gene	Num_In_Path	Pval_Metab	Pval_combined	Pval	Pval_combined_FDR	Pval_FDR	Pval_combined_Holm	Pval_Holm	Total_In_Path_Metab	Total_In_Path_Gene	Total_In_Path	analytes	pathwayName	pathwaySource	pathwayId	cluster_assignment	metabCount	geneCount	pathCount	OR
+			8			0.000001466919		0.000013		0.007191			35	Carnosine  |  AMP  |  beta-alanine  |  NADP  |  ATP  |  S-Adenosylmethionine  |  FAD  |  ADP	Histidine metabolism	kegg	map00340	1			8/35	0.078988
+			11			2.551208e-8		5.387432e-7		0.000134			51	AMP  |  Argininosuccinic acid  |  Creatine  |  Ornithine  |  NADP  |  pyruvate  |  L-Arginine  |  ATP  |  S-Adenosylmethionine  |  FAD  |  ADP	Arginine and proline metabolism	kegg	map00330	2			11/51	0.08203
+			18			1.19482e-15		7.316284e-13		6.575097e-12			61	AMP  |  Argininosuccinic acid  |  beta-alanine  |  Glutathione  |  NADP  |  pyruvate  |  L-Arginine  |  ATP  |  N-acetyl-L-aspartic acid  |  Adenosine diphosphate ribose  |  GDP  |  Acetyl-CoA  |  FAD  |  GTP  |  ADP  |  GMP  |  biotin  |  Oxidized glutathione	Alanine, aspartate and glutamate metabolism	kegg	map00250	2			18/61	0.048745
+			8			1.169083e-7		0.000001760332		0.000602			26	pyruvate  |  ATP  |  GDP  |  Acetyl-CoA  |  FAD  |  GTP  |  ADP  |  biotin	Citric Acid Cycle	kegg	map00020	3			8/26	0.052562
+			12			8.322314e-11		7.773606e-9		4.538158e-7			40	AMP  |  Glutathione  |  L-Lactic acid  |  NADP  |  pyruvate  |  ATP  |  GDP  |  Acetyl-CoA  |  FAD  |  GTP  |  ADP  |  biotin	Pyruvate metabolism	kegg	map00620	3			12/40	0.051761
+			8			0.000003535323		0.000024		0.016658			39	pyruvate  |  UTP  |  Uridine diphosphate-N-acetylglucosamine  |  ATP  |  D-Fructose  |  Acetyl-CoA  |  ADP  |  Uridine diphosphate glucuronic acid	Amino Sugar Metabolism	kegg	map00520	Did not cluster			8/39	0.090762
+			8			3.021977e-7		0.000003918615		0.001537			29	AMP  |  NADP  |  ATP  |  Adenosine diphosphate ribose  |  S-Adenosylmethionine  |  FAD  |  ADP  |  Niacinamide	Nicotinate and nicotinamide metabolism	kegg	map00760	4			8/29	0.061348
+			6			0.000002957976		0.000022		0.01416			18	Glutathione  |  NADP  |  ATP  |  FAD  |  ADP  |  Oxidized glutathione	Glutathione metabolism	kegg	map00480	5			6/18	0.047894
+			7			0.000001571494		0.000014		0.007691			25	NADP  |  ATP  |  D-Fructose  |  Fructose 1,6-bisphosphate  |  GTP  |  ADP  |  GDP-L-fucose	Fructose and mannose metabolism	kegg	map00051	Did not cluster			7/25	0.060843
+			7			5.568039e-8		0.000001016075		0.00029			59	AMP  |  L-Lactic acid  |  pyruvate  |  S-Adenosylmethionine  |  ADP  |  Niacinamide  |  Phosphate	Nicotinate metabolism	reactome	R-HSA-196807	4			7/59	0.041106
+			7			1.087291e-8		2.748652e-7		0.000058			47	AMP  |  L-Lactic acid  |  pyruvate  |  S-Adenosylmethionine  |  ADP  |  Niacinamide  |  Phosphate	Nicotinamide salvaging	reactome	R-HSA-197264	4			7/47	0.031585
+			4			0.000005330107		0.000033		0.024657			20	AMP  |  Pantothenic acid  |  ADP  |  Phosphate	Vitamin B5 (pantothenate) metabolism	reactome	R-HSA-199220	Did not cluster			4/20	0.022965
+			5			0.000002193888		0.000017		0.010524			36	Acetylcholine  |  S-Adenosylmethionine  |  ADP  |  Phosphate  |  Choline	Synthesis of PC	reactome	R-HSA-1483191	Did not cluster			5/36	0.035136
+			4			0.000002039015		0.000016		0.009791			16	GDP  |  ADP  |  GMP  |  Phosphate	Ca2+ pathway	reactome	R-HSA-4086398	6			4/16	0.01723
+			4			0.000001131718		0.00001		0.005616			14	GDP  |  GTP  |  ADP  |  Phosphate	Response to elevated platelet cytosolic Ca2+	reactome	R-HSA-76005	7			4/14	0.014356
+			5			0.00000375825		0.000026		0.017701			40	beta-alanine  |  pyruvate  |  UMP  |  ADP  |  Phosphate	Pyrimidine catabolism	reactome	R-HSA-73621	8			5/40	0.039713
+			13			5.353324e-14		1.684625e-11		2.941651e-10			107	AMP  |  beta-alanine  |  pyruvate  |  UTP  |  UMP  |  Xanthine  |  GDP  |  ADP  |  dTTP  |  GMP  |  Phosphate  |  CDP  |  D-Ribulose 5-phosphate	Nucleotide catabolism	reactome	R-HSA-8956319	8, 21			13/107	0.036966
+			9			8.099809e-10		4.021446e-8		0.000004374707			78	pyruvate  |  UTP  |  UMP  |  GDP  |  ADP  |  Phosphate  |  CDP  |  N-Acetyl-a-neuraminic acid  |  GDP-L-fucose	Synthesis of substrates in N-glycan biosythesis	reactome	R-HSA-446219	Did not cluster			9/78	0.041355
+			4			0.000005330107		0.000033		0.024657			20	AMP  |  GDP  |  ADP  |  Phosphate	Selenocysteine synthesis	reactome	R-HSA-2408557	Did not cluster			4/20	0.022965
+			5			0.000001898043		0.000015		0.00927			35	AMP  |  L-Lactic acid  |  pyruvate  |  ADP  |  Phosphate	Aspirin ADME	reactome	R-HSA-9749641	9			5/35	0.034004
+			5			0.000002524841		0.000019		0.012109			37	AMP  |  Palmitic acid  |  Acetylcholine  |  GDP  |  ADP	Regulation of insulin secretion	reactome	R-HSA-422356	6			5/37	0.036267
+			6			1.370093e-9		5.945342e-8		0.000007377952			20	AMP  |  UMP  |  ADP  |  dTTP  |  GMP  |  Phosphate	Telomere Maintenance	reactome	R-HSA-157579	10			6/20	0.013067
+			6			1.909021e-9		7.735746e-8		0.00001			21	AMP  |  UMP  |  ADP  |  dTTP  |  GMP  |  Phosphate	Chromosome Maintenance	reactome	R-HSA-73886	10			6/21	0.013999
+			6			7.579026e-8		0.000001277309		0.000393			37	AMP  |  Fructose 1,6-bisphosphate  |  GDP  |  ADP  |  GMP  |  Phosphate	Purine ribonucleoside monophosphate biosynthesis	reactome	R-HSA-73817	8			6/37	0.028921
+			7			1.266835e-8		3.116753e-7		0.000067			48	AMP  |  UMP  |  Fructose 1,6-bisphosphate  |  GDP  |  ADP  |  GMP  |  Phosphate	Nucleotide biosynthesis	reactome	R-HSA-8956320	8			7/48	0.032374
+			6			0.000002580575		0.00002		0.012364			66	Glutathione  |  pyruvate  |  Taurine  |  Hypotaurine  |  S-Adenosylmethionine  |  Phosphate	Sulfur amino acid metabolism	reactome	R-HSA-1614635	11			6/66	0.056061
+			4			0.000009609555		0.000054		0.043512			23	Palmitic acid  |  S-Adenosylmethionine  |  GDP  |  ADP	RAS processing	reactome	R-HSA-9648002	12			4/23	0.027234
+			6			0.000001614954		0.000014		0.007902			61	AMP  |  Xanthine  |  ADP  |  GMP  |  Phosphate  |  D-Ribulose 5-phosphate	Purine catabolism	reactome	R-HSA-74259	8			6/61	0.051359
+			5			0.000007612495		0.000045		0.034804			46	AMP  |  UMP  |  ADP  |  GMP  |  Phosphate	Nucleotide salvage	reactome	R-HSA-8956321	8			5/46	0.046505
+			6			2.001324e-8		4.465303e-7		0.000105			30	AMP  |  D-Sedoheptulose 7-phosphate  |  6-Phosphogluconic acid  |  ADP  |  Phosphate  |  D-Ribulose 5-phosphate	Pentose phosphate pathway	reactome	R-HSA-71336	13			6/30	0.022404
+			7			1.087291e-8		2.748652e-7		0.000058			47	beta-alanine  |  Palmitic acid  |  Myristic acid  |  Acetylcholine  |  ADP  |  Phosphate  |  Choline	Neurotransmitter release cycle	reactome	R-HSA-112310	Did not cluster			7/47	0.031585
+			6			1.281949e-8		3.126027e-7		0.000068			28	Glycerophosphocholine  |  myo-Inositol  |  GTP  |  ADP  |  Phosphate  |  Choline	PI Metabolism	reactome	R-HSA-1483255	Did not cluster			6/28	0.020515
+			5			1.270361e-7		0.000001902435		0.000653			21	Glutathione  |  pyruvate  |  ADP  |  Niacinamide  |  Phosphate	Regulation of pyruvate dehydrogenase (PDH) complex	reactome	R-HSA-204174	3			5/21	0.018146
+			4			0.000003397164		0.000023		0.016011			18	L-Lactic acid  |  pyruvate  |  Phosphate  |  N-Acetyl-a-neuraminic acid	Organic anion transporters	reactome	R-HSA-428643	Did not cluster			4/18	0.020077
+			5			0.000001194044		0.000011		0.005863			32	AMP  |  pyruvate  |  Fructose 1,6-bisphosphate  |  ADP  |  Phosphate	Glycolysis	reactome	R-HSA-70171	14			5/32	0.030607
+			6			2.001324e-8		4.465303e-7		0.000105			30	AMP  |  pyruvate  |  Fructose 1,6-bisphosphate  |  GDP  |  ADP  |  Phosphate	Gluconeogenesis	reactome	R-HSA-70263	14			6/30	0.022404
+			7			6.721027e-9		1.92438e-7		0.000036			44	Glutathione  |  L-Lactic acid  |  pyruvate  |  Fructose 1,6-bisphosphate  |  ADP  |  Niacinamide  |  Phosphate	Pyruvate metabolism	reactome	R-HSA-70268	3			7/44	0.029215
+			6			1.438238e-7		0.000002110086		0.00074			41	AMP  |  pyruvate  |  Fructose 1,6-bisphosphate  |  GDP  |  ADP  |  Phosphate	Glucose metabolism	reactome	R-HSA-70326	14			6/41	0.032652
+			6			6.112917e-9		1.871571e-7		0.000033			25	Ornithine  |  pyruvate  |  N-acetyl-L-aspartic acid  |  ADP  |  Phosphate  |  N-Acetylaspartylglutamic acid	Glutamate and glutamine metabolism	reactome	R-HSA-8964539	2			6/25	0.017733
+			5			1.636314e-7		0.000002312237		0.000838			22	Glutathione  |  pyruvate  |  ADP  |  Niacinamide  |  Phosphate	Regulation of pyruvate metabolism	reactome	R-HSA-9861718	3			5/22	0.019248
+			6			6.112917e-9		1.871571e-7		0.000033			25	AMP  |  beta-alanine  |  Taurine  |  N-acetyl-L-aspartic acid  |  Hypotaurine  |  N-Acetylaspartylglutamic acid	Aspartate and asparagine metabolism	reactome	R-HSA-8963693	Did not cluster			6/25	0.017733
+			6			1.281949e-8		3.126027e-7		0.000068			28	Palmitic acid  |  L-Arginine  |  S-Adenosylmethionine  |  GDP  |  ADP  |  Asymmetric dimethylarginine	Extra-nuclear estrogen signaling	reactome	R-HSA-9009391	Did not cluster			6/28	0.020515
+			4			0.000009609555		0.000054		0.043512			23	AMP  |  GDP  |  ADP  |  Phosphate	Opioid Signalling	reactome	R-HSA-111885	6			4/23	0.027234
+			4			0.000004283534		0.000029		0.020107			19	AMP  |  GDP  |  ADP  |  Phosphate	G-protein mediated events	reactome	R-HSA-112040	6			4/19	0.021553
+			4			0.000004283534		0.000029		0.020107			19	AMP  |  GDP  |  ADP  |  Phosphate	PLC beta mediated events	reactome	R-HSA-112043	6			4/19	0.021553
+			4			5.647621e-7		0.000006159215		0.002856			12	GDP  |  GTP  |  ADP  |  Phosphate	Platelet degranulation	reactome	R-HSA-114608	7			4/12	0.011462
+			4			0.000005330107		0.000033		0.024657			20	AMP  |  Taurine  |  ADP  |  Phosphate	Recycling of bile acids and salts	reactome	R-HSA-159418	Did not cluster			4/20	0.022965
+			5			8.321108e-10		4.047133e-8		0.000004493399			9	AMP  |  L-Arginine  |  GDP  |  ADP  |  Phosphate	MTOR signalling	reactome	R-HSA-165159	15			5/9	0.004575
+			6			4.437613e-10		2.397616e-8		0.000002400749			17	AMP  |  UMP  |  ADP  |  dTTP  |  GMP  |  Phosphate	Processive synthesis on the C-strand of the telomere	reactome	R-HSA-174414	10			6/17	0.010273
+			6			6.624804e-10		3.319027e-8		0.000003579382			18	AMP  |  UMP  |  ADP  |  dTTP  |  GMP  |  Phosphate	Telomere C-strand (Lagging Strand) Synthesis	reactome	R-HSA-174417	10			6/18	0.011221
+			6			6.624804e-10		3.319027e-8		0.000003579382			18	AMP  |  UMP  |  ADP  |  dTTP  |  GMP  |  Phosphate	Extension of Telomeres	reactome	R-HSA-180786	10			6/18	0.011221
+			5			0.000004813396		0.00003		0.022281			42	AMP  |  NADP  |  Linoleic acid  |  ADP  |  Phosphate	alpha-linolenic (omega3) and linoleic (omega6) acid metabolism	reactome	R-HSA-2046104	16			5/42	0.04198
+			5			2.61644e-7		0.000003466155		0.001333			24	AMP  |  NADP  |  Linoleic acid  |  ADP  |  Phosphate	Linoleic acid (LA) metabolism	reactome	R-HSA-2046105	16			5/24	0.02157
+			4			2.417891e-7		0.000003218599		0.001233			10	GDP  |  GTP  |  ADP  |  Phosphate	MHC class II antigen presentation	reactome	R-HSA-2132295	17			4/10	0.008643
+			3			0.000004056894		0.000027		0.019104			6	ADP  |  Niacinamide  |  Phosphate	Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer	reactome	R-HSA-2173793	18			3/6	0.005839
+			3			0.000004056894		0.000027		0.019104			6	ADP  |  Niacinamide  |  Phosphate	Downregulation of SMAD2/3:SMAD4 transcriptional activity	reactome	R-HSA-2173795	18			3/6	0.005839
+			5			4.011501e-7		0.000005024405		0.002035			26	S-Adenosylmethionine  |  GDP  |  ADP  |  GMP  |  Phosphate	The phototransduction cascade	reactome	R-HSA-2514856	12			5/26	0.023804
+			4			0.000007974521		0.000047		0.036452			22	S-Adenosylmethionine  |  GDP  |  ADP  |  Phosphate	Inactivation, recovery and regulation of the phototransduction cascade	reactome	R-HSA-2514859	12			4/22	0.025826
+			4			5.647621e-7		0.000006159215		0.002856			12	GDP  |  ADP  |  Niacinamide  |  Phosphate	Nuclear Envelope (NE) Reassembly	reactome	R-HSA-2995410	17			4/12	0.011462
+			3			0.000007068924		0.000042		0.032369			7	ADP  |  Niacinamide  |  Phosphate	Regulation of HSF1-mediated heat shock response	reactome	R-HSA-3371453	14			3/7	0.00775
+			3			0.000004056894		0.000027		0.019104			6	GDP  |  ADP  |  Phosphate	Semaphorin interactions	reactome	R-HSA-373755	19			3/6	0.005839
+			4			2.417891e-7		0.000003218599		0.001233			10	Palmitic acid  |  GDP  |  ADP  |  Phosphate	L1CAM interactions	reactome	R-HSA-373760	17			4/10	0.008643
+			4			4.085293e-8		8.012118e-7		0.000214			7	AMP  |  GDP  |  ADP  |  Phosphate	Energy dependent regulation of mTOR by LKB1-AMPK	reactome	R-HSA-380972	15			4/7	0.004347
+			3			0.000004056894		0.000027		0.019104			6	GDP  |  ADP  |  Phosphate	Sema4D in semaphorin signaling	reactome	R-HSA-400685	19			3/6	0.005839
+			3			0.000004056894		0.000027		0.019104			6	GDP  |  ADP  |  Phosphate	Sema4D mediated inhibition of cell attachment and migration	reactome	R-HSA-416550	19			3/6	0.005839
+			5			8.341509e-9		2.138652e-7		0.000044			13	AMP  |  UTP  |  UMP  |  GMP  |  Phosphate	Deadenylation-dependent mRNA decay	reactome	R-HSA-429914	20			5/13	0.009093
+			4			2.417891e-7		0.000003218599		0.001233			10	AMP  |  UMP  |  GMP  |  Phosphate	mRNA decay by 3' to 5' exoribonuclease	reactome	R-HSA-429958	20			4/10	0.008643
+			3			0.000007068924		0.000042		0.032369			7	AMP  |  UMP  |  GMP	mRNA decay by 5' to 3' exoribonuclease	reactome	R-HSA-430039	20			3/7	0.00775
+			10			2.797036e-13		6.422693e-11		1.535013e-9			50	AMP  |  Glutathione  |  UTP  |  UMP  |  GDP  |  ADP  |  dTTP  |  GMP  |  Phosphate  |  CDP	Interconversion of nucleotide di- and triphosphates	reactome	R-HSA-499943	21			10/50	0.021246
+			3			0.000002037241		0.000016		0.009791			5	GDP  |  GTP  |  Phosphate	Cargo trafficking to the periciliary membrane	reactome	R-HSA-5620920	Did not cluster			3/5	0.003868
+			5			0.000001012202		0.00001		0.005041			31	AMP  |  Glutathione  |  GDP  |  ADP  |  Phosphate	TP53 Regulates Metabolic Genes	reactome	R-HSA-5628897	15			5/31	0.029474
+			6			2.612438e-9		9.793978e-8		0.000014			22	AMP  |  Argininosuccinic acid  |  Ornithine  |  L-Arginine  |  ADP  |  Phosphate	Urea cycle	reactome	R-HSA-70635	2			6/22	0.01493
+			5			1.636314e-7		0.000002312237		0.000838			22	Carnosine  |  beta-alanine  |  S-Adenosylmethionine  |  ADP  |  Phosphate	Histidine catabolism	reactome	R-HSA-70921	1			5/22	0.019248
+			5			0.000001634526		0.000015		0.007996			34	L-Lysine  |  NADP  |  Aminoadipic acid  |  GDP  |  Phosphate	Lysine catabolism	reactome	R-HSA-71064	Did not cluster			5/34	0.032872
+			6			1.811794e-10		1.215253e-8		9.848912e-7			15	Creatine  |  Ornithine  |  L-Arginine  |  S-Adenosylmethionine  |  ADP  |  Phosphate	Creatine metabolism	reactome	R-HSA-71288	22			6/15	0.008379
+			4			8.120601e-7		0.000008524311		0.00405			13	AMP  |  GDP  |  ADP  |  Phosphate	Insulin receptor signalling cascade	reactome	R-HSA-74751	23			4/13	0.012924
+			4			0.00000153624		0.000014		0.007521			15	AMP  |  GDP  |  ADP  |  Phosphate	Signaling by Insulin receptor	reactome	R-HSA-74752	23			4/15	0.015788
+			9			1.782219e-14		6.547873e-12		9.796859e-11			26	AMP  |  UTP  |  UMP  |  GDP  |  ADP  |  dTTP  |  GMP  |  Phosphate  |  CDP	Phosphate bond hydrolysis by NTPDase proteins	reactome	R-HSA-8850843	8, 21			9/26	0.010194
+			3			0.000002037241		0.000016		0.009791			5	GDP  |  GTP  |  Phosphate	TBC/RABGAPs	reactome	R-HSA-8854214	24			3/5	0.003868
+			5			2.791527e-8		5.635204e-7		0.000146			16	AMP  |  UTP  |  UMP  |  ADP  |  Phosphate	Glycogen metabolism	reactome	R-HSA-8982491	Did not cluster			5/16	0.01248
+			4			4.085293e-8		8.012118e-7		0.000214			7	GDP  |  GTP  |  ADP  |  Phosphate	Rab regulation of trafficking	reactome	R-HSA-9007101	24			4/7	0.004347
+			6			6.380277e-8		0.000001156635		0.000332			36	AMP  |  Glutathione  |  S-Adenosylmethionine  |  GDP  |  ADP  |  Phosphate	Azathioprine ADME	reactome	R-HSA-9748787	Did not cluster			6/36	0.027988
+			4			0.000009609555		0.000054		0.043512			23	AMP  |  UTP  |  S-Adenosylmethionine  |  ADP	Maternal to zygotic transition (MZT)	reactome	R-HSA-9816359	Did not cluster			4/23	0.027234
+			4			0.000002654293		0.00002		0.012711			17	AMP  |  S-Adenosylmethionine  |  ADP  |  Phosphate	Respiratory Syncytial Virus Infection Pathway	reactome	R-HSA-9820952	Did not cluster			4/17	0.018676
+			4			5.647621e-7		0.000006159215		0.002856			12	GDP  |  GTP  |  ADP  |  Phosphate	Antigen Presentation: Folding, assembly and peptide loading of class I MHC	reactome	R-HSA-983170	Did not cluster			4/12	0.011462
+			5			0.000001634526		0.000015		0.007996			34	beta-alanine  |  L-Lysine  |  Ornithine  |  Taurine  |  L-Arginine	Amino acid transport across the plasma membrane	reactome	R-HSA-352230	Did not cluster			5/34	0.032872
+			9			1.511473e-10		1.125639e-8		8.219389e-7			65	Pantothenic acid  |  Palmitic acid  |  UMP  |  Linoleic acid  |  Myristic acid  |  ADP  |  GMP  |  biotin  |  GDP-L-fucose	Transport of vitamins, nucleosides, and related molecules	reactome	R-HSA-425397	Did not cluster			9/65	0.033519
+			3			0.000004056894		0.000027		0.019104			6	AMP  |  UMP  |  GMP	Removal of the Flap Intermediate from the C-strand	reactome	R-HSA-174437	10			3/6	0.005839
+			5			8.321108e-10		4.047133e-8		0.000004493399			9	AMP  |  GDP  |  GTP  |  ADP  |  Phosphate	Translocation of SLC2A4 (GLUT4) to the plasma membrane	reactome	R-HSA-1445148	17			5/9	0.004575
+			3			0.000002037241		0.000016		0.009791			5	GDP  |  GTP  |  ADP	Intra-Golgi traffic	reactome	R-HSA-6811438	Did not cluster			3/5	0.003868
+			5			2.791527e-8		5.635204e-7		0.000146			16	AMP  |  Palmitic acid  |  Linoleic acid  |  ADP  |  Niacinamide	Mitochondrial biogenesis	reactome	R-HSA-1592230	25			5/16	0.01248
+			4			0.00000153624		0.000014		0.007521			15	Palmitic acid  |  Linoleic acid  |  ADP  |  Niacinamide	Transcriptional activation of mitochondrial biogenesis	reactome	R-HSA-2151201	25			4/15	0.015788
+			3			0.000002037241		0.000016		0.009791			5	GDP  |  ADP  |  Phosphate	SEMA3A-Plexin repulsion signaling by inhibiting Integrin adhesion	reactome	R-HSA-399955	19			3/5	0.003868
+			4			1.457361e-7		0.000002110086		0.000749			9	S-Adenosylmethionine  |  GDP  |  GMP  |  Phosphate	mRNA Capping	reactome	R-HSA-72086	26			4/9	0.007195
+			3			0.000007068924		0.000042		0.032369			7	GDP  |  ADP  |  Phosphate	NCAM signaling for neurite out-growth	reactome	R-HSA-375165	Did not cluster			3/7	0.00775
+			3			0.000004056894		0.000027		0.019104			6	GDP  |  ADP  |  Phosphate	trans-Golgi Network Vesicle Budding	reactome	R-HSA-199992	27			3/6	0.005839
+			3			0.000004056894		0.000027		0.019104			6	GDP  |  ADP  |  Phosphate	Lysosome Vesicle Biogenesis	reactome	R-HSA-432720	27			3/6	0.005839
+			3			0.000002037241		0.000016		0.009791			5	GDP  |  ADP  |  Phosphate	Golgi Associated Vesicle Biogenesis	reactome	R-HSA-432722	27			3/5	0.003868
+			3			0.000007068924		0.000042		0.032369			7	GDP  |  ADP  |  Phosphate	Recycling pathway of L1	reactome	R-HSA-437239	17			3/7	0.00775
+			3			0.000004056894		0.000027		0.019104			6	GDP  |  ADP  |  Phosphate	COPI-mediated anterograde transport	reactome	R-HSA-6807878	17			3/6	0.005839
+			4			8.13343e-8		0.000001362411		0.000422			8	AMP  |  UMP  |  ADP  |  GMP	Lagging Strand Synthesis	reactome	R-HSA-69186	10			4/8	0.005769
+			4			8.13343e-8		0.000001362411		0.000422			8	AMP  |  UMP  |  ADP  |  GMP	DNA strand elongation	reactome	R-HSA-69190	10			4/8	0.005769
+			5			8.341509e-9		2.138652e-7		0.000044			13	AMP  |  UMP  |  ADP  |  dTTP  |  GMP	Synthesis of DNA	reactome	R-HSA-69239	10			5/13	0.009093
+			3			0.000007068924		0.000042		0.032369			7	AMP  |  ADP  |  Phosphate	RNA Polymerase II Transcription Initiation And Promoter Clearance	reactome	R-HSA-76042	26			3/7	0.00775
+			3			0.000002037241		0.000016		0.009791			5	GDP  |  ADP  |  Phosphate	PTK6 Regulates RHO GTPases, RAS GTPase and MAP kinases	reactome	R-HSA-8849471	19			3/5	0.003868
+			3			0.000004056894		0.000027		0.019104			6	GDP  |  ADP  |  Phosphate	Assembly and cell surface presentation of NMDA receptors	reactome	R-HSA-9609736	17			3/6	0.005839
+			4			1.75884e-8		3.988874e-7		0.000093			6	L-Arginine  |  S-Adenosylmethionine  |  GDP  |  Phosphate	Amino acids regulate mTORC1	reactome	R-HSA-9639288	15			4/6	0.002894
+			3			0.000004056894		0.000027		0.019104			6	AMP  |  UMP  |  GMP	Removal of the Flap Intermediate	reactome	R-HSA-69166	10			3/6	0.005839
+			3			0.000004056894		0.000027		0.019104			6	AMP  |  UMP  |  GMP	Processive synthesis on the lagging strand	reactome	R-HSA-69183	10			3/6	0.005839
+			5			1.126338e-7		0.000001700616		0.00058			19	Argininosuccinic acid  |  Ornithine  |  L-Arginine  |  NAD  |  FAD	Proline and hydroxyproline pathways	wiki	WP5026	Did not cluster			5/19	0.017338
+			4			7.977449e-7		0.000008390023		0.003981			12	carnitine  |  NAD  |  FAD  |  Choline	Diet-dependent trimethylamine/trimethylamine N-oxide metabolism	wiki	WP5219	Did not cluster			4/12	0.012545
+			4			0.000004786665		0.00003		0.022162			18	Creatine  |  L-Arginine  |  S-Adenosylmethionine  |  ADP	Creatine pathway	wiki	WP5190	22			4/18	0.021945
+			6			3.045031e-10		1.766439e-8		0.000001649493			15	L-Lactic acid  |  NADP  |  pyruvate  |  NAD  |  Niacinamide  |  NADH	NAD+ metabolism	wiki	WP3644	4			6/15	0.009181
+			10			2.384e-16		2.005856e-13		1.312631e-12			25	NADP  |  ATP  |  NAD  |  GDP  |  Acetyl-CoA  |  GTP  |  ADP  |  Coenzyme A  |  Phosphate  |  NADH	TCA cycle (aka Krebs or citric acid cycle)	wiki	WP78	3			10/25	0.008722
+			5			0.000001825236		0.000015		0.008916			32	NADP  |  pyruvate  |  Uridine diphosphate-N-acetylglucosamine  |  Acetyl-CoA  |  D-Ribulose 5-phosphate	Metabolic reprogramming in pancreatic cancer	wiki	WP5220	Did not cluster			5/32	0.033414
+			4			0.000002875395		0.000022		0.013767			16	L-Kynurenine  |  NAD  |  Niacinamide  |  NADH	NAD+ biosynthetic pathways	wiki	WP3645	4			4/16	0.018784
+			5			0.000005035327		0.000031		0.023303			39	Glutathione  |  pyruvate  |  Taurine  |  Hypotaurine  |  S-Adenosylmethionine	Cysteine and methionine catabolism	wiki	WP4504	11			5/39	0.042114
+			4			8.343499e-9		2.138652e-7		0.000044			5	ATP  |  NAD  |  ADP  |  NADH	Oxidative phosphorylation	wiki	WP623	28			4/5	0.001563
+			8			8.371859e-10		4.047133e-8		0.00000451913			49	Ornithine  |  pyruvate  |  ATP  |  NAD  |  S-Adenosylmethionine  |  FAD  |  Phosphate  |  Choline	Methionine de novo and salvage pathway	wiki	WP3580	11			8/49	0.030534
+			4			7.977449e-7		0.000008390023		0.003981			12	pyruvate  |  NAD  |  Niacinamide  |  NADH	NAD metabolism in oncogene-induced senescence and mitochondrial dysfunction-associated senescence	wiki	WP5046	4			4/12	0.012545
+			9			1.639623e-14		6.45426e-12		9.014649e-11			24	AMP  |  Creatine  |  L-Lactic acid  |  pyruvate  |  ATP  |  NAD  |  Fructose 1,6-bisphosphate  |  ADP  |  NADH	Aerobic glycolysis - augmented	wiki	WP4628	14			9/24	0.00983
+			5			2.555977e-9		9.647938e-8		0.000014			10	Glutathione  |  NADP  |  ATP  |  ADP  |  Oxidized glutathione	Sulfation biotransformation reaction	wiki	WP692	Did not cluster			5/10	0.006209
+			8			2.723211e-13		6.422693e-11		1.49477e-9			20	AMP  |  L-Lactic acid  |  pyruvate  |  ATP  |  NAD  |  Fructose 1,6-bisphosphate  |  ADP  |  NADH	Aerobic glycolysis	wiki	WP4629	14			8/20	0.00895
+			5			1.98945e-8		4.465303e-7		0.000105			14	NADP  |  pyruvate  |  NAD  |  Acetyl-CoA  |  NADH	TCA cycle in senescence	wiki	WP5050	Did not cluster			5/14	0.011123
+			6			1.311269e-11		1.680559e-9		7.171329e-8			10	AMP  |  ATP  |  Hippuric acid  |  Acetyl-CoA  |  Coenzyme A  |  Phosphate	Amino acid conjugation of benzoic acid	wiki	WP521	Did not cluster			6/10	0.004075
+			4			0.000003741499		0.000026		0.017626			17	L-Lactic acid  |  pyruvate  |  Fructose 1,6-bisphosphate  |  Acetyl-CoA	Glycolysis and gluconeogenesis	wiki	WP534	14			4/17	0.020349
+			5			8.341877e-8		0.000001388885		0.000432			18	AMP  |  NADP  |  D-Sedoheptulose 7-phosphate  |  6-Phosphogluconic acid  |  D-Ribulose 5-phosphate	Pentose phosphate pathway in senescent cells	wiki	WP5043	13			5/18	0.016103
+			5			8.341877e-8		0.000001388885		0.000432			18	NADP  |  ATP  |  NAD  |  ADP  |  NADH	Chronic hyperglycemia impairment of neuron function	wiki	WP5283	Did not cluster			5/18	0.016103
+			4			0.000007503988		0.000044		0.034323			20	L-Lysine  |  Pyridoxine  |  Aminoadipic acid  |  Pyridoxal	Vitamin B6-dependent and responsive disorders	wiki	WP4228	Did not cluster			4/20	0.025066
+			6			4.8468e-10		2.568338e-8		0.000002621149			16	L-Lactic acid  |  pyruvate  |  NAD  |  Fructose 1,6-bisphosphate  |  Coenzyme A  |  NADH	HIF1A and PPARG in cardiac hypertropthy	wiki	WP2456	14			6/16	0.010202
+			3			0.000002644101		0.00002		0.012665			5	ATP  |  S-Adenosylmethionine  |  Phosphate	Methylation pathways	wiki	WP704	Did not cluster			3/5	0.004265
+			6			3.694276e-7		0.00000470509		0.001878			44	beta-alanine  |  Ornithine  |  UTP  |  UMP  |  Acetyl-CoA  |  CDP	Pyrimidine metabolism and related diseases	wiki	WP4225	8			6/44	0.038744
+			6			3.341714e-8		6.672532e-7		0.000175			30	Argininosuccinic acid  |  L-Lactic acid  |  Ornithine  |  pyruvate  |  UMP  |  L-Arginine	Urea cycle and associated pathways	wiki	WP4595	2			6/30	0.024457
+			9			1.311266e-10		1.003665e-8		7.133286e-7			59	AMP  |  Xanthine  |  ATP  |  S-Adenosylmethionine  |  GDP  |  ADP  |  GMP  |  Phosphate  |  D-Ribulose 5-phosphate	Purine metabolism and related disorders	wiki	WP4224	8			9/59	0.032675
+			7			1.275817e-12		2.424492e-10		6.995304e-9			14	Glutathione  |  pyruvate  |  Taurine  |  ATP  |  S-Adenosylmethionine  |  ADP  |  Phosphate	Trans-sulfuration pathway	wiki	WP2333	11			7/14	0.006054
+			5			2.511999e-7		0.000003335813		0.00128			22	Argininosuccinic acid  |  beta-alanine  |  Creatine  |  Ornithine  |  L-Arginine	Biomarkers for urea cycle disorders	wiki	WP4583	2			5/22	0.021069
+			6			1.836537e-10		1.215253e-8		9.981581e-7			14	UTP  |  ATP  |  NAD  |  Phosphate  |  NADH  |  Uridine diphosphate glucuronic acid	Glucuronidation	wiki	WP698	9			6/14	0.00818
+			4			7.977449e-7		0.000008390023		0.003981			12	NAD  |  Acetyl-CoA  |  Coenzyme A  |  NADH	Peroxisomal beta-oxidation of tetracosanoyl-CoA	wiki	WP1941	Did not cluster			4/12	0.012545
+			4			0.000009223726		0.000052		0.041892			21	Glutathione  |  NADP  |  Acetyl-CoA  |  Oxidized glutathione	Glutathione metabolism	wiki	WP100	5			4/21	0.02666
+			9			5.896857e-8		0.000001072527		0.000307			116	Argininosuccinic acid  |  Ornithine  |  Palmitic acid  |  pyruvate  |  L-Arginine  |  D-Sedoheptulose 7-phosphate  |  Acetyl-CoA  |  6-Phosphogluconic acid  |  D-Ribulose 5-phosphate	Metabolism overview	wiki	WP3602	Did not cluster			9/116	0.070169
+			4			0.000009223726		0.000052		0.041892			21	Folic acid  |  S-Adenosylmethionine  |  Acetyl-CoA  |  Coenzyme A	Ethanol effects on histone modifications	wiki	WP3996	Did not cluster			4/21	0.02666
+			5			2.555977e-9		9.647938e-8		0.000014			10	Glycerophosphocholine  |  pyruvate  |  Acetylcholine  |  Acetyl-CoA  |  Choline	Acetylcholine synthesis	wiki	WP528	Did not cluster			5/10	0.006209
+			4			0.000001146585		0.000011		0.005632			13	ATP  |  NAD  |  FAD  |  NADH	Electron transport chain: OXPHOS system in mitochondria	wiki	WP111	28			4/13	0.014109
+			12			2.795553e-15		1.400572e-12		1.537834e-11			60	Taurocholic acid  |  Folic acid  |  Glutathione  |  Ornithine  |  NADP  |  Taurine  |  Acetylcholine  |  Hypotaurine  |  S-Adenosylmethionine  |  CDP-ethanolamine  |  Oxidized glutathione  |  Choline	Trans-sulfuration, one-carbon metabolism and related pathways	wiki	WP2525	Did not cluster			12/60	0.022594
+			7			8.69391e-11		7.854449e-9		4.73992e-7			23	pyruvate  |  ATP  |  GDP  |  Acetyl-CoA  |  GTP  |  ADP  |  Propionylcarnitine	Krebs cycle disorders	wiki	WP4236	3			7/23	0.013796
+			7			8.661242e-9		2.20982e-7		0.000046			42	Glycerophosphocholine  |  myo-Inositol  |  Palmitic acid  |  Sphingosine  |  Fructose 1,6-bisphosphate  |  Choline  |  LysoPC(16:0/0:0)	16p11.2 proximal deletion syndrome	wiki	WP4949	Did not cluster			7/42	0.030174
+			5			0.000006487355		0.00004		0.029985			41	beta-alanine  |  UTP  |  UMP  |  dTTP  |  CDP	Pyrimidine metabolism	wiki	WP4022	8			5/41	0.044579
+			3			0.000005263296		0.000033		0.024353			6	Taurine  |  ATP  |  Phosphate	Amino acid conjugation	wiki	WP715	Did not cluster			3/6	0.006366
+			10			2.663868e-12		4.317817e-10		1.459267e-8			57	myo-Inositol  |  NADP  |  ATP  |  NAD  |  S-Adenosylmethionine  |  Acetyl-CoA  |  ADP  |  NADH  |  CDP-ethanolamine  |  Choline	Glycerophospholipid biosynthetic pathway	wiki	WP2533	Did not cluster			10/57	0.027247
+			7			8.69391e-11		7.854449e-9		4.73992e-7			23	Glycerophosphocholine  |  ATP  |  Stearic acid  |  Acetylcholine  |  ADP  |  Coenzyme A  |  Choline	Phosphatidylcholine catabolism	wiki	WP4195	Did not cluster			7/23	0.013796
+			6			3.20008e-9		1.08862e-7		0.000017			21	L-Lysine  |  L-Lactic acid  |  Ornithine  |  pyruvate  |  L-Arginine  |  Hippuric acid	Glucose homeostasis	wiki	WP661	Did not cluster			6/21	0.015282
+			5			3.193411e-7		0.000004131194		0.001624			23	Carnosine  |  Argininosuccinic acid  |  beta-alanine  |  pyruvate  |  Acetyl-CoA	Alanine and aspartate metabolism	wiki	WP106	Did not cluster			5/23	0.022289
+			6			1.322913e-8		3.19762e-7		0.00007			26	pyruvate  |  NAD  |  Fructose 1,6-bisphosphate  |  6-Phosphogluconic acid  |  ADP  |  NADH	Cori cycle	wiki	WP1946	14			6/26	0.020357
+			6			8.900891e-8		0.000001473057		0.000461			35	beta-alanine  |  Creatine  |  Glutathione  |  UTP  |  UMP  |  CDP	Biomarkers for pyrimidine metabolism disorders	wiki	WP4584	8			6/35	0.02954
+			6			1.062576e-7		0.000001608752		0.000547			36	AMP  |  Xanthine  |  GDP  |  ADP  |  GMP  |  D-Ribulose 5-phosphate	Purine metabolism	wiki	WP4792	8			6/36	0.030558
+			5			4.990948e-7		0.000006085202		0.002525			25	AMP  |  NADP  |  ATP  |  L-Kynurenine  |  NAD	NAD biosynthesis II from tryptophan	wiki	WP2485	4			5/25	0.024759
+			8			9.618282e-11		7.977076e-9		5.241964e-7			38	Glutathione  |  L-Lactic acid  |  pyruvate  |  Fructose 1,6-bisphosphate  |  D-Sedoheptulose 7-phosphate  |  Acetyl-CoA  |  6-Phosphogluconic acid  |  D-Ribulose 5-phosphate	Metabolic reprogramming in colon cancer	wiki	WP4290	14			8/38	0.022346
+			4			0.000007503988		0.000044		0.034323			20	S-Adenosylmethionine  |  ADP  |  CDP-ethanolamine  |  Choline	Kennedy pathway from sphingolipids	wiki	WP3933	Did not cluster			4/20	0.025066
+			6			5.89156e-9		1.824067e-7		0.000031			23	AMP  |  Taurine  |  ATP  |  Hypotaurine  |  S-Adenosylmethionine  |  Phosphate	Methionine metabolism leading to sulfur amino acids and related disorders	wiki	WP4292	11			6/23	0.017323
+			7			2.205107e-7		0.000002956775		0.001125			66	Folic acid  |  NADP  |  L-Arginine  |  ATP  |  S-Adenosylmethionine  |  FAD  |  ADP	Folate metabolism	wiki	WP176	Did not cluster			7/66	0.050923
+			6			1.322913e-8		3.19762e-7		0.00007			26	carnitine  |  ATP  |  Acetyl-CoA  |  ADP  |  Coenzyme A  |  NADH	Thermogenesis	wiki	WP4321	Did not cluster			6/26	0.020357
+			7			3.083908e-10		1.770356e-8		0.000001670245			27	Aminoadipic acid  |  N-acetyl-L-aspartic acid  |  NAD  |  Acetyl-CoA  |  FAD  |  Coenzyme A  |  NADH	Cerebral organic acidurias, including diseases	wiki	WP4519	Did not cluster			7/27	0.017247
